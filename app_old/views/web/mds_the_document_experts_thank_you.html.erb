@@ -1,0 +1,13 @@
+<% hide_flash %>
+<% hide_right %>
+<% hide_left %>
+
+<h1><%= title("Thank You") %></h1>
+
+<% if flash[:notice] %>
+	<%= flash[:notice] %>
+<% end %>
+
+<p>
+  <%= link_to("Find out more about our MDS service", "/page/managed-document-service") %>
+</p>

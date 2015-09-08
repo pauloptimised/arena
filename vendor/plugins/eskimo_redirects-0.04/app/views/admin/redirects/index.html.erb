@@ -1,0 +1,86 @@
+<h1>Redirects</h1>
+
+<p>
+  You will need to restart apache to apply changes
+</p>
+
+<p>
+  If you have upgraded from verions 0.0.1, click below to convert your redirects file to the new format.
+  Only do this once.<br />
+  <%= link_to "convert", :action => "convert", :from => "0.0.1" %>
+</p>
+
+<p>
+  If you have upgraded from verions 0.0.2, click below to convert your redirects file to the new format.
+  Only do this once.<br />
+  <%= link_to "convert", :action => "convert", :from => "0.0.2" %>
+</p>
+
+<p>
+  If somehow the file has corrupt and the entries below have disappeared or become nonsense try use the
+  <%= link_to "restore", :action => "restore" %> function.
+</p>
+
+<% form_tag({:action => 'create'}, {:style => 'width:1000px'}) do %>
+
+  <fieldset>
+    <legend>Example</legend>
+    <table>
+      <tr>
+        <td><%= label_tag "From" %></td>
+        <td><%= text_field_tag nil, "/oldpage.html", {:disabled => true, :style => 'width:450px'} %></td>
+        <td><%= label_tag "To" %></td>
+        <td><%= text_field_tag nil, "http://www.domain.co.uk/newpage", {:disabled => true, :style => 'width:450px'} %></td>
+      </tr>
+    </table>
+  </fieldset>
+
+  <fieldset>
+    <legend>Existing Redirects</legend>
+    <table >
+      <tbody id="draggable">
+        <% count = 0 %>
+        <% for redirect in @redirects %>
+          <tr id="redirect_<%= count %>">
+            <td class="drag_handle" style='cursor:move' ><span class="drag"><%= image_tag "admin/drag.gif" %></span></td>
+            <td><%= label_tag "redirects[#{count}][from]", "From" %></td>
+            <td><%= text_field_tag "redirects[#{count}][from]", redirect[0], {:style => 'width:435px'} %></td>
+            <td><%= label_tag "redirects[#{count}][to]", "To" %></td>
+            <td><%= text_field_tag "redirects[#{count}][to]", redirect[1], {:style => 'width:435px'} %></td>
+          </tr>
+          <%= hidden_field_tag "redirects[#{count}][count]", :value => count %>
+          <% count += 1 %>
+        <% end %>
+      </tbody>
+    </table>
+  </fieldset>
+
+  <fieldset>
+    <legend>New Redirect</legend>
+    <table>
+      <tr>
+        <td><%= label_tag "redirects[new][from]", "From" %></td>
+        <td>
+          <% if params[:redirects] && params[:redirects][:new][:from] %>
+            <%= text_field_tag "redirects[new][from]", params[:redirects][:new][:from], {:style => 'width:450px'} %>
+          <% else %>
+            <%= text_field_tag "redirects[new][from]", nil, {:style => 'width:450px'} %>
+          <% end %>
+        </td>
+        <td><%= label_tag "redirects[new][to]", "To" %></td>
+        <td>
+          <% if params[:redirects] && params[:redirects][:new][:to] %>
+            <%= text_field_tag "redirects[new][to]", params[:redirects][:new][:to], {:style => 'width:450px'} %>
+          <% else %>
+            <%= text_field_tag "redirects[new][to]", nil, {:style => 'width:450px'} %>
+          <% end %>
+        </td>
+      </tr>
+      <%= hidden_field_tag "redirects[new][count]", :value => count %>
+    </table>
+  </fieldset>
+
+  <%= submit_tag %>
+  
+  <%= sortable_element("draggable", :url => order_admin_redirects_path, :handle => :drag_handle, :tag => :tr) %>
+<% end %>

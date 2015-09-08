@@ -1,0 +1,7 @@
+<% title "Gallery Images" %>
+
+<p><%= link_to "Back to Galleries", admin_galleries_path %> | <%= link_to "New Gallery Image", new_admin_gallery_image_path %></p>
+
+<%= admin_table({:columns => [
+  ["", lambda{|x| image_tag x.image.url(:sample)}, nil]
+  ], :list => @gallery_images, :images => true}, "admin/shared/admin_table_sort") %>

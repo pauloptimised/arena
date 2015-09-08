@@ -1,0 +1,17 @@
+<div class="case_study">
+  <% if case_study.image? %>
+    <%= link_to image_tag(case_study.image.url(:index), :width=>"200", :height=>"136"), case_study_path(:id => case_study.cached_slug, :service => params[:service]) %>
+  <% end %>
+  <h2>
+    <%= link_to h(case_study.name), case_study_path(:id => case_study.cached_slug, :service => params[:service]) %>
+  </h2>
+  <% if case_study.testimonial %>
+    <p>"<%= case_study.testimonial.quote %>"</p>
+    <% if case_study.testimonial.author? %>
+      <span class="date"><%= case_study.testimonial.author %></span>
+    <% end %>
+  <% end %>
+  <p align="right">
+    <%= link_to "More", case_study_path(:id => case_study.cached_slug, :service => params[:service]), {:class=>"blue_arrow"} %>
+	</p>
+</div>

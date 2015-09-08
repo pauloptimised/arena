@@ -1,0 +1,72 @@
+<% hide_right %>
+
+<h1><%= title "Customer Feedback" %></h1>
+
+<p>We welcome feedback from our customers as it can help us to plan and improve our services.</p>
+
+<br />
+<br />
+
+<% form_tag :action => "deliver_feedback_form" do %>
+  
+  <p>
+	  <%= label_tag :name %><br />
+	  <%= text_field_tag :name, params[:name] %>
+  </p>
+  
+  <p>
+	  <%= label_tag :tel %><br />
+	  <%= text_field_tag :tel, params[:tel] %>
+  </p>
+  
+  <p>
+	  <%= label_tag :email %><br />
+	  <%= text_field_tag :email, params[:email] %>
+  </p>
+  
+  <p>
+	  <%= label_tag :feedback %><br />
+	  <%= text_area_tag :feedback, params[:feedback] %>
+  </p>
+  
+  <p>
+	  <%= submit_tag "Submit" %>
+  </p>
+  
+<% end %>
+
+<hr />
+
+<h2>Customer Feedback<em><br /></em></h2>
+
+<% for feedback in @feedbacks %>
+  <h3><%= feedback.name %></h3>
+  <%= feedback.content %>
+<% end %>
+
+<% content_for :left do %>
+  
+	<% if @survey %>
+   	<h2 class="underlined"><%= link_to "Customer Satisfaction Results", surveys_path %></h2> 
+   	<div class="survey">
+      <div class="survey_percentage">
+        <%= @survey.result %>
+      </div>
+      <div class="survey_name">
+        <%= @survey.name %>
+      </div>
+      <div class="clear"></div>
+    </div>
+  <% end %>
+  
+  <% if @testimonial %>
+    <h2 class="underlined"><%= link_to "Testimonials" %></h2>
+    <h3 class="h3_link"><%= link_to @testimonial.company_name, testimonials_path %></h3>
+    <% if @testimonial.image %>
+      <%= image_tag @testimonial.image(:index), :border => "0", :hspace => "0", :vspace => "0", :height=> "136px", :width=> "200px", :class=> "image_border" %>
+    <% end %>
+    <p>"<%= @testimonial.quote %>"</p>
+    <span class="date"><%= @testimonial.author %></span>
+  <% end %>
+  
+<% end %>

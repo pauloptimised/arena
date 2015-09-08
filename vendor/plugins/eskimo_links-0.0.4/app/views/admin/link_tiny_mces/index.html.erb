@@ -1,0 +1,18 @@
+<script type="text/javascript">
+  function continueToChoices()
+  {
+    //alert(window.parent.linkText);
+    $("link_text").value = window.parent.linkText;
+    $("form").submit();
+  }
+</script>
+
+<% form_tag({:action => 'choices'}, {:id => 'form'}) do %>
+  <%= hidden_field_tag :link_text %>
+<% end %>
+
+<p>You are about to be redirected, if you are not after 10 seconds please <%= link_to_function "click here", "continueToChoices()", :onload => 'continueToChoices();' %>.</p>
+
+<script type="text/javascript">
+  continueToChoices();
+</script>

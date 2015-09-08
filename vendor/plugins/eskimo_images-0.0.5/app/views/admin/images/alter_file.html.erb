@@ -1,0 +1,63 @@
+<% title "Alter Image" %>
+
+<%= javascript_include_tag "admin/cropper" %>
+<%= javascript_include_tag "prototype" %>
+<%= javascript_include_tag "scriptaculous" %>
+<%= stylesheet_link_tag "cropper.css" %>
+
+<% display_width, display_height = Image.scaled_dimensions(@image) %>
+<% original_width, original_height = Image.original_dimensions(@image) %>
+<% scalar = Image.scalar(@image) %>
+<!-- Scalar: <%= scalar %> -->
+
+<script language="Javascript">
+
+  Event.observe( window, 'load', function() 
+  {
+    new Cropper.Img(
+			'frame_image',
+			{
+				ratioDim: {
+					x: <%= (params[:width].to_f * scalar).to_i %>,
+					y: <%= (params[:height].to_f * scalar).to_i %>
+				},
+				displayOnInit: true,
+				onEndCrop: onEndCrop
+			}
+    );
+  } );
+
+
+  function onEndCrop( coords, dimensions )
+  {
+    $( 'x1' ).value = coords.x1;
+    $( 'y1' ).value = coords.y1;
+    $( 'x2' ).value = coords.x2;
+    $( 'y2' ).value = coords.y2;
+    $( 'width' ).value = dimensions.width;
+    $( 'height' ).value = dimensions.height;
+  }
+  
+</script>
+
+<p><%= image_tag params[:url], :width => display_width, :height => display_height, :id => "frame_image" %></p>
+
+<div class="form_no_style">
+<% form_tag execute_alter_file_admin_images_path do %>
+  <%= hidden_field_tag :x1 %>
+  <%= hidden_field_tag :y1 %>
+  <%= hidden_field_tag :x2 %>
+  <%= hidden_field_tag :y2 %>
+  <%= hidden_field_tag :width %>
+  <%= hidden_field_tag :height %>
+  <%= hidden_field_tag :ultimate_width, params[:width] %>
+  <%= hidden_field_tag :ultimate_height, params[:height] %>
+  <%= hidden_field_tag :url, params[:url] %>
+  <%= hidden_field_tag :path, params[:path] %>
+
+  <p>
+    <%= submit_tag "Alter Image", :name => "alter" %> 
+  </p>
+
+<% end %>
+</div>

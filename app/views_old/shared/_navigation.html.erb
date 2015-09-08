@@ -1,0 +1,44 @@
+<% if @current_page_node %>
+  <% main_page_node = @current_page_node if @current_page_node.parent_id == nil || @current_page_node.parent.parent_id == nil %>
+  <% main_page_node ||= @current_page_node.ancestors.select{|x| x.parent && x.parent.parent_id == nil}.first %>
+  <% unless main_page_node.children.blank? %>
+    <div class="left_nav">
+      <h2><%= link_to main_page_node.navigation_title, url_for(main_page_node.path) %></h2>
+
+      <%= yield "left_navigation_#{main_page_node.id}" %>
+
+      <% active_children = main_page_node.children.select{|x| x.active?} %>
+
+      <% if main_page_node.name == "Customers" %>
+        <% online_support_node = PageNode.find_by_name("Online Support") %>
+        <% active_children.delete online_support_node %>
+      <% end %>
+
+      <% if active_children.length > 0 %>
+	      <ul>
+		      <%= render :partial => "shared/navigation_node", :locals => {:nodes => active_children} %>
+	      </ul>
+	    <% end %>
+	    <% if main_page_node.name == "Customers" %>
+	      <h3><%= link_to online_support_node.navigation_title, url_for(online_support_node.path) %></h3>
+
+	      <ul>
+		      <%= render :partial => "shared/navigation_node", :locals => {:nodes => online_support_node.children} %>
+          <li><a href="http://www.arenagroupservice.net/servicecall.php" class="new_window" target="_blank" title="Place a request for an engineer to visit you">Service Call</a></li>
+          <li><a href="http://www.arenagroupservice.net/supplies.php" class="new_window" target="_blank" title="To order more toner, staples, ink etc">Order Supplies</a></li>
+          <li><a href="http://www.arenagroupservice.net/meterrequest.php" class="new_window" target="_blank" title="To manually leave a meter reading">Meter Submission</a></li>
+          <li><a href="http://www.arenagroupservice.net/obtainmeters.php" class="new_window" target="_blank" title="Help with how to get your meter reading">Meter Readings</a></li>
+          <li><a href="http://www.islonline.net/start/ISLLightClient" class="new_window" target="_blank" title="Launch our remote assist package">ISL Assistant</a></li>
+        </ul>
+
+        <p><%= image_tag "new_window.gif", :vspace=>"0", :hspace=>"0", :alt=>"Open in a new window", :style=>"float: left; margin-right: 4px;" %> These links will open in a new window at our customer support partner website: <a href="http://www.arenagroupservice.net/" target="_blank">www.arenagroupservice.net </a></p>
+      <% elsif main_page_node.name == "Customer Resources" %>
+        <ul>
+          <li>
+            <%= link_to "Driver Downloads", "http://www.arenagroupservice.net/manuals.php" %>
+          </li>
+        </ul>
+	    <% end %>
+    </div>
+  <% end %>
+<% end %>

@@ -1,0 +1,12 @@
+<% title "Green Arena Texts" %>
+
+<p><%= link_to "New Green Arena Text", new_admin_green_arena_text_path %></p>
+
+<% form_for @search do |f| %>
+  <p>
+    <%= f.text_field :content_like %>
+    <%= f.submit "Search" %>
+  </p>
+<% end %>
+
+<%= eskimo_table({:columns => ["content"], :list => @green_arena_texts}) %>

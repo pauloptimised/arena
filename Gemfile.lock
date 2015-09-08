@@ -1,0 +1,67 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    actionmailer (2.3.18)
+      actionpack (= 2.3.18)
+    actionpack (2.3.18)
+      activesupport (= 2.3.18)
+      rack (~> 1.1.0)
+    activerecord (2.3.18)
+      activesupport (= 2.3.18)
+    activeresource (2.3.18)
+      activesupport (= 2.3.18)
+    activesupport (2.3.18)
+    acts-as-taggable-on (2.0.6)
+    authlogic (2.1.6)
+      activesupport
+    babosa (0.2.0)
+    calendar_date_select (1.16.4)
+    friendly_id (3.1.6)
+      babosa (~> 0.2.0)
+    mysql (2.9.1)
+    nokogiri (1.4.7)
+    paperclip (2.3.3)
+      activerecord
+      activesupport
+    pdfkit (0.5.0)
+    rack (1.1.6)
+    rails (2.3.18)
+      actionmailer (= 2.3.18)
+      actionpack (= 2.3.18)
+      activerecord (= 2.3.18)
+      activeresource (= 2.3.18)
+      activesupport (= 2.3.18)
+      rake (>= 0.8.3)
+    rake (10.4.2)
+    rdoc (2.4.2)
+    recaptcha (0.3.1)
+    sanitize (1.2.1)
+      nokogiri (~> 1.4.1)
+    searchlogic (2.5.14)
+      activerecord (~> 2.3.12)
+      activesupport (~> 2.3.12)
+    system_timer (1.0)
+    will_paginate (2.3.16)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  acts-as-taggable-on (= 2.0.6)
+  authlogic (= 2.1.6)
+  babosa (= 0.2.0)
+  calendar_date_select (~> 1.15)
+  friendly_id (= 3.1.6)
+  mysql (~> 2.9.1)
+  paperclip (= 2.3.3)
+  pdfkit (= 0.5.0)
+  rails (= 2.3.18)
+  rdoc (= 2.4.2)
+  recaptcha (= 0.3.1)
+  sanitize (= 1.2.1)
+  searchlogic (= 2.5.14)
+  system_timer (= 1.0)
+  will_paginate (= 2.3.16)
+
+BUNDLED WITH
+   1.10.3

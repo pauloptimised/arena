@@ -1,0 +1,60 @@
+<script type="text/javascript">
+  var images_to_fade = new Array(<%= @case_studies.collect{|x| "'highlight_image#{x.id}'"}.join(",") %>);
+  var divs_to_fade = new Array(<%= @case_studies.collect{|x| "'highlight_text#{x.id}'"}.join(",") %>);
+  var i = 0;
+  var wait = 5000;
+  function swapFade() 
+  {
+    Effect.Fade(images_to_fade[i], { duration:1, from:1.0, to:0.0 });
+    Effect.Fade(divs_to_fade[i], { duration:1, from:1.0, to:0.0 });
+    i++;
+    if (i == <%= @case_studies.length %> ) i = 0;
+    Effect.Appear(images_to_fade[i], { duration:1, from:0.0, to:1.0 });
+    Effect.Appear(divs_to_fade[i], { duration:1, from:0.0, to:1.0 });
+  }
+  function startPage() {
+    setInterval('swapFade()', wait);
+  }
+</script>
+
+<div class="top_area">
+  <div class="top_area_left">
+    <h1 style="font-size: 22px; line-height: 26px;">
+      Organisations spend between 5 and 15% of their annual revenue on document lifecycle costs...
+      A price you're willing to pay?
+    </h1>
+    <p style="font-size: 18px; line-height: 22px">
+      Our managed document service takes a holistic approach, considering the way you work with
+      documents across your business to deliver significant cost and efficiency savings.
+    </p>
+  </div>
+  <div class="top_area_right">
+    <% for case_study in @case_studies %>
+      <span></span>
+      <div>
+        <span></span>
+        <% if case_study == @case_studies.first %>
+	        <%= image_tag case_study.image(:top_area), :width => "496", :height => "280", :id => "highlight_image#{case_study.id}" %>
+	        <div class="top_area_right_testimonial" id="<%= "highlight_text#{case_study.id}" %>">
+            <h2><%= link_to case_study.name, case_study, {:popup => true} %></h2>
+            <% if case_study.testimonial %>
+              "<%= case_study.testimonial.quote %>"<%= link_to "More", case_study, {:class=>"more_white", :popup => true} %>
+            <% else %>
+              "<%= case_study.summary %>"<%= link_to "More", case_study, {:class=>"more_white", :popup => true} %>
+            <% end %>
+	        </div>
+	      <% else %>
+	        <%= image_tag case_study.image(:original), :width => "496", :height => "280", :id => "highlight_image#{case_study.id}", :style => "display:none;" %>
+	        <div class="top_area_right_testimonial" id="<%= "highlight_text#{case_study.id}" %>" style="display:none;">
+            <h2><%= link_to case_study.name, case_study, {:popup => true} %></h2>
+            <% if case_study.testimonial %>
+              "<%= case_study.testimonial.quote %>"<%= link_to "More", case_study, {:class=>"more_white", :popup => true} %>
+            <% else %>
+              "<%= case_study.summary %>"<%= link_to "More", case_study, {:class=>"more_white", :popup => true} %>
+            <% end %>
+	        </div>
+	      <% end %>
+      </div>
+    <% end %>
+  </div>
+</div>

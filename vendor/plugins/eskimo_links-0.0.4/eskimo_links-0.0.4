@@ -1,0 +1,32 @@
+11/05/11
+--------
+Nick - updated the tinymce link manager lots.  
+
+======VERSION=0.0.4=RELEASED====== 
+NEED LATEST TINYMCE CONFIG TO RUN - There is a copy of a known working config in the folder
+==================================
+
+22/03/11
+--------
+Nick - fixed the insert view after someone removed all the code added on the 3rd from it. thanks.
+
+18/03/11
+--------
+Nick - added options to link_options_for_select, :page_node_reject => lambda{|x| x.is_a_link? } will reject link page nodes.
+Nick - link_options_for_select now return page node ultimate paths, not route calculated paths.
+
+03/03/11
+--------
+Nick - changed the insert and remove links to use javascript variables from the parent window instead of session information
+
+21/12/10
+--------
+Nick - Added moved some of the model descision code to the lib so it can be shared and added a helper to generate links (as a string) for random models: f.select :attribute, link_options_for_select(f.object.attribute, options)
+
+======VERSION=0.0.3=RELEASED======
+
+26/11/10
+--------
+Nick - Changed the routes a from member to collection.  Changed route detection on internal routes to allow more models to work.  Added code so that when you click an existing link it will allow you to remove the link. Changed the internal link view to list out the models better.
+
+======VERSION=0.0.2=RELEASED======

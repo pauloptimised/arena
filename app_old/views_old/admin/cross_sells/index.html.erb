@@ -1,0 +1,12 @@
+<% title "Cross Sells" %>
+
+<p><%= link_to "New Cross Sell", new_admin_cross_sell_path %></p>
+
+<% form_for @search do |f| %>
+  <p>
+    <%= f.text_field :name_like %>
+    <%= f.submit "Search" %>
+  </p>
+<% end %>
+
+<%= admin_table({:columns => ["name", "summary", "service_id"], :list => @cross_sells, :images => true}) %>

@@ -1,0 +1,130 @@
+<!-- BEGIN: Constant Contact Stylish Email Newsletter Form -->
+  <!--
+    <form name="ccoptin" action="http://visitor.r20.constantcontact.com/d.jsp" target="_blank" method="post">
+      <font style="font-weight: bold; font-family:Arial; font-size:16px; color:#0066B3; float:left;">Sign up for our Newsletter</font>
+      <span style="background-color:#0066B3; float:left; margin-left:5px; margin-top:5px;">
+        <img src="https://imgssl.constantcontact.com/ui/images1/visitor/email5_trans.gif" alt="Email Newsletter icon, E-mail Newsletter icon, Email List icon, E-mail List icon" border="0">
+      </span>
+      <input type="text" name="ea" value="" placeholder="Enter your email address" title="Enter your email address" style="margin-top:5px; width:210px;">
+      <input type="submit" name="go" value="GO" class="submit" style="margin-top:5px;">
+      <input type="hidden" name="llr" value="cr4ahngab">
+      <input type="hidden" name="m" value="1106397658658">
+      <input type="hidden" name="p" value="oi">
+    </form>
+  -->
+<!-- END: Constant Contact Stylish Email Newsletter Form -->
+<!-- BEGIN: SafeSubscribe -->
+  <!--
+    <div style="margin-top:5px;">
+      <img src="https://imgssl.constantcontact.com/ui/images1/safe_subscribe_logo.gif" border="0" width="168" height="14" alt="SafeSubscribe" title="SafeSubscribe"/>
+    </div>
+  -->
+<!-- END: SafeSubscribe -->
+
+<%# form_tag({:controller => "web", :action => "deliver_newsletter_subscription"}) do %>
+	<!--<font style="font-weight: bold; font-family:Arial; font-size:16px; color:#0066B3; float:left;">Sign up for our Newsletter</font>
+	<span style="background-color:#0066B3; float:left; margin-left:5px; margin-top:5px;">
+		<img src="https://imgssl.constantcontact.com/ui/images1/visitor/email5_trans.gif" alt="Email Newsletter icon, E-mail Newsletter icon, Email List icon, E-mail List icon" border="0">
+	</span>-->
+  <%#= text_field_tag("email", "", :placeholder => "Enter your email address.", :style => "margin-top:5px; width:210px;") %>
+  <%#= submit_tag("GO", :style => "margin-top:5px;") %>
+<%# end %>
+
+
+
+<!-- Start of signup -->
+<script language="javascript">
+<!--
+function validate_signup(frm) {
+	var emailAddress = frm.Email.value;
+	var errorString = '';
+	if (emailAddress == '' || emailAddress.indexOf('@') == -1) {
+		errorString = 'Please enter your email address';
+	}
+
+    
+var els = frm.getElementsByTagName('input');
+for (var i = 0; i < els.length; i++)
+{
+    if (els[i].className == 'text' || els[i].className == 'date' || els[i].className == 'number')
+    {
+        if (els[i].value == '')
+            errorString = 'Please complete all required fields.';
+    }
+    else if (els[i].className == 'radio')
+    {
+        var toCheck = document.getElementsByName(els[i].name);
+        var radioChecked = false;
+        for (var j = 0; j < toCheck.length; j++)
+        {
+            if (toCheck[j].name == els[i].name && toCheck[j].checked)
+                radioChecked = true;
+        }
+        if (!radioChecked)
+            errorString = 'Please complete all required fields.';
+    }
+}
+
+
+
+	var isError = false;
+    if (errorString.length > 0)
+        isError = true;
+
+    if (isError)
+        alert(errorString);
+	return !isError;
+}
+
+
+//-->
+</script>
+
+<font style="font-weight: bold; font-family:Arial; font-size:16px; color:#0066B3; float:left;">Sign up for our Newsletter</font>
+
+<form name="signup" id="signup" action="http://dmtrk.net/signup.ashx" method="post" onsubmit="return validate_signup(this)">
+<span style="background-color:#0066B3; float:left; margin-left:5px; margin-top:5px;">
+  <img src="https://imgssl.constantcontact.com/ui/images1/visitor/email5_trans.gif" alt="Email Newsletter icon, E-mail Newsletter icon, Email List icon, E-mail List icon" border="0">
+</span>
+
+<!-- UserID - required field, do not remove -->
+<input type="hidden" name="userid" value="22588">
+<!-- ReturnURL - when the user hits submit, they'll get sent here -->
+<input type="hidden" name="ReturnURL" value="http://www.arenagroup.net/page/thank-you">
+<!-- Email - the user's email address -->
+
+<div class="mail-field first-mail-field">
+  <label for="email">Your Email</label><input type="text" id="email" name="Email" placeholder="Enter your email address.">
+</div>
+
+<div class="mail-field">
+  <label for="company">Company Name</label><input class="text" type="text" id="company" name="cd_COMPANYNAME" placeholder="Enter your company name.">
+</div>
+
+<div class="mail-field">
+  <label for="firstname">First Name</label><input class="text" type="text" id="firstname" name="cd_FIRSTNAME" placeholder="Enter your first name.">
+</div>
+
+<div class="mail-field">
+  <label for="lastname">Last Name</label><input class="text" type="text" id="lastname" name="cd_LASTNAME" placeholder="Enter your last name.">
+</div>
+
+<fieldset class="mail-fieldset">
+
+<div class="mail-field">
+  <label for="subscribe">Subscribe to our eNewsletter</label><input type="checkbox" id="subscribe" name="addressbook_1875815">
+</div>
+
+<div class="mail-field">
+  <label for="events">Subscribe to our events news</label><input type="checkbox" id="events" name="addressbook_1875838">
+</div>
+
+</fieldset>
+
+<div class="mail-submit-field">
+  <input type="Submit" name="Submit" value="Subscribe">
+</div>
+
+
+</form>
+<!-- End of signup -->

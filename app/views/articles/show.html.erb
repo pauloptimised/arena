@@ -1,0 +1,48 @@
+<% hide_right %>
+
+<% title @article.headline %>
+
+<h1><%=h @article.headline %></h1>
+
+<div class="float-right">
+  <% if @article.image? %>
+    <%= image_tag @article.image.url(:show), :alt => @article.headline, :name => @article.headline %>
+  <% end %>
+  <div class="share">
+    <!-- LinkedIn -->
+      <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+      <script type="IN/Share" data-counter="right"></script>
+    <!-- Twitter -->
+    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    <!-- Google Plus -->
+      <div class="g-plusone"></div>
+      <script type="text/javascript">
+        window.___gcfg = {lang: 'en-GB'};
+        (function() {
+          var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+          po.src = 'https://apis.google.com/js/plusone.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+        })();
+      </script>
+  </div>
+</div>
+
+<%= @article.main_content %>
+
+<p>
+  <%= @article.tag_list.collect{|x| link_to(x.to_s, articles_path(:tag => x.to_s)) }.join(' | ') %>
+</p>
+
+<hr />
+
+<p align="right">
+  <%= link_to "View all news", articles_path, {:class=>"blue_arrow"} %>
+</p>
+
+<% content_for :left do  %>
+  <div class="left_nav">
+    <%= render :partial => "tags" %>
+  </div>
+	<%= render '/shared/constant_contact' %>
+<% end %>

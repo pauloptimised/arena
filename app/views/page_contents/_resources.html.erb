@@ -1,0 +1,118 @@
+<script type="text/javascript">
+  var divs_to_fade = new Array(<%= @surveys.collect{|x| "'survey#{x.id}'"}.join(",") %>);
+  var i = 0;
+  var wait = 5000;
+
+  function switchToInput(input, index)
+  {
+    <% for survey in @surveys %>
+      surveydiv<%= survey.id %> = document.getElementById("survey<%= survey.id %>");
+      surveydiv<%= survey.id %>.style.display = "none";
+    <% end %>
+
+    current = document.getElementById(input);
+    current.style.display = "";
+    i = index;
+  }
+
+  function swapFade()
+  {
+    Effect.Fade(divs_to_fade[i], { duration:1, from:1.0, to:0.0 });
+    i++;
+    if (i == <%= @surveys.length %> ) i = 0;
+    Effect.Appear(divs_to_fade[i], { duration:1, from:0.0, to:1.0 });
+  }
+
+  function startPage()
+  {
+    setInterval('swapFade()', wait);
+  }
+</script>
+
+<% metadata(@page_node.active_content.meta_description, @page_node.active_content.meta_tags) %>
+<% hide_right %>
+<% insert_into_head %>
+<% content_for :insert_into_head  do%>
+  </head>
+  <body onload="startPage()">
+<% end %>
+
+<% title(Sanitize.clean(@page_node.title)) %>
+<h1><%= @page_node.title %></h1>
+
+<%= @page_node.active_content.main_content %>
+
+<br />
+
+<div class="resource_box" style="border-bottom: 1px dashed #999999; border-right: 1px dashed #999999; padding-right: 20px; color: #999999; height: 400px;">
+	<h2>Customer Support</h2>
+<p><strong>Support for EDM (Scanners and mstore):</strong> <em>Please contact our team <br /></em>0844&nbsp;863&nbsp;8010&nbsp;/&nbsp;<a href="mailto:EDMsupport@arenagroup.net">EDMsupport@arenagroup.net</a></p>
+<p><strong>Support for MFDs and Printers:</strong> <br /><em>Please contact us or use the links below.</em><br />0844&nbsp;863&nbsp;8008&nbsp;/&nbsp;<a href="mailto:service@arenagroup.net">service@arenagroup.net</a></p>
+<ul>
+<li style="padding-bottom:0px; padding-top:0px"><a href="http://www.arenagroupservice.net/servicecall.php" target="_blank">Place a service call</a></li>
+<li style="padding-bottom:0px; padding-top:0px"><a href="http://www.arenagroupservice.net/supplies.php" target="_blank">Order Supplies</a></li>
+<li style="padding-bottom:0px; padding-top:0px"><a href="http://www.arenagroupservice.net/Meters" target="_blank">How to take a meter readings</a></li>
+<li style="padding-bottom:0px; padding-top:0px"><a href="http://www.arenagroupservice.net/meterrequest.php" target="_blank">Send a meter reading</a></li>
+</ul>
+<p><strong>General Queries / Account Requests<br /></strong>0344&nbsp;863&nbsp;8000&nbsp;/&nbsp;<a href="mailto:info@arenagroup.net">info@arenagroup.net</a><strong></strong></p>
+<ul>
+<li style="padding-bottom:0px; padding-top:0px"><a href="http://www.arenagroupservice.net/isl.html" target="_blank">ISL Assistant</a></li>
+<li style="padding-bottom:0px; padding-top:0px"><a href="../../../web/duplicate_invoice_request">Request a duplicate invoice</a></li>
+<li style="padding-bottom:0px; padding-top:0px"><a href="http://www.arenagroupservice.net/manuals.php" target="_blank">Download drivers &amp; manuals</a></li>
+</ul>
+</div>
+
+<div class="resource_box" style="border-bottom: 1px dashed #999999; padding-left: 20px; color: #999999; height: 400px;">
+	<h2><%= link_to_page "Customer Satisfaction", "Customer Satisfaction" %></h2>
+	<p>
+    Customers are regularly asked to rate each area on a scale of 1-5. A score of 3 or above represents satisfaction. Dissatisfied customers are contacted and efforts are made to resolve their issues.
+	</p>
+  <div class="survey_fade">
+    <% for survey in @surveys %>
+      <div id="survey<%= survey.id %>"<%= ' style="display:none;"' unless survey == @surveys.first %>>
+        <p align="center">
+          <span  class="font_large"><%= survey.result %></span><br /><span class="font_small">SATISFACTION</span>
+        </p>
+        <p align="center" class="clear font_med">
+          <%= survey.name %>
+        </p>
+      </div>
+    <% end %>
+  </div>
+  <div class="dot_buttons">
+    <% for survey in @surveys %>
+    	<%= link_to_function("More", "switchToInput('survey#{survey.id}', #{@surveys.index(survey)})") %>
+    <% end %>
+  </div>
+  <br />
+  <p align="right" class="clear">
+    <%= link_to_page "See All", "Customer Satisfaction", {:class => "blue_arrow"} %>
+  </p>
+</div>
+
+<div class="resource_box" style="border-right: 1px dashed #999999; padding-right: 20px; height: 165px;">
+	<h2><%= link_to_page "Let The Board Know", "Let The Board Know" %></h2>
+  <p>Arena's management team welcomes feedback from customers so if you have something to let us know please visit our feedback page. </p>
+  <p align="right" class="clear">
+    <%= link_to_page "Send Feedback", "Let The Board Know", {:class => "blue_arrow"} %>
+  </p>
+</div>
+
+<div class="resource_box" style="padding-left: 20px; height: 165px;">
+	<h2>Case Studies</h2>
+  <% if @testimonial %>
+    <p>
+      "<%= @testimonial.short_quote %>"
+      <br /> - <strong><%= @testimonial.author %></strong>
+    </p>
+    <p align="right" class="clear">
+      <%= link_to_page "See All", "Case Studies Main", {:class => "blue_arrow"} %>
+    </p>
+  <% else %>
+    No Testimonial to display.
+  <% end %>
+</div>
+
+<% content_for :left do %>
+
+<% end %>

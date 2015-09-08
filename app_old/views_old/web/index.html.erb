@@ -1,0 +1,73 @@
+<% hide_right %>
+<% hide_left %>
+
+<% insert_into_head %>
+
+<% content_for :insert_into_head do %>
+		<meta name="description" content="Arena Group specialises in hard copy and electronic document management. We provide the hardware, software, service and expertise that enables organisations to cut costs, improve efficiencies and become greener."/>
+  </head>
+  <body onload="startPage()">
+<% end %>
+
+<% @page_name = "home" %>
+
+<% title("Welcome") %>
+
+<%= render :partial => "/shared/footer_boxes" %>
+
+<div id="blue_bullets">
+   
+  <div class="box" style="border-right: 1px dashed #999999; border-top: 1px dashed #999999; height: 245px; padding-top: 25px;">
+    <h3><%= link_to "<span class='black'>Latest</span> News", articles_path %></h3>
+    <div class="blue_box" id="news_summary">
+      <%= link_to(image_tag(@articles.first.image(:front), :alt => "News", :border => "0", :hspace => "0", :vspace => "0"), @articles.first) %>
+      <p><%= link_to @articles.first.headline, @articles.first, {:class => "white"} %></p>
+    </div>
+      <ul>
+        <% for article in @articles[1..3] %>
+          <li><%= link_to article.headline, article %></li>
+        <% end %>
+      </ul>
+    <p align="right"><%= link_to "More", articles_path, {:class => "more"} %></p>
+  </div>
+	
+	<div class="box" style="border-right: 1px dashed #999999; border-top: 1px dashed #999999; height: 250px; padding-top: 25px;">
+    <% resources = PageNode.find_by_name("Customer Resources") %>
+    <h3><%= link_to "<span class='black'>Customer</span> Resources", resources %></h3>
+    <div class="blue_box" id="customer_resource">
+      <%= image_tag "van.png", :alt => "Computer Pointer", :border => "0", :hspace => "0", :vspace => "0", :style => "margin-top:5px;" %>
+      <p><%= link_to "Order consumables or request a service call.", resources, {:class=>"white"} %></p>
+    </div>
+      <ul style="float: left; width: 125px;">
+        <li><%= link_to "Send Us Feedback", PageNode.find_by_name("Let the board know") %></li>
+        <li><a href="http://www.arenagroupservice.net/servicecall.php" target="_blank">Place a service call</a></li>
+        <li><a href="http://www.arenagroupservice.net/supplies.php" target="_blank">Order Supplies</a></li>
+        <li><a href="http://www.arenagroupservice.net/obtainmeters.php" target="_blank">Meter Readings</a></li>
+      </ul>
+      <ul style="float: right; width: 138px;">
+        <li><a href="http://www.islonline.net/start/ISLLightClient" target="_blank">ISL Assistant</a></li>
+        <li><%= link_to "Download drivers and manuals", PageNode.find_by_name("Driver Downloads") %></li>
+        <li><%= link_to "FAQs", faqs_path %></li>
+      </ul>
+    <p align="right" class="clear"><%= link_to "More", resources, {:class=>"more"} %></p>
+  </div>
+  
+  <div class="box" style="height: 245px; border-top: 1px dashed #999999; padding-top: 25px;">
+    <% green = PageNode.find_by_name("Green Arena") %>
+    <%= link_to(image_tag("sustainability.gif", :alt => "Arena", :border => "0", :hspace => "0", :vspace => "0", :class => "image_right"), green) %>
+    <h3><%= link_to "Sustainability", green %></h3>
+    <p>Supporting your efforts towards carbon reduction and eco-friendly practices.</p>
+    <p><%= link_to "More", green, {:class=>"more"} %></p>
+    
+    <hr style="clear: both;" />
+    
+    <br />
+    
+    <% community = PageNode.find_by_name("Arena in the Community") %>
+    <%= link_to(image_tag("community.jpg", :alt => "Community", :border => "0", :hspace => "0", :vspace => "0", :class => "image_right"), community) %>
+    <h3><%= link_to "<span class='black'>In the</span><br />Community", community %></h3>
+    <p><%= link_to "More", community, {:class=>"more"} %></p>
+  </div>
+  
+</div>
+

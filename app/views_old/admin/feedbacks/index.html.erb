@@ -1,0 +1,12 @@
+<% title "Feedbacks" %>
+
+<p><%= link_to "New Feedback", new_admin_feedback_path %></p>
+
+<% form_for @search do |f| %>
+  <p>
+    <%= f.text_field :name_like %>
+    <%= f.submit "Search" %>
+  </p>
+<% end %>
+
+<%= eskimo_table({:columns => ["name", ["Content", lambda{|x| (x.content.length > 50) ? "#{x.content[0..50]}..." : x.content}, "content"]], :list => @feedbacks}) %>

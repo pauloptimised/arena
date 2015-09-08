@@ -1,0 +1,137 @@
+
+	
+  <h1><%= title("Results Report") %></h1>
+	
+  <p>
+    <strong>
+      mstore could potentially save your organisation 
+      <span class="font_large font_orange"><%= number_to_pounds @cost_calculation.total_saving %></span>
+    </strong> 
+  </p>
+  
+  <p>
+    This report explains our calculation of potential cost savings and also outlines the softer, non-financial 
+    benefits offered by mstore such as improved client and supplier relations. Every organisation is unique and 
+    a more detailed investigation of your business, documents and processes may reveal additional savings and 
+    benefits. If you are interested in further exploration of this please 
+    <%= link_to "contact us", :controller=>"web", :action=>"contact_us" %>.
+  </p>
+  
+  <% unless @cost_calculation.distribution_saving == 0 %>
+    <h2>Document Distribution</h2>
+    
+    <p>
+      <strong>Your Saving:</strong>
+      <span class="font_orange">
+        <strong><%= number_to_pounds @cost_calculation.distribution_saving %></strong>
+      </span> 
+    </p>
+    
+    <p>
+      The savings made here are associated with the cost of paper, envelopes, printing and postage. Additional 
+      savings are made by removing the need for staff to manually collate, fold and insert paper into envelopes. 
+      Our calculator assumes that there are 232 working days in one year and that £1 is saved by emailing a 
+      document rather than printing, collating and posting it.
+    </p>
+  <% end %>
+  
+  <% unless @cost_calculation.archiving_and_retrieval_saving == 0 %>
+    <h2>Document Archiving &amp; Retrieval</h2>
+    
+    <p>
+      <strong>Your Saving:</strong> 
+      <span class="font_orange">
+        <strong><%= number_to_pounds @cost_calculation.archiving_and_retrieval_saving %></strong>
+      </span> 
+    </p>
+    
+    <p>
+      Cost savings and benefits are explained below;
+    </p>
+
+    <h3>Rationalised document storage</h3>
+ 		<p>
+      Storing paper on-site is expensive because it requires valuable office space and furniture. Off-site 
+      storage removes this issue but it can be costly in terms of both finance and time, to access and
+      retrieve paper documents. Using <strong>m</strong>store removes these problems by taking the paper
+      out of your business and converting documents to electronic files. (The calculator does not include 
+      ongoing external storage costs).
+		</p>
+
+    <h3>Quick and easy storage and retrieval of documents</h3>
+		<p>
+      Saving documents into <strong>m</strong>store is simple and fast. The software allows documents to be
+      scanned in batches and filed manually using any number of identifiers such as order, account or
+      invoice numbers; or automatically using bar codes and/or optical character recognition (OCR) technology. 
+      Retrieval of electronic files is equally simple and takes seconds using <strong>m</strong>store’s 
+      powerful search tools.
+		</p>
+
+    <h3>Efficiency savings and faster responses to customer queries</h3>
+		<p>
+      Through saving time in this way <strong>m</strong>store delivers significant efficiency savings 
+      associated with tasks such as preparing documents for audits. Customer service and supplier relations 
+      are also improved as staff are able to reference documents and answer queries within a few mouse clicks, 
+      instead of needing to find a paper document and return an enquirer’s call.
+		</p>
+    
+    <h3>Enhanced security for sensitive files</h3>
+    <p>
+      Once a document is indexed in <strong>m</strong>store it cannot be deleted or over-written - modified 
+      versions of the document are simply attached to the original. The software also provides a disaster 
+      recovery system enabling you to cope with crises such as floods, fires, theft and malicious intent.
+    </p>
+    <p>
+      In addition to this, individual users of <strong>m</strong>store are only granted access to the files
+      you want them to see, protecting sensitive documents and enabling you to adhere to legal guidelines
+      surrounding confidentiality. The software automatically creates an audit report so that you can monitor
+      user activity on your documents and evidence the security of your files. This is particularly beneficial 
+      for sectors such as education which must adhere to strict safeguarding regulations and business functions 
+      such as human resources which must ensure data confidentiality.
+		</p>
+  <% end %>
+  
+  <% unless @cost_calculation.processing_saving == 0 %>
+    <h2>Document Processing</h2>
+    
+    <p>
+      <strong>Your Saving:</strong> 
+      <span class="font_orange">
+        <strong><%= number_to_pounds @cost_calculation.processing_saving %></strong>
+      </span> 
+    </p>
+    
+    <p>
+      The savings here are associated with time spent searching for documents in disconnected storage places,
+      moving or posting paper documents around your organisation and managing processing and approvals by
+      other staff. Keeping documents electronically also creates a saving associated with the loss and 
+      damage of paper documents during transit.
+    </p>
+  
+
+    <h3>A central access point for every document within your organisation</h3>
+		<p>
+      <strong>m</strong>store integrates with any task or industry specialist software including 
+      packages for functions such as HR, payroll, customer records and student admissions and in sectors 
+      including legal, financial, leisure, logistics and education. This means that if a document is archived 
+      in an existing system it can be viewed within <strong>m</strong>store’s interface alongside related 
+      documents that may be stored in other electronic locations within your organisation.
+		</p>
+    
+    <h3>Speedy and cost-effective processing of documents for approval</h3>
+		<p>
+      The basic architecture of <strong>m</strong>store enables electronic indexing, scanning, monitoring and
+      reporting on all your organisation’s documents to create more efficient workflows and save you time and 
+      money. The software can be customised easily to work around your organisation’s unique processes, 
+      allowing you to archive emails, automatically transmit documents, store and route incoming post and 
+      move documents quickly and efficiently, in electronic format.
+		</p>
+    <p>
+      Instead of sending paper documents to colleagues for approval or processing, email requests can be used 
+      to prompt colleagues to view a document and/or complete a task. <strong>m</strong>store tracks the document
+      management process to enable users to see the status of an individual document at any given time, outstanding
+      tasks that may be associated with that document and the people responsible for those tasks.
+		</p>
+	<% end %>
+	
+

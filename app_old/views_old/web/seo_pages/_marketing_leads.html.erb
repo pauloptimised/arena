@@ -1,0 +1,47 @@
+<% form_tag thank_you_page_node_path(@page_node) do %>
+  <h2>Get in touch</h2>
+  <%= hidden_field_tag :form, form ||= "N/A" %>
+  <%= hidden_field_tag :page_node_id, @page_node.id %>
+  <p>
+    <%= label_tag :name %>
+    <br />
+    <%= text_field_tag :name, params[:name], :placeholder => "Name" %>
+  </p>
+  <p>
+    <%= label_tag :email %>
+    <br />
+    <%= text_field_tag :email, params[:email], :placeholder => "E-Mail" %>
+  </p>
+  <p>
+    <%= label_tag :phone %>
+    <br />
+    <%= text_field_tag :phone, params[:phone], :placeholder => "Phone" %>
+  </p>
+  <p>
+    <%= label_tag :company_name %>
+    <br />
+    <%= text_field_tag :company_name, params[:company_name], :placeholder => "Company name" %>
+  </p>
+  <p>
+    <%= label_tag :post_code %>
+    <br />
+    <%= text_field_tag :post_code, params[:post_code], :placeholder => "Post Code" %>
+  </p>
+  <p>
+    <%= label_tag :business_size %>
+    <br />
+    <% options = ["10 and Under", "11-25 People", "26-100 People", "101-250 People", "250+ People"] %>
+    <%= select_tag :business_size, options_for_select([["Size of Business", ""]] + options, params[:business_size]) %>
+  </p>
+  <p>
+    <%= label_tag :enquiry %>
+    <br />
+    <%= text_area_tag :enquiry, params[:enquiry], :placeholder => "Add any more information here" %>
+  </p>
+  <p>
+    <%= recaptcha_tags :display => {:theme => "clean"} %>
+  </p>
+  <p>
+    <%= submit_tag "Send" %>
+  </p>
+<% end %>

@@ -1,0 +1,26 @@
+<% hide_right %>
+
+<% content_for :left do %>
+  <div class="left_nav">
+    <%= render :partial => "categories" %>
+    <%= render :partial => "makes" %>
+  </div>
+<% end %>
+
+<%= will_paginate @products %>
+
+<h1><%= title @title %></h1>
+
+<% if @category %>
+  <p><%= @category.summary %></p>
+<% end %>
+
+<% if @products.length > 0 %>
+  <% for product in @products %>
+    <%= render "products/product", :product => product %>
+  <% end %>
+  <%= will_paginate @products %>
+  <p><%= link_to "Go Back", categories_path, {:class=>"blue_arrow"} %></p>
+<% else %>
+  <p>No Products to display.</p>
+<% end %>

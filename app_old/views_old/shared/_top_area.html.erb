@@ -1,0 +1,59 @@
+<script type="text/javascript">
+  var images_to_fade = new Array(<%= @home_highlights.collect{|x| "'highlight_image#{x.id}'"}.join(",") %>);
+  var divs_to_fade = new Array(<%= @home_highlights.collect{|x| "'highlight_text#{x.id}'"}.join(",") %>);
+  var i = 0;
+  var wait = 5000;
+  
+  function swapFade() 
+  {
+    Effect.Fade(images_to_fade[i], { duration:1, from:1.0, to:0.0 });
+    Effect.Fade(divs_to_fade[i], { duration:1, from:1.0, to:0.0 });
+    i++;
+    if (i == <%= @home_highlights.length %> ) i = 0;
+    Effect.Appear(images_to_fade[i], { duration:1, from:0.0, to:1.0 });
+    Effect.Appear(divs_to_fade[i], { duration:1, from:0.0, to:1.0 });
+  }
+                         
+  function startPage() 
+  {
+    setInterval('swapFade()', wait);
+  }
+</script>
+
+<div class="top_area">
+  <div class="top_area_left">
+    <h1>Arena Group specialises in hard copy and electronic document management.</h1>
+    <p style="font-size: 20px; line-height: 26px">We provide the hardware, software, service and expertise that enables organisations to cut costs, improve efficiencies and become greener.</p>
+  </div>
+  <div class="top_area_right">
+    <% for home_highlight in @home_highlights %>
+      <span></span>
+      <div>
+        <span></span>
+        <% if home_highlight == @home_highlights.first %>
+	        <%= image_tag home_highlight.image(:show), :id => "highlight_image#{home_highlight.id}" %>
+	        <div class="top_area_right_testimonial" id="<%= "highlight_text#{home_highlight.id}" %>">
+            <h2><%= link_to home_highlight.name, home_highlight.link %></h2>
+            "<%= home_highlight.summary %>"<%= link_to "More", home_highlight.link, {:class=>"more_white"} %>
+	        </div>
+	      <% else %>
+	        <%= image_tag home_highlight.image(:show), :id => "highlight_image#{home_highlight.id}", :style => "display:none;" %>
+	        <div class="top_area_right_testimonial" id="<%= "highlight_text#{home_highlight.id}" %>" style="display:none;">
+            <% if home_highlight.external_link.present? %>
+              <% if home_highlight.external_link_new_window %>
+                <h2><%= link_to home_highlight.name, home_highlight.external_link, :target => "_blank" %></h2>
+                "<%= home_highlight.summary %>"<%= link_to "More", home_highlight.external_link, {:class=>"more_white", :target => "_blank"} %>
+              <% else %>
+                <h2><%= link_to home_highlight.name, home_highlight.external_link %></h2>
+                "<%= home_highlight.summary %>"<%= link_to "More", home_highlight.external_link, {:class=>"more_white"} %>
+              <% end %>
+            <% else %>
+              <h2><%= link_to home_highlight.name, home_highlight.link %></h2>
+              "<%= home_highlight.summary %>"<%= link_to "More", home_highlight.link, {:class=>"more_white"} %>
+            <% end %>
+	        </div>
+	      <% end %>
+      </div>
+    <% end %>
+  </div>
+</div>

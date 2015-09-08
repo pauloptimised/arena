@@ -1,0 +1,17 @@
+<% form_for [:admin, @feedback], :html => {:multipart => true} do |f| %>
+  
+  <%= f.error_messages %>
+  
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  
+  <p>
+    <%= f.label :content %><br />
+    <%= f.simple_text_area :content %>
+  </p>
+  
+  <p><%= f.submit "Submit" %></p>
+  
+<% end %>

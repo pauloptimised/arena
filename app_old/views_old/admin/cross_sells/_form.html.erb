@@ -1,0 +1,38 @@
+<% form_for [:admin, @cross_sell], :html => {:multipart => true} do |f| %>
+
+  <%= f.error_messages %>
+  
+  <fieldset>
+    
+    <legend>Summary Information</legend>
+    
+    <p>
+      <%= f.label :service_id %><br />
+      <%= f.select :service_id, PageNode.services.collect{|x| [x.name, x.id]}, :prompt => 'Select Service' %>
+    </p>
+    
+    <p>
+      <%= f.label :name %><br />
+      <%= f.text_field :name %>
+    </p>
+
+    <p>
+      <%= f.label :summary %><br />
+      <%= f.text_area :summary %>
+    </p>
+    
+  </fieldset>
+
+  <fieldset>
+    
+    <legend>Image</legend>
+    
+    <p>
+      <%= image_field_tag f, :cross_sell, :image %>
+    </p>
+    
+  </fieldset>
+  
+  <p><%= f.submit "Submit" %></p>
+  
+<% end %>

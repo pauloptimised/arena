@@ -1,0 +1,40 @@
+<% form ||= "N/A" %>
+
+<% if form == "photocopiers_and_printers"%>
+  <h2>Request a savings review</h2>
+<% else %>
+  <h2>Request a free document review</h2>
+<% end %>
+
+<p>All fields are required.</p>
+<% if flash[:review] %>
+  <%= flash[:review] %>
+<% end %>
+<% form_tag( {:controller => 'web', :action => 'request_a_review'}, {}) do %>
+  <%= hidden_field_tag :form, form %>
+  <p>
+    <%= text_field_tag :name, params[:name], :placeholder => "Name" %>
+  </p>
+  <p>
+    <%= text_field_tag :company_name, params[:company_name], :placeholder => "Company name" %>
+  </p>
+  <p>
+    <%= text_field_tag :post_code, params[:post_code], :placeholder => "Company Post Code" %>
+  </p>
+  <p>
+    <%= text_field_tag :email, params[:email], :placeholder => "E-Mail" %>
+  </p>
+  <p>
+    <%= text_field_tag :phone, params[:phone], :placeholder => "Phone" %>
+  </p>
+  <p>
+    <% options = ["10 and Under", "11-25 People", "26-100 People", "101-250 People", "250+ People"] %>
+    <%= select_tag :business_size, options_for_select([["Size of Business", ""]] + options, params[:business_size]) %>
+  </p>
+  <p>
+    <%= text_area_tag :additional_info, params[:additional_info], :placeholder => "Add any more information here" %>
+  </p>
+  <p>
+    <%= submit_tag "Send" %>
+  </p>
+<% end %>

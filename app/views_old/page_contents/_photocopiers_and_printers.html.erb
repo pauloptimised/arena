@@ -1,0 +1,109 @@
+<% hide_flash; hide_right %>
+<% title(Sanitize.clean(@page_node.title)) %>
+<% content_for :head do %>
+	<%= render '/web/seo_pages/head' %>
+	<link rel="canonical" href="http://www.arenagroup.net/page/copy-and-print" />
+<% end %>
+
+<% content_for :telephone do %>
+  <span><%= SiteSetting.find_by_name("Phone (SEO)").value %></span><br />
+<% end %>
+
+<% content_for :left do %>
+	<% if @survey %>
+   	<h2 class="underlined"><%= link_to "Customer Satisfaction Results", surveys_path %></h2>
+   	<div class="survey">
+      <div class="survey_percentage">
+        <%= @survey.result %>
+      </div>
+      <div class="survey_name">
+        <%= @survey.name %>
+      </div>
+      <div class="clear"></div>
+    </div>
+  <% end %>
+  <!--
+    <h2>Request a savings review</h2>
+    <p>All fields are required.</p>
+    <% if flash[:review] %>
+      <%= flash[:review] %>
+    <% end %>
+    <% form_tag(request_a_review_page_node_path(@page_node)) do %>
+      <p>
+        <%= text_field_tag :name, params[:name], :placeholder => "Name" %>
+      </p>
+      <p>
+        <%= text_field_tag :company_name, params[:company_name], :placeholder => "Company name" %>
+      </p>
+      <p>
+        <%= text_field_tag :email, params[:email], :placeholder => "E-Mail" %>
+      </p>
+      <p>
+        <%= text_field_tag :phone, params[:phone], :placeholder => "Phone" %>
+      </p>
+      <p>
+        <% options = ["10 and Under", "10-25 People", "25-75 People", "25-75 People", "250+ People"] %>
+        <%= select_tag :business_size, options_for_select([["Size of Business", ""]] + options, params[:business_size]) %>
+      </p>
+      <p>
+        <%= text_area_tag :additional_info, params[:additional_info], :placeholder => "Add any more information here" %>
+      </p>
+      <p>
+        <%= submit_tag "Send" %>
+      </p>
+    <% end %>
+  -->
+  <%= flash[:alert] if flash[:alert] %>
+  <%= render '/web/seo_pages/marketing_leads', :form => "Photocopiers and Printers" %>
+<% end %>
+
+<!-- Main -------------------------------------------------------------------------------------- -->
+
+<div id="seo-landing-page">
+
+  <h1><%= @page_node.title %></h1>
+
+  <%= flash[:notice] if flash[:notice] %>
+	<%= flash[:error] if flash[:error] %>
+
+  <div class="row">
+    
+			<%= @page_node.active_content.main_content %>
+
+			
+
+    <div class="clear"></div>
+
+  </div>
+
+
+  <% unless @case_study.blank? %>
+		<hr>
+		<div class="row">
+			<h2>Case Studies: See how we've helped other people</h2>
+			<%= render '/case_studies/case_study', :case_study => @case_study %>
+		</div>
+    <div class="clear"></div>
+    
+	<% end %>
+	
+	<div id="seo-share">
+				<h2>Share...</h2>
+        <div id="seo-share-email">
+          <a href="mailto:?subject=I%20thought%20you%20might%20be%20interested%20in%20this...&body=<%= request.url %>"</a>
+        </div>
+        <div id="seo-share-facebook">
+          <div id="fb-root"></div>
+          <div class="fb-like" data-href="http://www.arenagroup.net/photocopiers_and_printers" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+        </div>
+				<div id="seo-share-twitter">
+          <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+        </div>
+        <div id="seo-share-google-plus">
+          <g:plusone></g:plusone>
+        </div>
+        <div class="clear"></div>
+      </div>
+
+
+</div>

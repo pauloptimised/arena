@@ -1,0 +1,15 @@
+<% hide_right %>
+
+<h1><%= title "White Papers" %></h1>
+
+<% if @white_papers.length > 0 %>
+  <% for white_paper in @white_papers %>
+    <h2><%= white_paper.name %></h2>
+    <span class="date"><%= simple_date_format white_paper.date %></span><br />
+    <%=h white_paper.summary %>
+    <p><%= link_to "Download", white_paper.document.url(:original, false)  %></p>
+  <% end %>
+  <%= will_paginate @white_papers %>
+<% else %>
+  <p> No White Papers to display.</p>
+<% end %>

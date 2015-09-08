@@ -1,0 +1,7323 @@
+
+--- 
+administrators: 
+  columns: 
+  - id
+  - username
+  - email
+  - crypted_password
+  - password_salt
+  - persistence_token
+  - last_login_at
+  - login_count
+  - super_admin
+  - created_at
+  - updated_at
+  - css
+  - perishable_token
+  - image_file_name
+  - image_content_type
+  - image_file_size
+  - image_updated_at
+  - image_alt
+  records: 
+  - - "1"
+    - eskimosoup
+    - info@eskimosoup.co.uk
+    - 21531514865d9499291b242a5d8c1653aaee125676ca20e7cd1ae9d4c28630cecce258508ce1a44a09a72d7688ffd43b88f40169f6a2f5a0f8a40e07802db347
+    - D06p9exjHOtJIZa9MXKC
+    - 8ccf5e5da55a3f6e5e90918febbc577ae7fcad2bdff68a531b1441f4cd45b5e2d8518f68cf3edcd676a907c321bf4a1571e1b3d22ae501a74b9eda66ec74203d
+    - 
+    - "274"
+    - true
+    - 2010-03-16 14:59:00
+    - 2011-01-18 09:19:02
+    - admin_orange
+    - HxZbLZsUNoiNG0iVWj7X
+    - 
+    - 
+    - 
+    - 
+    - ""
+
+--- 
+articles: 
+  columns: 
+  - id
+  - headline
+  - summary
+  - main_content
+  - date
+  - image_file_name
+  - image_content_type
+  - image_file_size
+  - image_updated_at
+  - image_alt
+  - created_at
+  - updated_at
+  - created_by
+  - updated_by
+  - recycled
+  - recycled_at
+  - display
+  - position
+  - highlight
+  records: 
+  - - "1"
+    - New QE liner using Arena technology to test customer satisfaction
+    - Arena has installed customer satisfaction software on the new Queen Elizabeth liner. The speedy system was used to help Cunard manage and address any maiden voyage glitches.
+    - |-
+      <p>The Arena Group designed a bespoke application&nbsp; for Carnival UK, the parent company of Cunard and P&amp;O Cruises, to capture customer opinion quickly and deal with it while passengers are still on board their ships.&nbsp;</p>
+      <p>The <strong>m</strong>store scanning system &lsquo;reads&rsquo; answers to a detailed customer satisfaction questionnaire, ensuring that no passenger on the luxury liner&rsquo;s maiden voyage leaves the ship with a negative experience.</p>
+      <p>Adrian Fitzpatrick, managing director of Arena, said: &ldquo;The speed at which holiday companies respond &ndash; and act - on issues highlighted through customer satisfaction surveys is a critical element for businesses in the highly competitive leisure market.</p>
+      <p>&ldquo;Carnival UK is renowned for high standards of service and was keen to explore how new technology could help deliver even better results for customers."</p>
+      <p>&ldquo;Questionnaires are usually issued at the end of a cruise but our system allows Cunard to ask a &lsquo;floating question&rsquo; at any time on a journey.&nbsp; So if there is a hitch managers can issue a survey during the voyage to evaluate how passengers are feeling and to deal with the situation quickly.&rdquo;&nbsp;</p>
+      <p>Arena&rsquo;s system replaces a manual process that could take as long as six weeks to complete. A full report&nbsp; is generated in under two hours with the system highlighting items rated as &lsquo;fair&rsquo; or &lsquo;poor&rsquo; and extracting handwritten comments.&nbsp; Staff can hone in on specific service issues, correcting them before the next group of passengers travel.&nbsp;&nbsp;</p>
+      The Wakefield copier, printer and electronic document management business has five offices employing around 130 people in Yorkshire, Lancashire and the Midlands.&nbsp; In the last few years it has been named a Sunday Times top 100 best small companies to work for and Yorkshire&rsquo;s best company to work for.
+    - "2010-09-29"
+    - carnival_uk_s_customers_have_cruise_control.jpg
+    - image/jpeg
+    - "28718"
+    - 2011-01-12 12:36:30
+    - New QE liner using Arena technology
+    - 2010-11-24 09:40:36
+    - 2011-01-14 12:24:23
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - true
+  - - "2"
+    - Print was a bit of a beast
+    - Over the summer, more than 120 businesses asked Arena to analyse what they are spending on printers and identify cost savings. Businesses have been shocked at both the number and variety of printers they own - and the cost and time they are wasting.
+    - |-
+      <ul>
+      <li>More than 90% of businesses surveyed had no idea how much they spend on print.</li>
+      <li>Schools and businesses were storing old stock for printers that had been thrown out months before.</li>
+      <li>Organisations were tying up thousands of pounds in stockpiled toner, &lsquo;in case they ran out.&rsquo;</li>
+      <li>One independent school thought they had 39 printers - they actually had 89</li>
+      <li>A housing association had so many different makes and model of printer they had to deal with 10 different suppliers for maintenance and consumables.</li>
+      </ul>
+      <br />Gary Putson, Arena Group sales manager commented: &ldquo;A print audit shows businesses exactly where resources are being wasted. Clients are frequently surprised at the savings made through managed print services - they often ask us to double check the figures are correct!&rdquo;<br /><br />Jaime Lockwood, IT manager at Morrish Solicitors LLP was required to assess print volume and control costs on 20 photocopiers across four different offices. A detailed print audit identified several ways Arena&rsquo;s managed print services could save time and money for the busy law firm.<br /><br />&ldquo;Print was a bit of beast. As well as looking at our existing equipment Arena discussed our future plans and needs and worked with us to get the right option for our business, &ldquo; said Jaime.<br /><br />Now Morrish have a combination of desk top printers, photocopiers and a high volume print room to deal with the heavy print and copy needs of the firm. When a consumable such as toner is running low, Arena automatically sends out a replacement to the designated person.<br /><br />All the new printers employ double sided printing so, in addition to using less paper, the firm are also saving on postage, filing and archiving costs. The new printers are also much faster, so staff do not have to wait to complete their printing tasks.<br /><br />&ldquo;One of the biggest factors in choosing Arena was the efficiency of the printers. We haven&rsquo;t had an error and the machines are greener, faster and more efficient,&rdquo; added Jaime.<br /><br />&ldquo;We always had to store a lot of spares for our printers and we would have one person managing each printer and another storing the toner. The new system has taken out a few layers of administration and management of the printers &ndash; freeing people up to focus on their jobs.&rdquo;<br /><br />Managed Print Services mean:<br /><br />
+      <ul>
+      <li>Efficiency and reliability of printers</li>
+      <li>Cost benefits - savings on energy, printing and less obvious costs such as archiving and staff time</li>
+      <li>One single, monthly invoice means costs are transparent and no surprise bills</li>
+      <li>Easy to monitor volume of print and spend</li>
+      <li>A collaborative approach through understanding the specific needs of each business</li>
+      <li>People have more time to spend on their own jobs</li>
+      <li>Excellent client service</li>
+      </ul>
+      <br />
+    - "2010-09-29"
+    - how_much_does_your_organisation_waste_on_print_and_copy_costs.jpg
+    - image/jpeg
+    - "58195"
+    - 2011-01-12 12:34:19
+    - how_much_does_your_organisation_waste_on_print_and_copy_costs
+    - 2010-11-24 09:40:56
+    - 2011-01-14 12:36:57
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - false
+  - - "5"
+    - Meet the supersized North West team
+    - Regional sales managers Richard Slingsby and Michael Wallington welcome four new sales people to the Bolton office to support the growing demand for cheaper and greener print services.
+    - |-
+      <p>The new team members are, Tony Bailey, Mark Gande, Paul Grant and  Paul Logan who will focus on helping corporates and schools to reduce  print costs, improve efficiency and meet environmental targets.</p>
+      <p>Arena Group opened its Bolton office five years ago. North West  clients include Merseyside Police, Roebucks solicitors, Blackburn, and a  number of large high schools including Bolton St Catherine&rsquo;s Academy  and The Grange School, Runcorn.</p>
+      <p>Arena&rsquo;s individual print audit and discussion with the customer helps  identify how businesses could make better use of their existing copiers  and printers and use electronic document management systems to improve  processes.</p>
+      <p>To find out more call the Bolton office on 0844 863 8000 or email <a href="mailto:RichardS@arenagroup.net">RichardS@arenagroup.net</a> or <a href="mailto:MichaelW@arenagroupd.net">MichaelW@arenagroup.net</a></p>
+    - "2010-09-29"
+    - SupersizedNorthWestTeam.jpg
+    - image/jpeg
+    - "62653"
+    - 2011-01-14 12:10:42
+    - Meet the supersized North West team
+    - 2011-01-14 12:10:44
+    - 2011-01-14 12:36:57
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - false
+  - - "6"
+    - "Giving back \xE2\x80\x93 supporting charities in our community"
+    - Supporting children in our local community is one way we like to give back.
+    - |-
+      <div class="attribute-long">
+      <p>This year we paid the entry fee for all Junior and Mini Fun runners to run for FREE and created a national record.</p>
+      <p>With the maximum 1,100 youngsters taking part, the charity run  through the centre of Leeds is now the biggest free event of its kind in  the UK.</p>
+      <p>This year children from three to eight years tackled a 1.5km run and a 2.5km route was open to nine-14 year olds.</p>
+      <p>So far this year the race has raised &pound;7000 towards the new play area  for the children&rsquo;s X-ray department at Leeds General Infirmary, where  the late cancer campaigner and fundraiser Jane Tomlinson worked.</p>
+      <p>We allow all our employees to take two days per annum to get involved with local charity work.</p>
+      <p>Through partnerships with Leeds Ahead and Barnardos our staff have  helped schools to deliver enterprise activities and helped to clean up  urban areas.</p>
+      </div>
+    - "2010-09-29"
+    - GivingBack.jpg
+    - image/jpeg
+    - "46799"
+    - 2011-01-14 12:27:22
+    - Giving Back
+    - 2011-01-14 12:27:23
+    - 2011-01-14 12:39:13
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - false
+
+--- 
+blog_entries: 
+  columns: 
+  - id
+  - headline
+  - summary
+  - main_content
+  - date
+  - image_file_name
+  - image_content_type
+  - image_file_size
+  - image_updated_at
+  - image_alt
+  - created_at
+  - updated_at
+  - created_by
+  - updated_by
+  - recycled
+  - recycled_at
+  - display
+  - position
+  records: 
+  - - "1"
+    - Pro aeque mentitum aliquando ut
+    - Pro aeque mentitum aliquando ut. Vidisse virtute graecis cum et, eu audiam similique consetetur pri, ei equidem facilis perfecto usu. Dicit zzril soleat pri te, accusata explicari per ex, at sit scripta aperiri integre. Cu habeo latine molestie mea, nobis graecis copiosae duo ne. Usu sint dicant iisque id, mea an soleat facilisi, reque legere duo eu. Et vim utinam deserunt.
+    - Pro aeque mentitum aliquando ut. Vidisse virtute graecis cum et, eu audiam similique consetetur pri, ei equidem facilis perfecto usu. Dicit zzril soleat pri te, accusata explicari per ex, at sit scripta aperiri integre. Cu habeo latine molestie mea, nobis graecis copiosae duo ne. Usu sint dicant iisque id, mea an soleat facilisi, reque legere duo eu. Et vim utinam deserunt.<br />Ad nam justo assum legimus, nominati delicata consequat pro et, pericula laboramus qui et. Lucilius salutatus an sed, falli conclusionemque ut pro. Cu civibus euripidis nam, noster euripidis delicatissimi cum cu. Ad mei eius dolor.
+    - "2010-11-15"
+    - 
+    - 
+    - 
+    - 
+    - ""
+    - 2010-11-29 11:22:33
+    - 2010-11-29 11:22:33
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+
+--- 
+case_studies: 
+  columns: 
+  - id
+  - name
+  - summary
+  - main_content
+  - image_file_name
+  - image_content_type
+  - image_file_size
+  - image_updated_at
+  - image_alt
+  - created_at
+  - updated_at
+  - created_by
+  - updated_by
+  - recycled
+  - recycled_at
+  - display
+  - position
+  - testimonial_id
+  - highlight
+  records: 
+  - - "1"
+    - 37 Park Square Chambers
+    - Linda Parker is the office manager at 37 Park Square Chambers and explains that their previous computer and IT network system, which was five years old, had 'had its day', crashing and failing its back-ups.
+    - |-
+      <p>Arena carried out a free IT survey and produced a risk report with recommendations for their requirements, then and in the future.</p>
+      <p>Linda says that the process of installing the new network, including two server units, multiple PCs, and cabling, was painless: &ldquo;Arena is very professional - other companies may be a bit cheaper but they can&rsquo;t compete on service. We didn&rsquo;t have any downtime when they installed our new system and there were virtually no teething problems.&rdquo;</p>
+      <p>Arena has also supplied photocopiers and a document management system, so documents are filed electronically when scanned in.</p>
+      <p>Linda says she likes the fact that Arena sends out the same engineers, who get to know their customers. &ldquo;When you get to know people, you aren&rsquo;t frightened of saying &lsquo;I think I&rsquo;m being an idiot, but could you help me on this&rsquo;!&rdquo;</p>
+    - _DSC6175.jpg
+    - image/jpeg
+    - "242773"
+    - 2010-11-29 11:20:03
+    - 37 Park Square Chambers
+    - 2010-11-23 15:51:40
+    - 2011-01-17 15:37:54
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "2"
+    - "1"
+    - true
+  - - "2"
+    - Settle College
+    - A mixed 13-18 comprehensive school with 470 pupils and Technology College Status.
+    - ""
+    - 
+    - 
+    - 
+    - 
+    - ""
+    - 2010-11-23 15:53:56
+    - 2010-11-25 11:00:49
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "1"
+    - "2"
+    - false
+  - - "3"
+    - A4e
+    - Leading private training organisation, over 100 offices nationwide. A4e works with the government to provide training, recruitment and small business services.
+    - |-
+      <p>&ldquo;Our business is all about helping and giving advice to our customers, be it individuals or small businesses,&rdquo; explains A4e&rsquo;s purchasing manager, Sandra Shapiro.&nbsp; &ldquo;We need to supply information sheets and documents to take away.&nbsp; Producing this material was costly as we had to outsource work where documents included colour - and not all our staff had access to suitable printers.&rdquo;</p>
+      <p>Reliability of the machines and service and support were both important when they asked Arena to help them.</p>
+      <p>Each office now has a printer which can produce 35 black and white documents per minute as well as password-protected access to colour printing.</p>
+      <p>&ldquo;We have two machines in one and it&rsquo;s not expensive as we can monitor the use of colour through the password prompt. We can manage costs by checking what is being printed by whom and when.&rdquo;</p>
+      <p>There are very few problems with the machines, but Sandra says that any calls to the engineers are actioned within 8 hours: &ldquo;The engineers are very helpful, even providing training if anyone needs it."</p>
+    - _DSC7228.jpg
+    - image/jpeg
+    - "133994"
+    - 2010-11-29 11:00:25
+    - A4e
+    - 2010-11-25 11:08:57
+    - 2011-01-13 12:15:31
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - "3"
+    - true
+  - - "4"
+    - Bolton St. Catherine's Academy
+    - We've just got a booklet maker and Arena's salesman talked to our reprographics person about what she needs, what she wants to do and how she will use it so that they found the right machine.
+    - <p>St. Catherine&rsquo;s is a new academy, one of the first in the state sector to cover 3 to 18 year olds, and we are moving to one big, new site next year. Arena were asked to do a print audit for the academy because their print needs and issues were going to change.</p>
+    - _JFP0798.jpg
+    - image/jpeg
+    - "141606"
+    - 2010-11-29 11:54:23
+    - Bolton St. Catherine's Academy
+    - 2010-11-25 11:21:25
+    - 2011-01-13 12:15:31
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - "4"
+    - true
+  - - "5"
+    - Carnival UK
+    - Arena's mstore software application is revolutionising how the leisure industry communicates with customers. A bespoke development, designed for Carnival UK, is leading the way.
+    - |-
+      <p>A speedy system to capture customer opinion for Carnival UK is enabling the cruise company to deal with customers&rsquo; feedback whilst they are still on board ship. &nbsp;Arena installed customer satisfaction software on the new Queen Elizabeth liner.</p>
+      <p>Arena&rsquo;s <strong>m</strong>store scanning system &lsquo;reads&rsquo; answers to a detailed customer satisfaction questionnaire, ensuring that no holiday maker leaves the ship with a negative experience.</p>
+      <p>The speed at which holiday companies respond, and act, on issues highlighted through customer satisfaction surveys is a critical element for businesses in the highly competitive leisure market.</p>
+      <p>Being able to replace a manual turnaround process that could take as long as six weeks to complete has revolutionised the concept of customer service for those travelling and working for the luxury cruise company.</p>
+      <p>Carnival UK, the parent company of P&amp;O Cruises and Cunard Line is renowned for high standards of service and was keen to explore how new technology could help deliver even better results for customers, at less cost.</p>
+      <p>With a full report generated in less than in two hours, the technology is taking customer service into a new era of sophistication. The system highlights items rated as &lsquo;fair&rsquo; or &lsquo;poor&rsquo; and also extracts handwritten comments, so staff can hone in on specific service issues, correcting them before the next group of passengers travel.</p>
+      <p>Richard Parker, Systems Analyst Passenger Services at Carnival UK said being able to link Arena&rsquo;s software to existing multi-function copiers helps the business maximise its existing resources and make significant savings.</p>
+      <p>Arena&rsquo;s software, compatible with the ship&rsquo;s existing computer system, allows passenger data to be merged so customer satisfaction questionnaires in the right language are delivered to the correct cabins.&nbsp; On the larger ships this could involve as many as 3, 500 passengers.</p>
+      <p>Managers can use comparative studies to monitor across the fleet and ensure great employees are recognised and rewarded and standards are consistent.</p>
+      <p>Arena has already created modules to introduce &lsquo;floating questions&rsquo; so that customers can give feedback on themed evenings and entertainment that are route specific.&nbsp; In the long term Carnival UK may widen the scope of the questionnaire to analyse customer demand for specific destinations.</p>
+    - 
+    - 
+    - 
+    - 
+    - ""
+    - 2010-11-25 11:36:22
+    - 2010-11-25 12:59:13
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - "5"
+    - false
+  - - "6"
+    - Feversham College
+    - Voluntary Aided Specialist Science School for Muslim girls aged 11-18 years.
+    - |-
+      <p>&ldquo;As a Muslim girls&rsquo; school we can&rsquo;t allow men on site until after the students have left. Arena will and have always worked around that.&nbsp; They&rsquo;re really flexible and come at the times that suit us, rather than what suits them," says Maria Eisner, finance officer.</p>
+      <p>&ldquo;Arena has supplied us for 10 years. They are always spot on with price, but we chose them because of their customer service. Whether it&rsquo;s their engineers, their technical support or their sales people, we have never had cause to say a bad word against them.</p>
+      <p>Arena recently installed some new printers and they are already saving us money. It has cut back on the amount of time and money that was spent on consumables.</p>
+      <p>Now we are talking to Arena about a print management system to help us control wastage. As a school we make students aware of green issues and encourage recycling, yet at the end of a week there can be a whole box of unclaimed photocopies by a machine. We are looking at a system that will prevent unwanted copies being printed and not collected.&rdquo;</p>
+    - 
+    - 
+    - 
+    - 
+    - ""
+    - 2010-11-25 11:43:08
+    - 2010-11-25 13:00:29
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - "6"
+    - false
+  - - "7"
+    - Gateways School
+    - Leading independent school for girls in Harewood, near Leeds.
+    - "<p>Jonathon Finan, IT systems manager, explains: \"We had a lot of very old and uneconomical printers and were spending a fortune on consumables. We looked around to see if we could spend less and Arena had the best deal.\"</p>"
+    - 
+    - 
+    - 
+    - 
+    - ""
+    - 2010-11-25 11:48:14
+    - 2010-11-25 13:01:16
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - "7"
+    - false
+  - - "8"
+    - The Grange Comprehensive, Runcorn
+    - Mixed comprehensive with 900 pupils aged 11-16.
+    - |-
+      <p>&ldquo;We&rsquo;ve gone from one photocopier to a complete document management system from Arena in five years, &ldquo; says Tina McGuffie, office manager. &ldquo;Arena are so amenable and helpful. I give them a problem, they go away and do their research and present me with a solution."</p>
+      <p>&ldquo;We will be moving to a new site in a couple of years and merging with three primary schools. Space will be really scarce with no room for archiving so we are aiming for a paperless office using Arena&rsquo;s electronic document management."</p>
+      <p>&ldquo;Every letter, every email, every document about a student is now scanned in, including transfer documents from a student&rsquo;s former primary school. It is a really simple system - our admin staff just needed one morning of training on Arena&rsquo;s mstore software. The advantages are we save space and staff no longer have to leave their desks to retrieve files - it&rsquo;s all at their fingertips."</p>
+      <p>&ldquo;It&rsquo;s more secure than a filing cabinet - we can lock down the system, giving people permission to view only what they need to see. And every document is backed up so if we had a fire we could retrieve everything."</p>
+      <p>&ldquo;Our new school will have a nursery, a primary and a secondary school so we will be dealing with around children aged from 0 to 16.&nbsp; We must have an audit trail of all documents. I decided we should aim for a paperless office in two years so I went to Mike Wallington, my sales contact, and said &lsquo;here&rsquo;s what I want to do, can you do some research for me and let me know what I need&rsquo;."</p>
+      <p>&ldquo;Although we&rsquo;ve only had the system for a few months I&rsquo;m already getting great feedback. Admin staff are saving time as they can retrieve files at the click of a mouse and teachers are pleased with the feature that links directly to SIMS."</p>
+      <p>&ldquo;Our head of school even wants to look at using the system for his own documents.&rdquo;</p>
+    - _JFP7894.jpg
+    - image/jpeg
+    - "192077"
+    - 2010-11-29 11:04:50
+    - The Grange Comprehensive
+    - 2010-11-25 11:59:11
+    - 2011-01-17 15:19:49
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - "8"
+    - true
+  - - "9"
+    - Leeds Trinity University College
+    - Leeds Trinity University College, based on a single campus in Horsforth, Leeds, has approximately 3000 students studying courses from foundation and undergraduate degrees to postgraduate qualifications, with around 400 staff in both academic and support roles.
+    - |-
+      <p>&ldquo;With the squeeze on higher education budgets all areas of the university college are looking to make savings. On our high volume black and white photocopier alone we produce 1.25 million copies a quarter and our colour copier averages about 30,000 copies per quarter, &ldquo; says Julie Orange, publications service supervisor at Leeds Trinity University College."</p>
+      <p>&ldquo;Arena recently installed 21 new multi-function machines across the whole campus linked to the PCs on our network. They help to cut costs because they are more energy efficient and we save on printer toner costs. Staff now print directly from their PCs so desktop printers are being phased out."</p>
+      <p>&ldquo;The financial future of higher education is uncertain and the challenge is to continue to provide high quality education and a great student experience within new budgetary constraints. For my team working with a supplier like Arena, who provides cost effective products and an efficient service, is key.</p>
+      <p>&ldquo;We selected Arena to supply our photocopiers and multi-function printers thanks to the excellent customer service from their sales representative, Tim Bye. Not only did he offer us the most competitive quote, he has been fantastic in following it up, everything we ask he responds to immediately.</p>
+      <p>&ldquo;The after sales service has also been brilliant, and the team at Arena are so easy to contact, either online or by phone.</p>
+      <p>&ldquo;Leeds Trinity has a carbon management plan that aims to reduce CO2 emissions over five years. It is really important to us that we buy products and services that are energy efficient in line with our goals to be a sustainable campus.&rdquo;</p>
+    - _JFP0379.jpg
+    - image/jpeg
+    - "301070"
+    - 2010-11-29 10:21:00
+    - ""
+    - 2010-11-25 12:01:45
+    - 2010-11-29 10:21:03
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - "9"
+    - false
+  - - "10"
+    - Morrish Solicitors LLP
+    - Legal firm employing 100 people across four offices in Yorkshire.
+    - |-
+      <p>As Arena were providing the law firm&rsquo;s photocopiers, Jaime asked them to do an audit with recommendations for providing an efficient and cost effective print service.</p>
+      <p>The print audit showed that the firm had 20 printers across its four sites, making it hard to assess volume of print or control costs.&nbsp; Now Morrish have a combination of desk top printers, photocopiers and a high volume print room to deal with the heavy print and copy needs of a busy legal firm. When a consumable such as toner is running low, Arena automatically sends out a replacement to the designated person.</p>
+      <p>&ldquo;What impressed me most was that Arena came in and listened to us,&rdquo; explains Jaime. &ldquo;The audit was no tick box exercise. As well as looking at our existing equipment they discussed our future plans and needs. They worked with us to get the right option for our business.</p>
+      <p>&ldquo;One of the biggest factors in choosing Arena was the efficiency of the printers. We haven&rsquo;t had an error and the machines are greener, faster and more efficient.</p>
+      <p>&ldquo;How we work was also important. All the new printers have duplex (double sided) printing.&nbsp; Not only is this greener because it uses less paper, but it reduces postage, filing and archiving costs. The new printers are fast too so where several people share the same printer they no longer have to queue up for their work.</p>
+      <p>&ldquo;We always had to store a lot of spares for our printers and we would have one person managing each printer and another storing the toner. The new system has taken out a few layers of administration and management of the printers - freeing people up to focus on their jobs.</p>
+    - _JFP7659.jpg
+    - image/jpeg
+    - "172008"
+    - 2010-11-29 11:08:37
+    - Morrish Solicitors
+    - 2010-11-25 12:07:26
+    - 2010-11-29 11:11:17
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - "10"
+    - false
+  - - "11"
+    - Reed Boardall
+    - "One of UK\xE2\x80\x99s largest temperature controlled food distributors."
+    - |-
+      <p>Reed Boardall stores over 6000 different products at their cold distribution centre in Boroughbridge and delivers 175 million cases a year of frozen food to both retail distribution centres and food service depots across the UK.</p>
+      <p>In this very fast moving environment, timely information is vital, with different customers requiring individually tailored solutions.&nbsp;</p>
+      <p>Reed Boardall wanted an information trail that could be accessed by employees internally and give restricted external access to customers over the web. They also needed to reduce paperwork and the need for filing, as well as retain full traceability.</p>
+      <p>Arena developed a new process around existing systems, using M-store electronic document management software. This covered everything from the production of delivery notes to the scanning, electronic storage and monitoring of documents.</p>
+      <p>Documentation for each delivery is tracked as it goes out and comes back in, using barcodes. On return the documents are scanned in. The system knows what each customer requires and so can flag up anything that is missing. Secure accounts allow customers to view their goods received notes online.</p>
+      <p>Reed Boardall has been committed to a &lsquo;green strategy&rsquo; from the early 1990s and the new system is targeted to reduce paper costs by at least 30%.</p>
+      <p>Tilburn added: &ldquo;The first stage has been installed seamlessly. I&rsquo;ve been very impressed. We are in control of all our documentation, have improved our processes and greatly improved our service to customers.&rdquo;</p>
+    - _DSC0558-Edit-Edit.jpg
+    - image/jpeg
+    - "298214"
+    - 2010-11-29 12:27:09
+    - Reed Boardall
+    - 2010-11-25 12:12:51
+    - 2010-11-29 12:27:12
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - "11"
+    - false
+  - - "12"
+    - Romero Insurance Brokers
+    - Insurance brokers for the leisure industry - Nightclub Direct and Millennium Leisure
+    - |-
+      <p>Governed by the FSA, the Romero Group works in a highly regulated industry. The amount of paperwork that has to be kept for regulatory purposes has increased, leading to an increase in storage and costs as well as being hard to manage.</p>
+      <p>There was also no link between customers&rsquo; back up documentation and the specialised software, Agency Manager, used by insurance brokers.</p>
+      <p>Arena installed a photocopier, complete with an eCopy ScanStation, which scans customer documentation straight into Romero&rsquo;s specialised software.</p>
+      <p>Janice Taylor, Romero&rsquo;s group systems manager, explains how this works:&nbsp; &ldquo;Agency Manager helps our insurance brokers to up sell, renew and cross sell efficiently. The fact that we are able to incorporate customers&rsquo; paperwork into the systems via the link between the copier and the eCopy ScanStation ensures this process runs smoothly&rdquo;.</p>
+      <p>Romero is legally required to keep all incoming post relating to insurance business and to have a disaster recovery plan. Miss Taylor says that they can also achieve this with the new copier: &ldquo;Incoming post is now scanned into the system so we have a complete audit trail and the system is backed up regularly, meeting regulatory requirements."</p>
+      <p>&ldquo;With the overall improvement to our business processes, our investment will quickly be recovered."</p>
+      <p>Service and training has been an important part of putting in the new systems.</p>
+    - _DSC6252.jpg
+    - image/jpeg
+    - "276543"
+    - 2010-11-29 11:47:54
+    - Romero Insurance Brokers
+    - 2010-11-25 12:15:46
+    - 2011-01-17 14:10:59
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - "12"
+    - true
+  - - "13"
+    - Rowena Nursery and Infant School, Conisbrough
+    - We were spending a huge amount of money on print cartridges and the print audit from Arena showed we could save a significant amount of money. Arena's service was fantastic when they were setting up the printers.
+    - ""
+    - 
+    - 
+    - 
+    - 
+    - ""
+    - 2010-11-25 12:22:55
+    - 2010-11-25 12:26:33
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - "13"
+    - false
+  - - "14"
+    - Wetherby High School
+    - Specialist technology status high school for 11 to 18-year-olds.
+    - |-
+      <p>&ldquo;We had a managed print service with another company but the printers weren&rsquo;t reliable and, although service engineers kept coming out, the problems never seemed to be fixed."</p>
+      <p>&ldquo;Printers are so important to a school now, particularly for some coursework, we cannot have them out of action. Subjects such as art, digital photography, design and technology have managed time in the classroom for their coursework. It is a real issue if students cannot produce the evidence they need because a printer is not working."</p>
+      <p>&ldquo;We knew Arena and with their new service, we asked them to quote. They have bought us out of our old contract, given us more functionality and support - and are still &pound;600 a quarter cheaper."</p>
+      <p>&nbsp;&ldquo;Arena are very proactive in their service and the printers are no longer a problem. We now have confidence that our students can do their coursework when they need to.&rdquo;</p>
+    - _JFP9386.jpg
+    - image/jpeg
+    - "271780"
+    - 2010-11-29 11:27:50
+    - Wetherby High School
+    - 2010-11-25 12:31:04
+    - 2010-11-29 11:30:03
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - "14"
+    - false
+
+--- 
+categories: 
+  columns: 
+  - id
+  - name
+  - summary
+  - created_at
+  - updated_at
+  - created_by
+  - updated_by
+  - recycled
+  - recycled_at
+  - display
+  - position
+  - image_file_name
+  - image_content_type
+  - image_file_size
+  - image_updated_at
+  - image_alt
+  records: 
+  - - "1"
+    - "Copiers: low volume"
+    - Ideal for small office environments or workgroups, our low volume range of multifunctional photocopiers (known as an MFP or MFD) provide reliable and economical black & white printing and copying.
+    - 2010-11-24 10:41:02
+    - 2011-01-17 09:47:20
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - e_studio166_medium.jpg
+    - image/jpeg
+    - "7820"
+    - 2011-01-17 09:47:19
+    - Toshiba e-STUDIO166
+  - - "2"
+    - "Copiers: mid volume"
+    - Our mid volume range of multifunctional photocopiers (known as an MFP or MFD) are suitable for all but the largest of office environments. With advanced functions and networking options, these machines will help your office run smoothly and help you control your print budget.
+    - 2010-11-24 10:41:15
+    - 2011-01-17 09:48:12
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - e_studio233_medium.jpg
+    - image/jpeg
+    - "12523"
+    - 2011-01-17 09:48:11
+    - Toshiba e-STUDIO233
+  - - "3"
+    - "Copiers: high volume"
+    - These machines are suitable for high volume environments. Large offices and print rooms are the perfect surroundings for this range of high spec multifunctional photocopiers (known as MFDs or MFPs). If you need black and white printing or photocopying at blistering speeds then consider one of these machines.
+    - 2011-01-12 14:59:42
+    - 2011-01-17 09:48:48
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - e_studio523_medium.jpg
+    - image/jpeg
+    - "4439"
+    - 2011-01-17 09:48:47
+    - Toshiba e-STUDIO523
+  - - "4"
+    - "Copiers: colour"
+    - When only the best will do, this range of colour multifunctional photocopiers (known as an MFP or MFD) provides vivid, vibrant colour at the speed you require. A vast range of finishing options also gives you the flexibility to produce impressive documents exactly how you want them.
+    - 2011-01-12 14:59:51
+    - 2011-01-17 09:49:40
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - e_studio2820c_medium.jpg
+    - image/jpeg
+    - "6158"
+    - 2011-01-17 09:49:40
+    - Toshiba e-STUDIO2820c
+  - - "5"
+    - "Printers: mono"
+    - When you just need to print in black and white, without the advanced functionality of an MFP, these printers will deliver reliable performance and value for money at the speed you require.
+    - 2011-01-12 14:59:56
+    - 2011-01-17 09:50:27
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - aficio_sp4100_medium.gif
+    - image/gif
+    - "13238"
+    - 2011-01-17 09:50:24
+    - RICOH Aficio SP4100
+  - - "6"
+    - "Printers: colour"
+    - ""
+    - 2011-01-12 15:00:03
+    - 2011-01-17 09:51:12
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - aficio_spc811dn_medium.gif
+    - image/gif
+    - "14643"
+    - 2011-01-17 09:51:09
+    - RICOH Aficio SPC811DN
+  - - "7"
+    - Duplicators
+    - |-
+      This technology is based around a simple and reliable process. A duplicator first scans the document to be printed, and then digitally reproduces it on a master sheet. This sheet is then wrapped around an ink drum, which turns at high speed whilst paper passes underneath.
+      
+      By using a drum, a duplicator is able to print at up to 130 copies per minute, even in A3 format, offering a far higher output speed than most conventional office printing technologies.
+    - 2011-01-12 15:00:09
+    - 2011-01-17 09:51:38
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - rz_970_medium.jpg
+    - image/jpeg
+    - "15998"
+    - 2011-01-17 09:51:37
+    - RISO RZ 970
+  - - "8"
+    - Wide format systems
+    - Technical diagrams, structural plans, maps or floor plans - some documents simply can't be squeezed into traditional formats. When you need to produce your work in large-scale format these machines are just the job.
+    - 2011-01-12 15:00:16
+    - 2011-01-17 09:52:06
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - xc_9020_medium.jpg
+    - image/jpeg
+    - "5371"
+    - 2011-01-17 09:52:05
+    - UTAX XC 9020
+  - - "9"
+    - Software
+    - Our range of software is designed to enhance your copying and printing hardware. This is achieved by improving functionality, through Re-rite or PlanetPress, or improving control, reporting and measurability through Print Audit or Equitrac.
+    - 2011-01-12 15:00:25
+    - 2011-01-17 09:52:54
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - ecopy_sharescan_suite_medium.gif
+    - image/gif
+    - "5936"
+    - 2011-01-17 09:52:51
+    - eCopy ShareScan
+
+--- 
+cost_calculations: 
+  columns: 
+  - id
+  - no_documents_to_file
+  - no_documents_looked_for
+  - no_ring_backs
+  - copies_posted
+  - staff_rate_per_hour
+  - phone_call_cost
+  - average_print_postal_cost
+  - created_at
+  - updated_at
+  - created_by
+  - updated_by
+  - recycled
+  - recycled_at
+  - display
+  - position
+  records: 
+  - - "1"
+    - "20"
+    - "30"
+    - "10"
+    - "6"
+    - "9"
+    - "0.08"
+    - "0.48"
+    - 2010-11-30 10:27:27
+    - 2010-11-30 10:27:27
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "5"
+    - "1"
+    - "1"
+    - "1"
+    - "1"
+    - "1"
+    - "1"
+    - "1"
+    - 2010-11-30 11:10:00
+    - 2010-11-30 11:10:00
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "6"
+    - "1"
+    - "1"
+    - "1"
+    - "1"
+    - "1"
+    - "1"
+    - "1"
+    - 2010-11-30 11:11:52
+    - 2010-11-30 11:11:52
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "7"
+    - "20"
+    - "30"
+    - "10"
+    - "6"
+    - "0.9"
+    - "0.08"
+    - "0.48"
+    - 2010-11-30 11:59:42
+    - 2010-11-30 11:59:42
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "8"
+    - "20"
+    - "30"
+    - "10"
+    - "6"
+    - "0.9"
+    - "0.08"
+    - "0.48"
+    - 2010-11-30 12:00:58
+    - 2010-11-30 12:00:58
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "9"
+    - "20"
+    - "30"
+    - "10"
+    - "6"
+    - "9"
+    - "0.08"
+    - "0.48"
+    - 2010-11-30 12:02:50
+    - 2010-11-30 12:02:50
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "10"
+    - "20"
+    - "30"
+    - "10"
+    - "6"
+    - "9"
+    - "0.08"
+    - "0.48"
+    - 2010-11-30 13:38:54
+    - 2010-11-30 13:38:54
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "11"
+    - "20"
+    - "30"
+    - "10"
+    - "6"
+    - "9"
+    - "0.08"
+    - "0.48"
+    - 2010-11-30 14:42:25
+    - 2010-11-30 14:42:25
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "12"
+    - "2"
+    - "2"
+    - "2"
+    - "2"
+    - "2"
+    - "2"
+    - "2"
+    - 2011-01-12 11:40:08
+    - 2011-01-12 11:40:08
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "13"
+    - "2"
+    - "2"
+    - "2"
+    - "2"
+    - "2"
+    - "2"
+    - "2"
+    - 2011-01-12 11:56:52
+    - 2011-01-12 11:56:52
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "14"
+    - "2"
+    - "2"
+    - "2"
+    - "2"
+    - "2"
+    - "2"
+    - "2"
+    - 2011-01-12 11:58:16
+    - 2011-01-12 11:58:16
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "15"
+    - "3"
+    - "2"
+    - "10"
+    - "1"
+    - "10"
+    - "2"
+    - "4"
+    - 2011-01-13 11:36:10
+    - 2011-01-13 11:36:10
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "16"
+    - "3"
+    - "2"
+    - "10"
+    - "1"
+    - "10"
+    - "2"
+    - "4"
+    - 2011-01-13 11:48:23
+    - 2011-01-13 11:48:23
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "17"
+    - "3"
+    - "2"
+    - "10"
+    - "1"
+    - "10"
+    - "2"
+    - "4"
+    - 2011-01-13 11:51:00
+    - 2011-01-13 11:51:00
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "18"
+    - "7"
+    - "75"
+    - "7"
+    - "200"
+    - "5"
+    - "3"
+    - "400"
+    - 2011-01-13 13:35:32
+    - 2011-01-13 13:35:32
+    - 
+    - 
+    - false
+    - 
+    - true
+    - "0"
+
+--- 
+documents: 
+  columns: 
+  - id
+  - created_at
+  - updated_at
+  - created_by
+  - updated_by
+  - document_content_type
+  - document_file_name
+  - document_file_size
+  - document_updated_at
+  records: 
+  - - "1"
+    - 2011-01-17 12:52:24
+    - 2011-01-17 12:52:24
+    - 
+    - 
+    - application/pdf
+    - Directions to Arena Wakefield.pdf
+    - "55299"
+    - 2011-01-17 12:52:24
+  - - "2"
+    - 2011-01-17 12:52:59
+    - 2011-01-17 12:52:59
+    - 
+    - 
+    - application/pdf
+    - Directions to Arena Bolton.pdf
+    - "54005"
+    - 2011-01-17 12:52:59
+  - - "3"
+    - 2011-01-17 12:53:50
+    - 2011-01-17 12:53:50
+    - 
+    - 
+    - application/pdf
+    - Directions to Arena Huddersfield.pdf
+    - "56278"
+    - 2011-01-17 12:53:50
+  - - "4"
+    - 2011-01-17 12:54:14
+    - 2011-01-17 12:54:14
+    - 
+    - 
+    - application/pdf
+    - Directions to Arena Garforth.pdf
+    - "53377"
+    - 2011-01-17 12:54:14
+
+--- 
+faqs: 
+  columns: 
+  - id
+  - question
+  - answer
+  - created_at
+  - updated_at
+  - created_by
+  - updated_by
+  - recycled
+  - recycled_at
+  - display
+  - position
+  records: 
+  - - "1"
+    - Lorem ipsum eu nullam docendi accusamus sed?
+    - Eum iudico nominavi percipitur ex, no facete partiendo duo, laudem aliquid ancillae at nec. Discere partiendo quo ad, quo soleat omittantur no, ex usu altera quaeque. Errem hendrerit forensibus te vim, odio maiestatis moderatius te has. Mentitum iracundia democritum ei eam. Cu pro equidem corrumpit.
+    - 2010-11-29 10:48:29
+    - 2010-11-29 10:48:29
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "2"
+    - Id nusquam aliquando contentiones est?
+    - Nam id dolore essent dictas, ad qui stet tantas graeco, in eos meis aliquyam atomorum. Mei ad gloriatur conclusionemque, voluptaria reprehendunt sit eu. An sed elitr populo splendide, vide probo cetero ad mea. In mea integre appareat maiestatis, eu mei mucius ceteros persecuti. Te vim noluisse luptatum, nam harum congue mentitum ea, vim viderer consectetuer ea.
+    - 2010-11-29 10:50:22
+    - 2010-11-29 10:50:22
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "3"
+    - Ad est dolor interesset omittantur, eu magna assum quo?
+    - Ut dico impedit persequeris usu. Eruditi vituperata sed id, et dolorum sadipscing sea, appetere periculis salutatus an eam. Ex alii legere mei, summo dolorum adipiscing his ut. Magna noster utroque ad sit. Quando mediocritatem quo no.
+    - 2010-11-29 10:50:56
+    - 2010-11-29 10:50:56
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+
+--- 
+features: 
+  columns: 
+  - id
+  - name
+  - controller
+  - action
+  - position
+  - super_admin_only
+  - css_class
+  - created_at
+  - updated_at
+  - menu
+  - permission
+  - location
+  - created_by
+  - updated_by
+  - recycled
+  - recycled_at
+  - display
+  records: 
+  - - "1"
+    - Features
+    - admin/features
+    - ""
+    - "1"
+    - true
+    - ""
+    - 2010-03-16 14:59:00
+    - 2010-04-20 12:11:25
+    - true
+    - true
+    - Website Content
+    - 
+    - 
+    - false
+    - 
+    - true
+  - - "3"
+    - Administrators
+    - admin/administrators
+    - ""
+    - "4"
+    - false
+    - admins
+    - 2010-03-16 14:59:00
+    - 2010-04-20 11:54:34
+    - true
+    - true
+    - Management Tools
+    - 
+    - 
+    - false
+    - 
+    - true
+  - - "4"
+    - Site Settings
+    - admin/site_settings
+    - ""
+    - "5"
+    - false
+    - settings
+    - 2010-03-16 14:59:00
+    - 2010-09-14 14:49:51
+    - true
+    - true
+    - Management Tools
+    - 
+    - 
+    - false
+    - 
+    - true
+  - - "5"
+    - Recycle Bin
+    - admin/extra_infos
+    - ""
+    - "1"
+    - false
+    - recycle
+    - 2010-03-16 14:59:00
+    - 2010-04-20 11:52:26
+    - true
+    - true
+    - Management Tools
+    - 
+    - 
+    - false
+    - 
+    - true
+  - - "7"
+    - Roles
+    - admin/roles
+    - ""
+    - "3"
+    - true
+    - ""
+    - 2010-03-16 15:23:18
+    - 2010-04-20 12:11:56
+    - true
+    - false
+    - Website Content
+    - 
+    - 
+    - false
+    - 
+    - true
+  - - "23"
+    - Image Management
+    - admin/images
+    - ""
+    - "2"
+    - false
+    - pictures
+    - 2010-03-22 10:22:35
+    - 2010-09-09 10:13:06
+    - true
+    - true
+    - Management Tools
+    - 
+    - 
+    - false
+    - 
+    - true
+  - - "24"
+    - Document Management
+    - admin/documents
+    - ""
+    - "3"
+    - false
+    - documents
+    - 2010-03-22 10:37:46
+    - 2010-04-20 11:57:44
+    - true
+    - true
+    - Management Tools
+    - 
+    - 
+    - false
+    - 
+    - true
+  - - "41"
+    - Content Pages
+    - admin/page_nodes
+    - ""
+    - "2"
+    - false
+    - ""
+    - 2010-04-26 13:39:05
+    - 2011-01-14 15:17:56
+    - true
+    - true
+    - Website Content
+    - 
+    - "1"
+    - false
+    - 
+    - true
+  - - "42"
+    - News
+    - admin/articles
+    - ""
+    - "5"
+    - false
+    - ""
+    - 2010-11-23 09:33:08
+    - 2011-01-14 15:22:00
+    - true
+    - true
+    - Website Content
+    - 
+    - "1"
+    - false
+    - 
+    - true
+  - - "43"
+    - Blog Entries
+    - admin/blog_entries
+    - ""
+    - "9"
+    - false
+    - ""
+    - 2010-11-23 09:34:42
+    - 2010-11-23 09:34:42
+    - true
+    - true
+    - Website Content
+    - 
+    - 
+    - false
+    - 
+    - true
+  - - "44"
+    - FAQs
+    - admin/faqs
+    - ""
+    - "14"
+    - false
+    - ""
+    - 2010-11-23 09:35:09
+    - 2010-11-25 12:33:47
+    - true
+    - true
+    - Website Content
+    - 
+    - "1"
+    - false
+    - 
+    - true
+  - - "45"
+    - Testimonials
+    - admin/testimonials
+    - ""
+    - "13"
+    - false
+    - ""
+    - 2010-11-23 09:35:33
+    - 2010-11-23 09:35:33
+    - true
+    - true
+    - Website Content
+    - 
+    - 
+    - false
+    - 
+    - true
+  - - "46"
+    - Case Studies
+    - admin/case_studies
+    - ""
+    - "10"
+    - false
+    - ""
+    - 2010-11-23 09:35:56
+    - 2010-11-23 09:35:56
+    - true
+    - true
+    - Website Content
+    - 
+    - 
+    - false
+    - 
+    - true
+  - - "47"
+    - Products
+    - admin/products
+    - ""
+    - "16"
+    - false
+    - ""
+    - 2010-11-23 10:25:19
+    - 2011-01-14 15:17:12
+    - true
+    - true
+    - Website Content
+    - 
+    - "1"
+    - false
+    - 
+    - true
+  - - "48"
+    - Makes
+    - admin/makes
+    - ""
+    - "18"
+    - false
+    - ""
+    - 2010-11-23 11:14:07
+    - 2010-11-23 11:14:07
+    - true
+    - true
+    - Website Content
+    - 
+    - 
+    - false
+    - 
+    - true
+  - - "49"
+    - Categories
+    - admin/categories
+    - ""
+    - "17"
+    - false
+    - ""
+    - 2010-11-23 11:15:13
+    - 2010-11-23 11:15:13
+    - true
+    - true
+    - Website Content
+    - 
+    - 
+    - false
+    - 
+    - true
+  - - "50"
+    - White Papers
+    - admin/white_papers
+    - ""
+    - "8"
+    - false
+    - ""
+    - 2010-11-23 11:54:30
+    - 2010-11-23 11:54:30
+    - true
+    - true
+    - Website Content
+    - 
+    - 
+    - false
+    - 
+    - true
+  - - "51"
+    - Cross Sells
+    - admin/cross_sells
+    - ""
+    - "19"
+    - false
+    - ""
+    - 2010-11-23 13:30:53
+    - 2010-11-23 13:30:53
+    - true
+    - true
+    - Website Content
+    - 
+    - 
+    - false
+    - 
+    - true
+  - - "55"
+    - Cost Calculations
+    - admin/cost_calculations
+    - ""
+    - "6"
+    - false
+    - ""
+    - 2010-11-30 10:22:42
+    - 2010-11-30 10:22:42
+    - true
+    - true
+    - Website Content
+    - 
+    - 
+    - false
+    - 
+    - true
+  - - "56"
+    - Customer Satisfaction
+    - admin/surveys
+    - ""
+    - "12"
+    - false
+    - ""
+    - 2011-01-11 10:32:52
+    - 2011-01-14 15:20:07
+    - true
+    - true
+    - Website Content
+    - 
+    - "1"
+    - false
+    - 
+    - true
+  - - "57"
+    - Green Arena Texts
+    - admin/green_arena_texts
+    - ""
+    - "3"
+    - false
+    - ""
+    - 2011-01-11 12:44:58
+    - 2011-01-11 12:44:58
+    - true
+    - true
+    - Website Content
+    - 
+    - 
+    - false
+    - 
+    - true
+  - - "58"
+    - Arena Community Images
+    - admin/galleries
+    - ""
+    - "4"
+    - false
+    - ""
+    - 2011-01-11 15:29:22
+    - 2011-01-14 15:22:23
+    - true
+    - true
+    - Website Content
+    - 
+    - "1"
+    - false
+    - 
+    - true
+  - - "59"
+    - Home Highlights
+    - admin/home_highlights
+    - ""
+    - "1"
+    - false
+    - ""
+    - 2011-01-13 11:07:02
+    - 2011-01-13 11:07:02
+    - true
+    - true
+    - Website Content
+    - 
+    - 
+    - false
+    - 
+    - true
+  - - "60"
+    - Customer Feedback
+    - admin/feedbacks
+    - ""
+    - "11"
+    - false
+    - ""
+    - 2011-01-13 13:52:33
+    - 2011-01-14 15:20:27
+    - true
+    - true
+    - Website Content
+    - 
+    - "1"
+    - false
+    - 
+    - true
+  - - "62"
+    - Product Information
+    - ""
+    - ""
+    - "15"
+    - false
+    - ""
+    - 2011-01-14 15:15:04
+    - 2011-01-14 15:17:32
+    - true
+    - true
+    - Website Content
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+  - - "63"
+    - Customer Resources
+    - ""
+    - ""
+    - "7"
+    - false
+    - ""
+    - 2011-01-14 15:18:49
+    - 2011-01-14 15:18:49
+    - true
+    - true
+    - Website Content
+    - "1"
+    - 
+    - false
+    - 
+    - true
+
+--- 
+feedbacks: 
+  columns: 
+  - id
+  - name
+  - content
+  - created_at
+  - updated_at
+  - created_by
+  - updated_by
+  - recycled
+  - recycled_at
+  - display
+  - position
+  records: 
+  - - "1"
+    - Foundation
+    - |-
+      "Just a quick line to pass on our thanks and to say how impressed  with the customer service quality we received this afternoon from Kyle  Arnold and John Crookes. They were extremely helpful and patient in  explaining the different functions and capabilities of our relatively  new machine.
+      <p>Their experience proved invaluable this afternoon and we would be grateful if this could be recognised in some way."</p>
+      <p>Many thanks,<br />Catherine Wright</p>
+    - 2011-01-13 14:25:13
+    - 2011-01-13 14:25:13
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+
+--- 
+galleries: 
+  columns: 
+  - id
+  - name
+  - summary
+  - created_at
+  - updated_at
+  - created_by
+  - updated_by
+  - recycled
+  - recycled_at
+  - display
+  - position
+  records: 
+  - - "2"
+    - Leeds Junior Fun Run 2010
+    - ""
+    - 2011-01-11 15:32:37
+    - 2011-01-11 15:32:37
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "2"
+  - - "3"
+    - Istanbul to Leeds
+    - ""
+    - 2011-01-11 15:33:00
+    - 2011-01-11 15:33:00
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "1"
+
+--- 
+gallery_images: 
+  columns: 
+  - id
+  - gallery_id
+  - image_file_name
+  - image_content_type
+  - image_file_size
+  - image_updated_at
+  - image_alt
+  - created_at
+  - updated_at
+  - created_by
+  - updated_by
+  - recycled
+  - recycled_at
+  - display
+  - position
+  records: 
+  - - "1"
+    - "1"
+    - community_example.jpg
+    - image/jpeg
+    - "5657"
+    - 2011-01-11 15:53:44
+    - Bikes
+    - 2011-01-11 15:53:45
+    - 2011-01-11 15:53:45
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "2"
+    - "1"
+    - community_example.jpg
+    - image/jpeg
+    - "5657"
+    - 2011-01-11 15:59:41
+    - ""
+    - 2011-01-11 15:59:42
+    - 2011-01-11 15:59:42
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "3"
+    - "1"
+    - 6_community_example.jpg
+    - image/jpeg
+    - "5650"
+    - 2011-01-11 15:59:53
+    - ""
+    - 2011-01-11 15:59:55
+    - 2011-01-11 15:59:55
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "4"
+    - "1"
+    - 6_community_example.jpg
+    - image/jpeg
+    - "5650"
+    - 2011-01-11 16:00:06
+    - ""
+    - 2011-01-11 16:00:08
+    - 2011-01-11 16:00:08
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "5"
+    - "2"
+    - 300-dpi-Junior-1.jpg
+    - image/jpeg
+    - "89078"
+    - 2011-01-17 16:49:15
+    - Leeds Junior Fun Run
+    - 2011-01-11 16:21:43
+    - 2011-01-17 16:49:16
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "6"
+    - "2"
+    - 300dpi-junior-2.jpg
+    - image/jpeg
+    - "49017"
+    - 2011-01-17 16:49:31
+    - Leeds Junior Fun Run
+    - 2011-01-11 16:21:52
+    - 2011-01-17 16:49:33
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "7"
+    - "2"
+    - junior-3.jpg
+    - image/jpeg
+    - "105313"
+    - 2011-01-17 16:49:46
+    - Leeds Junior Fun Run
+    - 2011-01-11 16:22:03
+    - 2011-01-17 16:49:48
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "8"
+    - "2"
+    - junior-4.jpg
+    - image/jpeg
+    - "64259"
+    - 2011-01-17 16:50:04
+    - Leeds Junior Fun Run
+    - 2011-01-11 16:22:14
+    - 2011-01-17 16:50:05
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "9"
+    - "3"
+    - Istanbul-to-Leeds-017.jpg
+    - image/jpeg
+    - "140030"
+    - 2011-01-17 16:32:10
+    - Istanbul to Leeds
+    - 2011-01-11 16:22:36
+    - 2011-01-17 16:32:11
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "10"
+    - "3"
+    - Istanbul-to-Leeds-026low-res.jpg
+    - image/jpeg
+    - "119661"
+    - 2011-01-17 16:32:27
+    - Istanbul to Leeds
+    - 2011-01-11 16:22:48
+    - 2011-01-17 16:32:29
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "11"
+    - "3"
+    - Istanbul-to-Leeds-033.jpg
+    - image/jpeg
+    - "78099"
+    - 2011-01-17 16:32:42
+    - Istanbul to Leeds
+    - 2011-01-11 16:23:00
+    - 2011-01-17 16:32:44
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "12"
+    - "3"
+    - Istanbul-to-Leeds-037.jpg
+    - image/jpeg
+    - "108057"
+    - 2011-01-17 16:33:05
+    - Istanbul to Leeds
+    - 2011-01-11 16:23:09
+    - 2011-01-17 16:33:06
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "13"
+    - "3"
+    - Istanbul-to-Leeds-045.jpg
+    - image/jpeg
+    - "70767"
+    - 2011-01-17 16:33:34
+    - Istanbul to Leeds
+    - 2011-01-11 17:05:44
+    - 2011-01-17 16:33:35
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "14"
+    - "3"
+    - Istanbul-to-Leeds-048.jpg
+    - image/jpeg
+    - "94751"
+    - 2011-01-17 16:33:53
+    - Istanbul to Leeds
+    - 2011-01-12 15:55:40
+    - 2011-01-17 16:33:55
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "15"
+    - "2"
+    - junior-5.jpg
+    - image/jpeg
+    - "58867"
+    - 2011-01-17 16:50:20
+    - Leeds Junior Fun Run
+    - 2011-01-12 16:03:01
+    - 2011-01-17 16:50:21
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "16"
+    - "2"
+    - Junior-6.jpg
+    - image/jpeg
+    - "109177"
+    - 2011-01-17 16:50:53
+    - Leeds Junior Fun Run
+    - 2011-01-17 16:50:55
+    - 2011-01-17 16:50:55
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "17"
+    - "2"
+    - junior-7.jpg
+    - image/jpeg
+    - "53186"
+    - 2011-01-17 16:51:08
+    - Leeds Junior Fun Run
+    - 2011-01-17 16:51:09
+    - 2011-01-17 16:51:09
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "18"
+    - "2"
+    - junior-8.jpg
+    - image/jpeg
+    - "51225"
+    - 2011-01-17 16:51:19
+    - Leeds Junior Fun Run
+    - 2011-01-17 16:51:20
+    - 2011-01-17 16:51:20
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "19"
+    - "2"
+    - junior-9.jpg
+    - image/jpeg
+    - "76572"
+    - 2011-01-17 16:51:33
+    - Leeds Junior Fun Run
+    - 2011-01-17 16:51:35
+    - 2011-01-17 16:51:35
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "20"
+    - "2"
+    - junior-10.jpg
+    - image/jpeg
+    - "137096"
+    - 2011-01-17 16:51:48
+    - Leeds Junior Fun Run
+    - 2011-01-17 16:51:49
+    - 2011-01-17 16:51:49
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "21"
+    - "2"
+    - junior-11.jpg
+    - image/jpeg
+    - "84687"
+    - 2011-01-17 16:52:02
+    - Leeds Junior Fun Run
+    - 2011-01-17 16:52:04
+    - 2011-01-17 16:52:04
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "22"
+    - "2"
+    - junior-12.jpg
+    - image/jpeg
+    - "101185"
+    - 2011-01-17 16:52:17
+    - Leeds Junior Fun Run
+    - 2011-01-17 16:52:18
+    - 2011-01-17 16:52:18
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "23"
+    - "2"
+    - junior-13.jpg
+    - image/jpeg
+    - "61617"
+    - 2011-01-17 16:52:36
+    - Leeds Junior Fun Run
+    - 2011-01-17 16:52:37
+    - 2011-01-17 16:52:37
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "24"
+    - "2"
+    - Junior-14.jpg
+    - image/jpeg
+    - "50426"
+    - 2011-01-17 16:52:50
+    - Leeds Junior Fun Run
+    - 2011-01-17 16:52:52
+    - 2011-01-17 16:52:52
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "25"
+    - "2"
+    - Junior-15.jpg
+    - image/jpeg
+    - "56778"
+    - 2011-01-17 16:53:04
+    - Leeds Junior Fun Run
+    - 2011-01-17 16:53:05
+    - 2011-01-17 16:53:05
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "26"
+    - "2"
+    - Junior-16.jpg
+    - image/jpeg
+    - "47326"
+    - 2011-01-17 16:53:17
+    - Leeds Junior Fun Run
+    - 2011-01-17 16:53:19
+    - 2011-01-17 16:53:19
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "27"
+    - "2"
+    - Junior-17.jpg
+    - image/jpeg
+    - "107572"
+    - 2011-01-17 16:53:33
+    - Leeds Junior Fun Run
+    - 2011-01-17 16:53:34
+    - 2011-01-17 16:53:34
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "28"
+    - "2"
+    - Junior-18.jpg
+    - image/jpeg
+    - "85181"
+    - 2011-01-17 16:53:47
+    - Leeds Junior Fun Run
+    - 2011-01-17 16:53:48
+    - 2011-01-17 16:53:48
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "29"
+    - "2"
+    - Junior-19.jpg
+    - image/jpeg
+    - "95977"
+    - 2011-01-17 16:54:01
+    - Leeds Junior Fun Run
+    - 2011-01-17 16:54:02
+    - 2011-01-17 16:54:02
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "30"
+    - "2"
+    - Junior-20.jpg
+    - image/jpeg
+    - "111971"
+    - 2011-01-17 16:54:16
+    - Leeds Junior Fun Run
+    - 2011-01-17 16:54:17
+    - 2011-01-17 16:54:17
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "31"
+    - "2"
+    - Junior-21.jpg
+    - image/jpeg
+    - "45336"
+    - 2011-01-17 16:54:28
+    - Leeds Junior Fun Run
+    - 2011-01-17 16:54:29
+    - 2011-01-17 16:54:29
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "32"
+    - "2"
+    - Junior-22.jpg
+    - image/jpeg
+    - "58633"
+    - 2011-01-17 16:54:46
+    - Leeds Junior Fun Run
+    - 2011-01-17 16:54:47
+    - 2011-01-17 16:54:47
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "33"
+    - "2"
+    - junior-23.jpg
+    - image/jpeg
+    - "65570"
+    - 2011-01-17 16:55:05
+    - Leeds Junior Fun Run
+    - 2011-01-17 16:55:07
+    - 2011-01-17 16:55:07
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "34"
+    - "2"
+    - junior-25.jpg
+    - image/jpeg
+    - "55738"
+    - 2011-01-17 16:55:31
+    - Leeds Junior Fun Run
+    - 2011-01-17 16:55:32
+    - 2011-01-17 16:55:32
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "35"
+    - "2"
+    - Junior-29.jpg
+    - image/jpeg
+    - "62059"
+    - 2011-01-17 16:55:43
+    - Leeds Junior Fun Run
+    - 2011-01-17 16:55:45
+    - 2011-01-17 16:55:45
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "36"
+    - "2"
+    - Junior-Girls-LtoR-3rd-Bethany-Waldegrave,-1st-Kate-Offord-2n.jpg
+    - image/jpeg
+    - "109520"
+    - 2011-01-17 16:56:02
+    - Leeds Junior Fun Run
+    - 2011-01-17 16:56:04
+    - 2011-01-17 16:56:04
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "37"
+    - "2"
+    - Junior-LtoR-2nd-Matthew-Thompson,-1st-Dominic-Owens,-3rd-Jac.jpg
+    - image/jpeg
+    - "81571"
+    - 2011-01-17 16:56:17
+    - Leeds Junior Fun Run
+    - 2011-01-17 16:56:18
+    - 2011-01-17 16:56:18
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "38"
+    - "2"
+    - Junior-Mini-Suzanne-and-Emily.jpg
+    - image/jpeg
+    - "46284"
+    - 2011-01-17 16:56:33
+    - Leeds Junior Fun Run
+    - 2011-01-17 16:56:35
+    - 2011-01-17 16:56:35
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "39"
+    - "2"
+    - Junior-Primary-School-Winners-St-Pauls-RC-Primary.jpg
+    - image/jpeg
+    - "77803"
+    - 2011-01-17 16:56:46
+    - Leeds Junior Fun Run
+    - 2011-01-17 16:56:48
+    - 2011-01-17 16:56:48
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "40"
+    - "2"
+    - Junior-Secondary-School-team-winners-Cockburn-High-School.jpg
+    - image/jpeg
+    - "95437"
+    - 2011-01-17 16:57:00
+    - Leeds Junior Fun Run
+    - 2011-01-17 16:57:02
+    - 2011-01-17 16:57:02
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "41"
+    - "2"
+    - junior26.jpg
+    - image/jpeg
+    - "49165"
+    - 2011-01-17 16:57:15
+    - Leeds Junior Fun Run
+    - 2011-01-17 16:57:16
+    - 2011-01-17 16:57:16
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "42"
+    - "2"
+    - junior27.jpg
+    - image/jpeg
+    - "53830"
+    - 2011-01-17 16:57:30
+    - Leeds Junior Fun Run
+    - 2011-01-17 16:57:31
+    - 2011-01-17 16:57:31
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "43"
+    - "2"
+    - junior28.jpg
+    - image/jpeg
+    - "53003"
+    - 2011-01-17 16:57:45
+    - Leeds Junior Fun Run
+    - 2011-01-17 16:57:47
+    - 2011-01-17 16:57:47
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "44"
+    - "2"
+    - junior30.jpg
+    - image/jpeg
+    - "129137"
+    - 2011-01-17 16:58:09
+    - Leeds Junior Fun Run
+    - 2011-01-17 16:58:10
+    - 2011-01-17 16:58:10
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "45"
+    - "2"
+    - junior31.jpg
+    - image/jpeg
+    - "130973"
+    - 2011-01-17 16:58:24
+    - Leeds Junior Fun Run
+    - 2011-01-17 16:58:25
+    - 2011-01-17 16:58:25
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "46"
+    - "2"
+    - junior32.jpg
+    - image/jpeg
+    - "142733"
+    - 2011-01-17 16:58:38
+    - Leeds Junior Fun Run
+    - 2011-01-17 16:58:39
+    - 2011-01-17 16:58:39
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "47"
+    - "2"
+    - Junior33.jpg
+    - image/jpeg
+    - "66819"
+    - 2011-01-17 16:58:54
+    - Leeds Junior Fun Run
+    - 2011-01-17 16:58:55
+    - 2011-01-17 16:58:55
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "48"
+    - "2"
+    - Junior34.jpg
+    - image/jpeg
+    - "91028"
+    - 2011-01-17 16:59:08
+    - Leeds Junior Fun Run
+    - 2011-01-17 16:59:09
+    - 2011-01-17 16:59:09
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "50"
+    - "2"
+    - junior37.jpg
+    - image/jpeg
+    - "103339"
+    - 2011-01-17 16:59:39
+    - Leeds Junior Fun Run
+    - 2011-01-17 16:59:41
+    - 2011-01-17 16:59:41
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "51"
+    - "2"
+    - Junipr-17.jpg
+    - image/jpeg
+    - "43210"
+    - 2011-01-17 16:59:55
+    - Leeds Junior Fun Run
+    - 2011-01-17 16:59:57
+    - 2011-01-17 16:59:57
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "52"
+    - "2"
+    - Mini-winners-Jacob-and-Dionne-Ellis.jpg
+    - image/jpeg
+    - "60146"
+    - 2011-01-17 17:00:10
+    - Leeds Junior Fun Run
+    - 2011-01-17 17:00:11
+    - 2011-01-17 17:00:11
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+
+--- 
+green_arena_texts: 
+  columns: 
+  - id
+  - content
+  - created_at
+  - updated_at
+  - created_by
+  - updated_by
+  - recycled
+  - recycled_at
+  - display
+  - position
+  records: 
+  - - "1"
+    - Comply with all environmental legal and other requirements
+    - 2011-01-11 13:25:08
+    - 2011-01-12 15:51:13
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "2"
+    - Reduce pollution
+    - 2011-01-11 13:29:27
+    - 2011-01-12 15:51:30
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "3"
+    - Keep packaging to a minimum and re-use packaging
+    - 2011-01-11 13:29:35
+    - 2011-01-12 15:51:42
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "4"
+    - Promote re-use of products, recycle waste & reduce energy consumption, by use of best practice and technology
+    - 2011-01-11 13:30:05
+    - 2011-01-12 15:52:06
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "5"
+    - Select products & services (including company vehicles) based on their environmental impact in conjunction with commercial considerations
+    - 2011-01-11 13:30:20
+    - 2011-01-12 15:52:24
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "6"
+    - Communicate with customers, employees, suppliers and sub-contractors to promote awareness of environmental issues
+    - 2011-01-12 15:52:38
+    - 2011-01-12 15:52:38
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "7"
+    - Commit to a program of continuous improvement
+    - 2011-01-12 15:52:46
+    - 2011-01-12 15:52:46
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "8"
+    - Monitor performance against targets
+    - 2011-01-12 15:53:03
+    - 2011-01-12 15:53:03
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "9"
+    - Review this policy on a regular basis
+    - 2011-01-12 15:53:19
+    - 2011-01-12 15:53:19
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "10"
+    - Establish & maintain an Environmental Management System (EMS)
+    - 2011-01-12 15:53:34
+    - 2011-01-12 15:53:34
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+
+--- 
+home_highlights: 
+  columns: 
+  - id
+  - name
+  - summary
+  - link
+  - created_at
+  - updated_at
+  - created_by
+  - updated_by
+  - recycled
+  - recycled_at
+  - display
+  - position
+  - image_file_name
+  - image_content_type
+  - image_file_size
+  - image_updated_at
+  - image_alt
+  records: 
+  - - "1"
+    - A4e
+    - The quality of the machines and responsiveness from Arena help ensure we can be the best at what we do.
+    - /case_studies/3
+    - 2011-01-13 12:40:38
+    - 2011-01-13 12:40:38
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+    - top_pic_right_example.jpg
+    - image/jpeg
+    - "43822"
+    - 2011-01-13 12:40:37
+    - ""
+  - - "2"
+    - Bolton St. Catherine's Academy
+    - We've just got a booklet maker and Arena's salesman talked to our reprographics person about what she needs, what she wants to do and how she will use it so that they found the right machine.
+    - /case_studies/4
+    - 2011-01-13 12:46:39
+    - 2011-01-13 12:46:39
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+    - _JFP9938.jpg
+    - image/jpeg
+    - "238927"
+    - 2011-01-13 12:46:36
+    - ""
+
+--- 
+images: 
+  columns: 
+  - id
+  - created_at
+  - updated_at
+  - created_by
+  - updated_by
+  - image_content_type
+  - image_file_name
+  - image_file_size
+  - image_updated_at
+  records: 
+  - - "1"
+    - 2010-11-23 16:29:05
+    - 2010-11-23 16:29:05
+    - 
+    - 
+    - image/jpeg
+    - 251105_Canon_Printer.jpg
+    - "42731"
+    - 2010-11-23 16:29:04
+  - - "2"
+    - 2010-11-26 09:57:50
+    - 2010-11-26 09:57:50
+    - 
+    - 
+    - image/jpeg
+    - pic_home.jpg
+    - "57661"
+    - 2010-11-26 09:57:49
+  - - "3"
+    - 2011-01-06 14:06:55
+    - 2011-01-06 14:06:55
+    - 
+    - 
+    - image/gif
+    - arena_edm_example_lg.gif
+    - "5160"
+    - 2011-01-06 14:06:53
+  - - "4"
+    - 2011-01-06 15:29:44
+    - 2011-01-06 15:29:44
+    - 
+    - 
+    - image/jpeg
+    - about_us.jpg
+    - "35872"
+    - 2011-01-06 15:29:43
+  - - "7"
+    - 2011-01-17 09:47:21
+    - 2011-01-17 09:47:21
+    - 
+    - 
+    - image/jpeg
+    - e_studio166_medium.jpg
+    - "7820"
+    - 2011-01-17 09:47:20
+  - - "8"
+    - 2011-01-17 16:32:12
+    - 2011-01-17 16:32:12
+    - 
+    - 
+    - image/jpeg
+    - Istanbul-to-Leeds-017.jpg
+    - "139942"
+    - 2011-01-17 16:32:11
+  - - "9"
+    - 2011-01-18 10:09:38
+    - 2011-01-18 10:09:38
+    - 
+    - 
+    - image/jpeg
+    - testimonials_37_park.jpg
+    - "36221"
+    - 2011-01-18 10:09:37
+  - - "10"
+    - 2011-01-18 10:11:42
+    - 2011-01-18 10:11:42
+    - 
+    - 
+    - image/jpeg
+    - testimonials_a4e.jpg
+    - "32791"
+    - 2011-01-18 10:11:42
+  - - "11"
+    - 2011-01-18 10:12:11
+    - 2011-01-18 10:12:11
+    - 
+    - 
+    - image/jpeg
+    - testimonials_bolton_st_catherine.jpg
+    - "40860"
+    - 2011-01-18 10:12:10
+  - - "12"
+    - 2011-01-18 10:12:46
+    - 2011-01-18 10:12:46
+    - 
+    - 
+    - image/jpeg
+    - testimonials_the_grange_comprehensive.jpg
+    - "23634"
+    - 2011-01-18 10:12:45
+  - - "13"
+    - 2011-01-18 10:13:22
+    - 2011-01-18 10:13:22
+    - 
+    - 
+    - image/jpeg
+    - testimonials_leeds_trinity.jpg
+    - "30555"
+    - 2011-01-18 10:13:21
+  - - "14"
+    - 2011-01-18 10:13:50
+    - 2011-01-18 10:13:50
+    - 
+    - 
+    - image/jpeg
+    - testimonials_morrish_solicitors.jpg
+    - "28084"
+    - 2011-01-18 10:13:50
+  - - "15"
+    - 2011-01-18 10:14:23
+    - 2011-01-18 10:14:23
+    - 
+    - 
+    - image/jpeg
+    - testimonials_reed_boardall.jpg
+    - "28455"
+    - 2011-01-18 10:14:22
+  - - "16"
+    - 2011-01-18 10:15:16
+    - 2011-01-18 10:15:16
+    - 
+    - 
+    - image/jpeg
+    - testimonials_wetherby_high.jpg
+    - "27472"
+    - 2011-01-18 10:15:16
+  - - "17"
+    - 2011-01-18 10:17:38
+    - 2011-01-18 10:17:38
+    - 
+    - 
+    - image/jpeg
+    - engineers_john_crookes.jpg
+    - "21008"
+    - 2011-01-18 10:17:38
+
+--- 
+makes: 
+  columns: 
+  - id
+  - name
+  - created_at
+  - updated_at
+  - created_by
+  - updated_by
+  - recycled
+  - recycled_at
+  - display
+  - position
+  - image_file_name
+  - image_content_type
+  - image_file_size
+  - image_updated_at
+  - image_alt
+  records: 
+  - - "1"
+    - Toshiba
+    - 2010-11-24 10:40:35
+    - 2011-01-12 15:35:14
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - Toshiba.gif
+    - image/gif
+    - "1031"
+    - 2011-01-12 15:35:10
+    - Toshiba
+  - - "2"
+    - RICOH
+    - 2010-11-24 10:40:45
+    - 2011-01-12 15:35:55
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - RICOH.jpg
+    - image/jpeg
+    - "17107"
+    - 2011-01-12 15:35:54
+    - RICOH
+  - - "3"
+    - RISO
+    - 2011-01-12 15:36:10
+    - 2011-01-12 15:36:10
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+    - RISO.gif
+    - image/gif
+    - "1909"
+    - 2011-01-12 15:36:06
+    - RISO
+  - - "4"
+    - UTAX
+    - 2011-01-12 15:36:24
+    - 2011-01-12 15:36:24
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+    - UTAX.gif
+    - image/gif
+    - "1195"
+    - 2011-01-12 15:36:19
+    - UTAX
+
+--- 
+page_contents: 
+  columns: 
+  - id
+  - navigation_title
+  - url_title
+  - title
+  - page_node_id
+  - completed
+  - published
+  - active
+  - last_updated_at
+  - main_content
+  - created_at
+  - updated_at
+  - meta_description
+  - meta_tags
+  - created_by
+  - updated_by
+  - recycled
+  - recycled_at
+  - display
+  - position
+  records: 
+  - - "1"
+    - Contact Us
+    - contact_us
+    - Contact Us
+    - "1"
+    - false
+    - false
+    - true
+    - 2010-04-29 08:55:42
+    - |-
+      <p>Armitage House<br />Thorpe Lower Lane<br />Robin Hood<br />Wakefield<br />WF3 3BQ</p>
+      <h2>General</h2>
+      <p>Tel: <span>0844 863 8000<br />Email: </span><a href="mailto:info@arenagroup.net">info@arenagroup.net</a></p>
+      <h2>Sales</h2>
+      <p>Tel: 0844 863 8000<br />Fax: 0113 288 0671<br />Email: <a href="mailto:sales@arenagroup.net">sales@arenagroup.net</a></p>
+      <h2>Service</h2>
+      <p>Tel: 0844 863 8008<br />Email: <a href="mailto:service@arenagroup.net">service@arenagroup.net</a><br /><br /></p>
+      <p>&nbsp;</p>
+    - 2010-06-29 15:18:17
+    - 2011-01-12 11:51:55
+    - ""
+    - ""
+    - 
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "2"
+    - Services
+    - services
+    - Services
+    - "2"
+    - false
+    - false
+    - true
+    - 2010-04-29 08:55:42
+    - ""
+    - 2010-11-23 12:48:09
+    - 2011-01-12 12:23:24
+    - ""
+    - ""
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "3"
+    - Products
+    - product_catalogue
+    - Products
+    - "3"
+    - false
+    - false
+    - true
+    - 2010-04-29 08:55:42
+    - The front page of the products catalogue.
+    - 2010-11-23 12:49:03
+    - 2011-01-12 12:11:42
+    - ""
+    - ""
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "4"
+    - Engineers
+    - our_engineers
+    - Engineers
+    - "4"
+    - false
+    - false
+    - true
+    - 2010-04-29 08:55:42
+    - |-
+      <p class="introduction"><img class="image_right" src="../../../assets/page_contents/4/contained_images/d9e0bf63f2c9_17_engineers_john_crookes.jpg?1295345858" border="0" alt="" hspace="0" vspace="0" width="250" />We have run an apprenticeship programme to train our service engineers since 1994. The five year apprenticeship combines training in the latest technologies with customer care skills.&nbsp;&nbsp;</p>
+      <p>Technical support manager John Crookes joined Arena&rsquo;s Apprenticeship programme 10 years ago straight from school after his GCSEs.</p>
+      <p>He supports a team of engineers and is still on the road himself.</p>
+      <p>&ldquo;I&rsquo;ve grown up at Arena. I joined the apprenticeship programme at 16, not really knowing what I wanted to do. But it was clear that I could progress here and there were good incentives to encourage me."</p>
+      <p>&ldquo;The best bit of my job is going out and meeting our customers. It&rsquo;s important to build a relationship with them.&nbsp; We&rsquo;re not simply fixing a machine, but helping a client.&rdquo;&nbsp;</p>
+      <p>21-year-old Craig Russell joined Arena&rsquo;s apprenticeship programme just over two years&rsquo; ago.</p>
+      &ldquo;We get the very best training, including the chance to learn from big manufacturers such as Toshiba and Kyocera.&nbsp; Being able to work on the very latest machines is a real help with my job.&rdquo;
+    - 2010-11-23 12:50:26
+    - 2011-01-18 10:25:31
+    - ""
+    - ""
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "6"
+    - Online Support
+    - customer_care
+    - Online Support
+    - "6"
+    - false
+    - false
+    - true
+    - 2010-04-29 08:55:42
+    - |-
+      <p class="introduction">We pride ourselves on our commitment to excellent customer service.&nbsp;&nbsp; All Arena employees sign up to our <strong>Six Golden Rules </strong>for providing outstanding customer service.&nbsp;</p>
+      <p>From our backroom team that parcel up the toners for your printers to our sales team and service engineers, everyone follows the rules:</p>
+      <ul>
+      <li>&nbsp;&nbsp; Answer your phone</li>
+      <li>&nbsp;&nbsp; Don&rsquo;t make promises unless you will keep them</li>
+      <li>&nbsp;&nbsp; Listen to your customers</li>
+      <li>&nbsp;&nbsp; Deal with complaints</li>
+      <li>&nbsp;&nbsp; Be helpful</li>
+      <li>&nbsp;&nbsp; Take the extra step</li>
+      </ul>
+    - 2010-11-23 12:52:34
+    - 2011-01-06 15:21:53
+    - ""
+    - ""
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "7"
+    - Testimonials
+    - testimonials
+    - Testimonials
+    - "7"
+    - false
+    - false
+    - true
+    - 2010-04-29 08:55:42
+    - ""
+    - 2010-11-23 12:53:20
+    - 2010-11-23 12:53:31
+    - ""
+    - ""
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "8"
+    - Case Studies
+    - case_studies
+    - Case Studies
+    - "8"
+    - false
+    - false
+    - true
+    - 2010-04-29 08:55:42
+    - This is the front page of the Case Studies section.
+    - 2010-11-23 12:54:08
+    - 2010-11-26 14:33:13
+    - ""
+    - ""
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "9"
+    - Arena Community
+    - community
+    - Arena Community
+    - "9"
+    - false
+    - false
+    - true
+    - 2010-04-29 08:55:42
+    - |-
+      <p class="introduction"><strong></strong>At Arena we believe in giving back to our community.&nbsp; Many of our charitable and voluntary activities are focussed on helping children and young people. Some of the ways we help:</p>
+      <ul>
+      <li>Arena is the main sponsor of the Jane Tomlinson Appeal&rsquo;s Junior and Mini Fun Run and pays for the entry fees of every one of the 1,100 youngsters taking part</li>
+      <li>Through partnerships with Barnados and Leeds Ahead our employees have helped schools to deliver enterprise projects and cleared up urban areas</li>
+      <li>All our employees are given two days a year to get involved with local charities</li>
+      <li>Our Bolton office has set a &pound;5000 donation target to help the Big Bolton Fund in its grant provision for community and voluntary groups</li>
+      </ul>
+      We match fund employees&rsquo; fundraising for charities.
+    - 2010-11-23 12:54:41
+    - 2011-01-06 15:58:11
+    - ""
+    - ""
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "10"
+    - Green Arena
+    - green_area
+    - Green Arena
+    - "10"
+    - false
+    - false
+    - true
+    - 2010-04-29 08:55:42
+    - |-
+      <p class="introduction">Arena has its own environmental policy and we know that sustainability is an issue for most of the businesses, organisations, schools, colleges and universities  we work with.</p>
+      <p>We help our customers in a number of ways to be eco-friendly and to achieve sustainability and low carbon targets.</p>
+      <ul>
+      <li>Energy efficient printers and copiers that use less power and have sleep modes</li>
+      <li>Bespoke software&nbsp; that ensures staff and students only print what they need&nbsp;</li>
+      <li>Machines that print on both sides of the paper</li>
+      <li>Electronic document management system using our own software <strong>m</strong>store that scans, stores, organises and retrieves critical documents - saving on paper costs</li>
+      <li>We can take away and recycle your old printers</li>
+      </ul>
+    - 2010-11-23 12:55:14
+    - 2011-01-11 16:45:56
+    - ""
+    - ""
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "11"
+    - Security
+    - security
+    - Security
+    - "11"
+    - false
+    - false
+    - true
+    - 2010-04-29 08:55:42
+    - Security page.
+    - 2010-11-23 12:55:40
+    - 2011-01-06 10:43:05
+    - ""
+    - ""
+    - "1"
+    - "1"
+    - true
+    - 2011-01-06 10:43:05
+    - true
+    - "0"
+  - - "12"
+    - Customers
+    - free_resources
+    - Customers
+    - "12"
+    - false
+    - false
+    - true
+    - 2010-04-29 08:55:42
+    - <p class="introduction">Customer satisfaction is core to our overall mission. Because of this we regulary survey our customers to find out what they think of us, then we take action to improve any areas of weakness.</p>
+    - 2010-11-23 12:56:38
+    - 2011-01-12 12:23:55
+    - ""
+    - ""
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "13"
+    - Driver Downloads
+    - driver_download
+    - Driver Downloads
+    - "13"
+    - false
+    - false
+    - true
+    - 2010-04-29 08:55:42
+    - |-
+      <p>This page contains links to a treasure trove of documentation on our products: brochures, software drivers, product data sheets and more.</p>
+      <p>Those documents can be downloaded and viewed in PDF format using the free <a href="http://get.adobe.com/reader" target="_blank">Adobe Acrobat Reader</a>.</p>
+      <p>Please note that we cannot be held responsible for the content or the misuse of any file downloaded from any of these locations.</p>
+      <div class="driver_downloads">
+      <hr />
+      <h2>Printer Drivers</h2>
+      <p><a href="https://topview.toshibatec.com/pds/faces/pages/PDS001.jspx" target="_blank"><img src="http://www.arenagroupservice.net/images/toshiba.gif" border="0" alt="" width="100" /></a></p>
+      <p><a href="http://www.oki.co.uk/fcgi-bin/public.fcgi?cid=125&amp;grid=&amp;pid=6&amp;chid=1" target="_blank"><img src="http://www.arenagroupservice.net/images/oki.gif" border="0" alt="" width="100" /></a></p>
+      <p><a href="http://www.ricoh-support.com/enduser/downloads/" target="_blank"><img src="http://www.arenagroupservice.net/images/ricoh.gif" border="0" alt="" width="100" /></a></p>
+      <p><a href="http://www.brother-support.co.uk/" target="_blank"><img src="http://www.arenagroupservice.net/images/brother.gif" border="0" alt="" width="100" /></a></p>
+      <p><a href="http://support.lexmark.com/index?page=home&amp;locale=EN&amp;userlocale=EN_UK&amp;segment=DOWNLOAD" target="_blank"><img src="http://www.arenagroupservice.net/images/lexmark.gif" border="0" alt="" width="100" /></a></p>
+      <p><a href="http://www.kyoceramita.co.uk/index/products/download_centre.html" target="_blank"><img src="http://www.arenagroupservice.net/images/kyocera.gif" border="0" alt="" width="100" /></a></p>
+      <hr />
+      <h2 class="clear">User Manuals</h2>
+      <p><a href="http://imaging.toshiba.co.uk/cgi-bin/WebObjects/TPublicPortalUK.woa/wa/toKeyPage?key=dl_uk" target="_blank"><img src="http://www.arenagroupservice.net/images/toshiba.gif" border="0" alt="" width="100" /></a></p>
+      <p><a href="http://www.oki.co.uk/fcgi-bin/public.fcgi?pid=60&amp;cid=125&amp;chid=1" target="_blank"><img src="http://www.arenagroupservice.net/images/oki.gif" border="0" alt="" width="100" /></a></p>
+      <p><a href="javascript: alert('Unfortunately Ricoh only offer replacement manuals through Dealers, please contact us for assistance')"> <img src="http://www.arenagroupservice.net/images/ricoh.gif" border="0" alt="" width="100" /></a></p>
+      <p><a href="http://www.brother-support.co.uk/" target="_blank"><img src="http://www.arenagroupservice.net/images/brother.gif" border="0" alt="" width="100" /></a></p>
+      <p><a href="../../../page/electronic-document-management-edm"><img src="http://www.arenagroupservice.net/images/edm.gif" border="0" alt="" /></a></p>
+      <p><a href="http://images.lexmark.com/publications/pdfs/2007/index/en.html" target="_blank"><img src="http://www.arenagroupservice.net/images/lexmark.gif" border="0" alt="" width="100" /></a></p>
+      <p><a href="http://www.kyoceramita.co.uk/index/products/download_centre.html" target="_blank"><img src="http://www.arenagroupservice.net/images/kyocera.gif" border="0" alt="" width="100" /></a></p>
+      <hr />
+      </div>
+    - 2010-11-23 12:57:30
+    - 2011-01-17 14:31:15
+    - ""
+    - ""
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "14"
+    - White Papers
+    - white_papers
+    - White Papers
+    - "14"
+    - false
+    - false
+    - true
+    - 2010-04-29 08:55:42
+    - ""
+    - 2010-11-23 12:58:35
+    - 2010-11-23 12:58:49
+    - ""
+    - ""
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "15"
+    - Blog
+    - blog
+    - Blog
+    - "15"
+    - false
+    - false
+    - true
+    - 2010-04-29 08:55:42
+    - ""
+    - 2010-11-23 12:59:22
+    - 2010-11-23 13:02:15
+    - ""
+    - ""
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "16"
+    - FAQs
+    - faqs
+    - FAQs
+    - "16"
+    - false
+    - false
+    - true
+    - 2010-04-29 08:55:42
+    - ""
+    - 2010-11-23 13:02:42
+    - 2010-11-23 13:02:53
+    - ""
+    - ""
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "17"
+    - News
+    - news
+    - News
+    - "17"
+    - false
+    - false
+    - true
+    - 2010-04-29 08:55:42
+    - ""
+    - 2010-11-23 13:03:17
+    - 2010-11-23 13:03:31
+    - ""
+    - ""
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "18"
+    - About Us
+    - about_us
+    - About Us
+    - "18"
+    - false
+    - false
+    - true
+    - 2010-04-29 08:55:42
+    - |-
+      <p><img src="../../../assets/page_contents/18/contained_images/ebe4d68483bd_4_about_us.jpg?1294327783" border="0" alt="" hspace="0" vspace="0" /></p>
+      <p class="introduction">Arena Group is an award-winning copier, printer, IT and electronic document management business with five offices employing 130 people across the North of England.</p>
+      <p>We are a trusted supplier of choice to many hundreds of businesses, organisations, schools, colleges and universities who rate us for our outstanding customer service as well as expertise.&nbsp;&nbsp;</p>
+      <p>Whether we are supplying one efficient photocopier or looking at new ways of managing and storing confidential documents our approach is always the same.&nbsp; We will get under the skin of your business or organisation to find out the issues and challenges you are facing and give you the most cost effective answer.</p>
+      <h2>We have won a number of national and regional awards including:</h2>
+      <ul>
+      <li>Sunday Times 100 Best Small Companies to Work For</li>
+      <li>Yorkshire&rsquo;s Best Company to Work For</li>
+      <li>Winner, British Chamber of Commerce National Award for Excellence in Customer Service</li>
+      <li>British Chamber of Commerce National Award for Excellence in People Development</li>
+      </ul>
+      <h2>Plus we have a string of top quality standards and recognitions:</h2>
+      <ul>
+      <li>Microsoft Gold Partner </li>
+      <li>ISO 9001 for quality </li>
+      <li>ISO 14001 for the environment </li>
+      <li>Yorkshire Purchasing Organisation approved supplier </li>
+      <li>Quality accreditations for our technicians </li>
+      <li>Investor in People </li>
+      </ul>
+      <h2>Our clients include:</h2>
+      <ul>
+      <li> Leeds Building Society</li>
+      <li>Reed Boardall</li>
+      <li>The University of Leeds</li>
+      <li>Bolton St Catherine&rsquo;s Academy</li>
+      <li>Carnival Cruises</li>
+      <li>37 Park Square Chambers</li>
+      <li>Morrish Solicitors LLP</li>
+      <li>Bradford Grammar School</li>
+      </ul>
+    - 2010-11-23 13:04:01
+    - 2011-01-18 09:22:55
+    - ""
+    - ""
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "20"
+    - Main Navigation
+    - main_navigation
+    - Main Navigation
+    - "20"
+    - false
+    - false
+    - true
+    - 2010-04-29 08:55:42
+    - ""
+    - 2010-11-23 14:58:19
+    - 2010-11-23 14:58:31
+    - ""
+    - ""
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "21"
+    - Second Tier Navigation
+    - second_tier_navigation
+    - Second Tier Navigation
+    - "21"
+    - false
+    - false
+    - true
+    - 2010-04-29 08:55:42
+    - ""
+    - 2010-11-23 15:13:45
+    - 2010-11-23 15:14:02
+    - ""
+    - ""
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "27"
+    - Let the Boss Know
+    - care_1
+    - Let the Boss Know
+    - "27"
+    - false
+    - false
+    - true
+    - 2010-04-29 08:55:42
+    - |-
+      <p>Sometimes you just need to talk to the man at the top. If you have something to say and you want it to go <br />straight to the boss then this is your opportunity.<br /><br />The good bad and the ugly, we want to hear it all so we can continue to improve our services. You can leave <br />your details so we can contact you quickly or you can stay anonymous if that is what you prefer.</p>
+      <p>&nbsp;</p>
+    - 2010-11-23 15:40:57
+    - 2011-01-14 17:10:57
+    - ""
+    - ""
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "29"
+    - We're Hiring
+    - hiring
+    - We're Hiring
+    - "29"
+    - false
+    - false
+    - true
+    - 2010-04-29 08:55:42
+    - |-
+      <p>We are recruiting:</p>
+      <ul>
+      <li>Sales team</li>
+      <li>Telesales</li>
+      </ul>
+      <p>Loyal and motivated employees mean that Arena&rsquo;s customers get top service.&nbsp; So from the beginning we have invested in a great team of people. Most of our employees stay with us for years.</p>
+      <p>Arena has gained national and regional recognition as a great employer&nbsp; -&nbsp; winning the title Yorkshire&rsquo;s Best Company to Work For and a Sunday Times 100 Best Small Companies to Work For.</p>
+      <h2>Current vacancies</h2>
+      <p><a class="new_window" href="http://www.arenagroupcareers.co.uk/" target="_blank">Apply here</a></p>
+      <br />
+      <p><img style="float: left; margin-right: 4px;" src="../../../images/new_window.gif" border="0" alt="Open in a new window" hspace="0" vspace="0" /> This link will open in a new window at our careers partner website: <a href="http://www.arenagroupcareers.co.uk/" target="_blank">www.arenagroupcareers.co.uk</a></p>
+    - 2010-11-23 15:44:00
+    - 2011-01-17 15:50:57
+    - ""
+    - ""
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "30"
+    - Copy and Print
+    - copy_and_print
+    - Copy and Print
+    - "30"
+    - false
+    - false
+    - true
+    - 2010-04-29 08:55:42
+    - 
+    - 2010-11-25 15:52:21
+    - 2010-11-25 15:52:21
+    - 
+    - 
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "31"
+    - Finding the right machine for you
+    - finding_the_right_machine_for_you
+    - Finding the right machine for you
+    - "36"
+    - false
+    - false
+    - true
+    - 2010-04-29 08:55:42
+    - |-
+      <p class="introduction">At Arena we know there is &lsquo;no one size fits all&rsquo; when it comes to looking for a new photocopier or printer.&nbsp; All businesses, organisations, schools, colleges and universities have very different requirements.&nbsp;</p>
+      <p>We will work with you to find out what is best for your print and copy needs:</p>
+      <ul>
+      <li>How will the machines be used?</li>
+      <li>Who is using the machines and where will they be placed?</li>
+      <li>How much do you print and what types of documents?</li>
+      <li>Do you have any special print requirements such as printing booklets</li>
+      <li>Do you need to print out large volumes of colour?</li>
+      <li>Do you want to restrict,&nbsp; use or add in cost changing facilities?</li>
+      </ul>
+      <p>Because we are an independent supplier we can regularly review the market for the best products for your school or college.&nbsp; Our four main print partners are:</p>
+      <ul>
+      <li>Toshiba</li>
+      <li>Kyocera</li>
+      <li>Ricoh</li>
+      <li>FM Audit</li>
+      </ul>
+    - 2010-11-26 11:40:40
+    - 2011-01-06 14:26:40
+    - ""
+    - ""
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "32"
+    - "Print \xE2\x80\x93 the hidden costs"
+    - "print_\xE2\x80\x93_the_hidden_costs"
+    - "Print \xE2\x80\x93 the hidden costs"
+    - "37"
+    - false
+    - false
+    - true
+    - 2010-04-29 08:55:42
+    - |-
+      <p class="introduction">Research carried out by Arena shows that print is an unrecognised and often uncontrolled cost in many businesses, organisations, schools and colleges &ndash; and can be a significant headache.</p>
+      <p>Arena&rsquo;s free print audits in more than 100 businesses and organisations showed.</p>
+      <ul>
+      <li>More than <strong>90%</strong> of businesses and schools had no idea how much they spent on print </li>
+      <li>One business had more than <strong>25 </strong>different makes and models among their <strong>93 </strong>printers</li>
+      <li>A housing association dealing with <strong>10 </strong>different suppliers for printers and consumables </li>
+      <li>A school had stockpiled a wall of toners worth almost <strong>&pound;7,000</strong> &lsquo;in case they ran out&rsquo;</li>
+      <li>An independent school thought they had <strong>39</strong> printers.&nbsp; In fact they had <strong>89</strong> printers</li>
+      <li>Businesses and schools were storing old stock for printers that had been thrown out <strong>12 months</strong> earlier</li>
+      </ul>
+      <h2>What is Managed Print Services (MPS)?</h2>
+      <ul>
+      <li>The right mix of printers and copiers to meet&nbsp; your demands and minimise costs</li>
+      <li>Software automatically monitors toners &ndash; despatched as needed</li>
+      <li>Remote monitoring &ndash; engineers at site often before you know there is a problem</li>
+      <li>Print, copy, imaging into one monthly cost</li>
+      <li>Single invoice &ndash; no surprise bills</li>
+      <li>Can take away old printers and recycle them.</li>
+      </ul>
+    - 2010-11-26 11:43:24
+    - 2011-01-06 14:27:06
+    - ""
+    - ""
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "33"
+    - Electronic Document Management (EDM)
+    - electronic_document_management_edm
+    - Electronic Document Management (EDM)
+    - "38"
+    - false
+    - false
+    - true
+    - 2010-04-29 08:55:42
+    - |-
+      <p class="introduction">Arena has a team of electronic document management (EDM) experts who can help you to streamline and improve your business processes.&nbsp;</p>
+      <p>Our focus is always on your business &ndash; what can we do to make you more profitable, ensure security of documents, minimise your archive costs or speed up retrieval of documents?&nbsp; We work closely with you to understand your business and then produce workflow systems to develop with you.</p>
+      <p>Our clients include education organisations to major corporates; public sector bodies to leisure businesses; professional firms to banks.&nbsp; Names such as Leeds Building Society, DLA, Irwin Mitchell, BBC, P&amp;O Cruises, The Open University, MyTravel and the Department for Work and Pensions.</p>
+      <p>We have created our own software, mstore, which can be integrated into your business systems and with any software whether bespoke or brand packages.</p>
+      <h2>Just some of the business issues we can help you with include</h2>
+      <ul>
+      <li>Scanning and indexing purchase orders, invoices and delivery notes</li>
+      <li>Customer satisfaction surveys and analysis of issues</li>
+      <li>Product tracking through a manufacturing process</li>
+      <li>Rapid document archiving and retrieval for legal cases</li>
+      <li>Email filing to ensure key information is not lost and can be quickly retrieved</li>
+      <li>Reducing your carbon footprint and achieve sustainability goals</li>
+      </ul>
+    - 2010-11-26 11:47:01
+    - 2011-01-06 14:25:59
+    - ""
+    - ""
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "34"
+    - EDM for the legal sector and professional services
+    - edm_for_the_legal_sector_and_professional_services
+    - EDM for the legal sector and professional services
+    - "39"
+    - false
+    - false
+    - true
+    - 2010-04-29 08:55:42
+    - |-
+      <img class="image_left" src="../assets/page_contents/34/contained_images/4e2ce32932b8_3_arena_edm_example_lg.gif?1294322813" border="0" alt="" hspace="0" vspace="0" />
+      <p class="introduction">A medium-sized law firm is typically paying between &pound;50k and &pound;100k a year &ndash; or 7% of operating expenses - on annual storage costs.&nbsp; In other professions, such as financial services, increased regulation has lead to increases in storage and costs as well as being hard to manage</p>
+      <p><br />Electronically stored documents are now legally admissible and electronic systems highly sophisticated. A thousand boxes in a warehouse can be condensed into the space of a desktop server. And with the increasing use of email, document filing is becoming a haphazard activity in many departments.</p>
+      <p>Arena&rsquo;s <strong>m</strong>store software is compatible with industry specific software such as Linetime&rsquo;s case management software Liberate for the legal sector.</p>
+      <h2>Some of the issues Arena is solving in the legal sector</h2>
+      <ul>
+      <li>Links to your case management system for easy indexing and speedy retrieval of documents</li>
+      <li>Creation of one single file per set of case documents for third party distribution</li>
+      <li>Lost employee hours searching for files, which may be stored off site</li>
+      <li>Getting mail quickly in front of fee earners ie for start of business</li>
+      <li>Viewing and storing emails using Liberate &ndash; <strong>m</strong>store allows storage of Outlook emails</li>
+      </ul>
+    - 2010-11-26 11:48:32
+    - 2011-01-06 14:10:47
+    - ""
+    - ""
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "35"
+    - "EDM for education "
+    - edm_for_education_
+    - "EDM for education "
+    - "40"
+    - false
+    - false
+    - true
+    - 2010-04-29 08:55:42
+    - |-
+      <p class="introduction">Arena has been asking a number of existing education clients about the issues they face relating to the management, control and safety of vital documents in their schools and colleges. The biggest single concern was lack of plans in place to protect records and paperwork from fire or flood.</p>
+      <p>Some of the problems Arena&rsquo;s <strong>m</strong>store system is solving in education</p>
+      <ul>
+      <li>Staff CRB checks &ndash; the system records and flags up expiry dates, ensuring all records are up to date for audits, including OFSTED inspections&nbsp; </li>
+      <li>Compliance &ndash; a special needs residential school has a system that allows staff to sign documents electronically offsite to comply with reporting incidents within 24 hours </li>
+      <li>Security &ndash; records who has viewed information and how often.&nbsp; Different users have different levels of access </li>
+      <li>Coursework &ndash; students&rsquo; work is scanned in and saved, protecting it against fire, flood or loss and saving storage space</li>
+      </ul>
+    - 2010-11-26 11:49:38
+    - 2011-01-06 14:27:45
+    - ""
+    - ""
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "36"
+    - IT
+    - it
+    - IT
+    - "41"
+    - false
+    - false
+    - true
+    - 2010-04-29 08:55:42
+    - |-
+      <p class="introduction">Arena has its own IT department and consultancy that can provide and install everything from a laptop to a fully networked system.&nbsp; We can provide general IT support, such as providing back-up to an in house IT department, or take over the IT function.</p>
+      <p>Our IT specialists are already part of the team at many of organisations we work with.&nbsp; For example, where printers are linked to a network or where our own software <strong>m</strong>store is used for electronic document management.</p>
+      <p>As we have our own in-house experts we can often create a solution to a particular IT problem.&nbsp; &nbsp;</p>
+      <h2>How we can help:</h2>
+      <ul>
+      <li>Carrying out a free comprehensive IT survey and recommendations</li>
+      <li>Supplying and servicing PCs and laptops</li>
+      <li>Installing and maintain your complete IT system</li>
+      <li>Providing support to your existing IT department</li>
+      <li>Designing and installing bespoke software to solve particular problems</li>
+      </ul>
+    - 2010-11-26 11:51:47
+    - 2011-01-06 14:28:49
+    - ""
+    - ""
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "37"
+    - Customer Feedback
+    - feedback
+    - Customer Feedback
+    - "42"
+    - false
+    - false
+    - true
+    - 2010-04-29 08:55:42
+    - ""
+    - 2010-11-26 12:32:28
+    - 2011-01-13 15:29:30
+    - ""
+    - ""
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "38"
+    - Customer Satisfaction
+    - customer_satisfaction
+    - Customer Satisfaction
+    - "43"
+    - false
+    - false
+    - true
+    - 2010-04-29 08:55:42
+    - <p class="introduction">Customers were asked to rate each area on a scale of 1-5. A score of 3 or above represented being satisfied, with scores of 1 or 2 being dissatisfied. Dissatisfied customers were contacted in order to try resolve their issues.</p>
+    - 2010-11-26 12:39:43
+    - 2011-01-12 09:46:33
+    - ""
+    - ""
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "39"
+    - Privacy Statement
+    - privacy_statement
+    - Privacy Statement
+    - "44"
+    - false
+    - false
+    - true
+    - 2010-04-29 08:55:42
+    - |-
+      <h2>1. Pledge on Privacy</h2>
+      <p>The term "personal data" as used in this Policy refers to information such as your name, e-mail address or mailing address, that can be used to identify you. Arena Group will not process your personal data without your consent. In processing your personal data, we pledge to fully comply with internationally recognized standards of privacy protection. In so doing, we ensure compliance by our staff with strict standards of security and confidentiality. The next sections explain how and when we collect personal data from you.</p>
+      <h2>2. Intended Use of Personal Data</h2>
+      <p>Most of our services do not require any form of registration, allowing you to visit our site without telling us who you are. However, some services may require registration. When you register with us, you may need to complete certain fields (some are required and some are optional), as well as choose a user name and password. In these situations, if you choose to withhold any personal data requested by us, it may not be possible for you to gain access to certain parts of the site and for us to respond to your query. Arena Group process personal data for specific and limited purposes which we inform you about when we ask you for information. For example, we may collect and use personal data to provide you with products or services, to bill you for products and services you request, to market products and services which we think may be if interest to you, or to communicate with you for other purposes. Information you send to our customer service department is used only to help resolve your problem and is otherwise kept private. Arena Group keeps your data only for as long as is reasonably needed for such purposes and in accordance with any applicable legal or ethical reporting or documentation retention requirements.</p>
+      <h2>3. Non-Disclosure of Information</h2>
+      <p>Arena Group will not sell, share, or otherwise distribute your personal data to third parties outside the Arena Group group. However, personal data may occasionally be transferred to third parties who act for or on behalf of Arena Group, or in connection with the business of Arena Group, for further processing in accordance with the purpose(s) for which the data were originally collected. Where disclosure of personal data to a third party is likely or necessary for whatever reason, Arena Group will, wherever possible, endeavour to ensure that the disclosure and intended use of the data are clearly indicated. Such third parties may operate different privacy policies. However, we endeavour to ensure that such third parties provide the same level of protection as Arena Group and, where appropriate, we will contractually require them to process data transferred only for the purposes expressly authorized by Arena Group. Your consent may always be revoked at a later date. If consent is revoked Arena Group may not be able to carry out certain requests made by you. Arena Group will, where practicable, inform third parties to whom your data have been transferred of your withdrawal of consent.</p>
+      <h2>4. Right of Access</h2>
+      <p>You have the right to access and update your personal data or to require their deletion. We endeavour to ensure that personal data are up-to-date, accurate, and complete. If you wish to access or correct your personal data held by us, please contact the webmaster. Your requests will be dealt with in a prompt and proper manner. No charge will be levied for complying with a correction request, however, for all other requests Arena Group may charge a small fee to cover its costs. Requests to delete personal data will be subject to any applicable legal and ethical reporting or document filing or retention obligations imposed on Arena Group.</p>
+      <h2>5. Security and Confidentiality</h2>
+      <p>To ensure the security and confidentiality of personal data that Arena Group collects on-line, Arena Group uses data networks protected, by industry standard firewall and password protection. Access to personal data is restricted to those employees who have a need to use the data and who have been trained to handle such data properly and observe strict standards of confidentiality. If an employee breaches our policies and procedures he/she will be disciplined accordingly. Staff compliance with our policies and procedures is regularly audited and reviewed. While we cannot guarantee against any loss, misuse or alteration to data, we try to prevent such unfortunate occurrences.</p>
+      <h2>6. Anonymous Data and "Cookies"</h2>
+      <p>Most of the information that Arena Group collects from its website(s) is anonymous information, such as the pages you visit and searches you perform. When you visit our website we do not collect any personal data from you unless otherwise authorized by you. Anonymous information is processed by Arena Group to help improve the contents of the site and to compile aggregate statistics about individuals using our site for internal, market research purposes. In so doing, Arena Group may install "cookies" that collect the first level domain name of the user (e.g., "bigmail.com" from an e-mail address of "john@bigmail.com") and the date and time of access. "Cookies" by themselves cannot be used to discover the identity of the user. A "cookie" is a small piece of information which is sent to your browser and stored on your computer's hard drive. Cookies do not damage your computer. You can set your browser to notify you when you receive a "cookie", this will enable you to decide if you want to accept it or not.</p>
+      <h2>7. Spamming</h2>
+      <p>Arena Group does not condone "spamming". Spamming is defined as sending unsolicited e-mails, usually of a commercial nature, in large numbers and repeatedly to individuals with whom the sender has had no previous contact or who have declined to receive such communications. In contrast, where Arena Group believes that certain product, or other information is of importance to you it reserves the right to inform you by e-mail whilst giving you the choice of opting out of such service.</p>
+      <h2>8. Links to Other Sites</h2>
+      <p>This Privacy Policy applies only to Arena Group' websites to the exclusion of third party websites. Arena Group may provide links to other websites which we believe may be of interest to our visitors. We aim to ensure that such websites are of the highest standard. However, due to the nature of the World Wide Web, Arena Group cannot guarantee the standards of every website link it provides or be responsible for the contents of non- Arena Group sites.</p>
+      <h2>9. Contact Arena Group</h2>
+      <p>If you have any queries or complaints about our compliance with this Privacy Policy, or if you would like to make any recommendations or comments to improve the quality of our Privacy Policy, please contact the webmaster. This privacy policy is effective as of January 1, 2004. We aim to constantly improve the tools available to you to manage the data that you provide to us. Please refer to this page from time to time to review these and other new features.</p>
+    - 2011-01-11 11:00:19
+    - 2011-01-17 15:56:47
+    - ""
+    - ""
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "40"
+    - Terms of Use
+    - terms_of_service
+    - Terms of Use
+    - "45"
+    - false
+    - false
+    - true
+    - 2010-04-29 08:55:42
+    - |-
+      <h2>Legal notice</h2>
+      <p>The information in this site is published for general information purposes only. We accept no responsibility for any loss or damage resulting from reliance upon any information contained herein. If you enter the Arena Group Website ("the Site") you agree to be bound by the Terms of Use set out below.</p>
+      <h2>Terms of Use</h2>
+      <p>In accessing and exploring the Site you hereby agree with Arena Group that the following Terms of Use are applicable to you as the user:</p>
+      <ul>
+      <li>You will observe and comply with all proprietary notices and copyright information exhibited in the Site.</li>
+      <li>You will accept absolute responsibility for the protection of your computer system (which includes but is not limited to the computer hardware, software, stored data and the computer systems of third parties connected or having access to your computer system) whilst you are accessing, using and downloading from the Site. </li>
+      <li>You will accept absolute responsibility for the programmes and data downloaded or received from the Site ensuring that it is free from destructive or corrupting elements such as, but not limited to, viruses, worms and trojans.</li>
+      <li>Arena Group does not accept any responsibility whatsoever for any unauthorised third party access to and use of any data transmitted electronically to Arena Group by you.</li>
+      <li>Arena Group does not accept any responsibility whatsoever in respect of the effect of any Website which can be accessed through or via a hyper-link or otherwise to and from the Site.</li>
+      <li>Arena Group makes all reasonable efforts to ensure the accuracy of the information contained in the Site, however certain inaccuracies or mistakes may arise and you will have no claim against Arena Group in respect of these or their effect. Arena Group will correct any inaccurate information as soon as this is brought to its attention. Please direct any corrections or observations for the attention of the Marketing Manager, Tom Whiteley.</li>
+      </ul>
+      <p>A written copy of our full terms of business and legal obligations is available on request.</p>
+    - 2011-01-11 11:01:24
+    - 2011-01-17 15:59:49
+    - ""
+    - ""
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "41"
+    - EDM for storing, protecting and retrieving critical documents
+    - edm_for_storing_protecting_and_retrieving_critical_documents
+    - EDM for storing, protecting and retrieving critical documents
+    - "46"
+    - false
+    - false
+    - true
+    - 2010-04-29 08:55:42
+    - |-
+      <p>We have a team of 20 leading electronic document management experts.&nbsp; A mix of leading consultants and hands on IT professionals, we will work with your business to</p>
+      <ul>
+      <li>Understand your business or organisation and its key performance drivers</li>
+      <li>Understand how your document processes support your business &ndash; and where they are slowing down efficiency</li>
+      <li>Create a document workflow plan which we discuss and agree with your team</li>
+      <li>Implement this and plan and our IT team will ensure it links into all your own software and systems </li>
+      </ul>
+      <p>Arena&rsquo;s own <strong>m</strong>store software is helping businesses, organisation, schools, colleges and universities to scan, organise and store important documents electronically.</p>
+      <p>Our system integrates with software specific to particular sectors or your organisation&rsquo;s own software, whether bespoke or package, making it easy to use and to access information.</p>
+      <p>Some of the problems EDM can solve</p>
+      <ul>
+      <li>How to organise a&nbsp; mixture of paper, emails, electronic files and other data</li>
+      <li>Lack of storage for paper files </li>
+      <li>Compliance with regulations</li>
+      <li>Processes for invoices, payrolls and other administrative functions - EDM can streamline and speed up </li>
+      <li>Security &ndash; records are protected from damage and theft</li>
+      <li>Staff time spent looking for paper files</li>
+      </ul>
+    - 2011-01-12 13:02:01
+    - 2011-01-12 13:05:38
+    - ""
+    - ""
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "42"
+    - FAQs
+    - faqs_main
+    - FAQs Main
+    - "47"
+    - false
+    - false
+    - true
+    - 2010-04-29 08:55:42
+    - ""
+    - 2011-01-14 16:42:16
+    - 2011-01-14 16:42:33
+    - ""
+    - ""
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "43"
+    - Locations
+    - locations
+    - Locations
+    - "48"
+    - false
+    - false
+    - true
+    - 2010-04-29 08:55:42
+    - |-
+      <p>We currently have 5 office locations in the North. Our Yorkshire sales office and showroom near Leeds, our Lancashire sales office and showroom in Bolton, our Midlands sales office in Chesterfield, our Electronic Document Management centre in Huddersfield and our Workshops and logistics centre in Leeds. Please contact us using our national telephone number. You will automatically be connected to your local sales office.</p>
+      <h2>Yorkshire sales office &amp; showroom</h2>
+      <p>Arena Group<br />Armitage House<br />Thorpe Lower Lane<br />Robin Hood<br />Wakefield<br />WF3 3BQ</p>
+      <p>Tel - 0113 2880282<br />Fax - 0113 2880671</p>
+      <p>Sales E-mail: <a href="mailto:sales@arenagroup.net">sales@arenagroup.net</a><br />Service E-mail: <a href="mailto:service@arenagroup.net">service@arenagroup.net</a><br />General E-mail: <a href="mailto:info@arenagroup.net">info@arenagroup.net</a></p>
+      <p><a href="../../../assets/stored_documents/original/1_Directions to Arena Wakefield.pdf" target="_blank">Directions to Arena Wakefield.pdf</a></p>
+      <h2>Lancashire sales office &amp; showroom</h2>
+      <p>Arena Group<br />Heritage House<br />48 Chorley New Road<br />Bolton<br />BL1 4AP</p>
+      <p>Tel - 01204 371188<br />Fax - 01204 370737</p>
+      <p>Sales E-mail: <a href="mailto:sales@arenagroup.net">sales@arenagroup.net</a><br />Service E-mail: <a href="mailto:service@arenagroup.net">service@arenagroup.net</a><br />General E-mail: <a href="mailto:info@arenagroup.net">info@arenagroup.net</a></p>
+      <p><a href="../../../assets/stored_documents/original/2_Directions to Arena Bolton.pdf" target="_blank">Directions to Arena Bolton.pdf</a></p>
+      <h2>Midlands sales office</h2>
+      <p>Arena Group <br />Unit 2, Hillstown Business Centre<br />Mansfield Road<br />Hillstown<br />Chesterfield<br />S44 6LE</p>
+      <p>Tel - 01246 828625<br />Fax - 01246 828635</p>
+      <p>Sales E-mail: <a href="mailto:sales@arenagroup.net">sales@arenagroup.net</a><br />Service E-mail: <a href="mailto:service@arenagroup.net">service@arenagroup.net</a><br />General E-mail: <a href="mailto:info@arenagroup.net">info@arenagroup.net</a></p>
+      <h2>Electronic Document Management centre</h2>
+      <p>The Knowle<br />Shepley<br /> Huddersfield<br /> HD8 8EA<br />&nbsp;<br />Tel: 01484 600000<br />Fax: 01484 606855</p>
+      <p>E-mail: <a href="mailto:mitral@arenagroup.net">mitral@arenagroup.net</a></p>
+      <p><a href="../../../assets/stored_documents/original/3_Directions to Arena Huddersfield.pdf" target="_blank">Directions to Arena Huddersfield.pdf</a></p>
+      <h2>Workshops and logistics centre</h2>
+      <p>Unit D<br />Lotherton Business Park<br />Lotherton Way<br />Garforth<br />Leeds<br />LS25 2HP</p>
+      <p>Tel: 0844 863 8008<br />Fax: 0113 288 0671</p>
+      <p><a href="../../../assets/stored_documents/original/4_Directions to Arena Garforth.pdf" target="_blank">Directions to Arena Garforth.pdf</a></p>
+    - 2011-01-17 12:27:40
+    - 2011-01-17 13:21:38
+    - ""
+    - ""
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+  - - "44"
+    - Case Studies
+    - case_studies_2
+    - Case Studies Main
+    - "49"
+    - false
+    - false
+    - true
+    - 2010-04-29 08:55:42
+    - ""
+    - 2011-01-17 14:46:21
+    - 2011-01-17 14:58:48
+    - ""
+    - ""
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+
+--- 
+page_nodes: 
+  columns: 
+  - id
+  - name
+  - url
+  - parent_id
+  - position
+  - action
+  - controller
+  - model
+  - layout
+  - display
+  - display_in_navigation
+  - can_be_moved
+  - can_be_edited
+  - can_be_deleted
+  - created_at
+  - updated_at
+  - access_key
+  - stylesheet
+  - can_have_children
+  - special_menu
+  - created_by
+  - updated_by
+  - recycled
+  - recycled_at
+  records: 
+  - - "1"
+    - Contact Us
+    - contact-us
+    - "20"
+    - "7"
+    - contact_us
+    - web
+    - ""
+    - basic
+    - true
+    - true
+    - true
+    - true
+    - true
+    - 2010-06-29 15:18:17
+    - 2011-01-13 16:02:50
+    - "7"
+    - ""
+    - true
+    - false
+    - 
+    - "1"
+    - false
+    - 
+  - - "2"
+    - Services
+    - services
+    - "20"
+    - "5"
+    - ""
+    - ""
+    - ""
+    - basic
+    - true
+    - true
+    - false
+    - true
+    - false
+    - 2010-11-23 12:48:09
+    - 2011-01-13 16:02:43
+    - "5"
+    - ""
+    - true
+    - false
+    - "1"
+    - "1"
+    - false
+    - 
+  - - "3"
+    - Products
+    - products
+    - "20"
+    - "4"
+    - ""
+    - categories
+    - Category
+    - basic
+    - true
+    - true
+    - false
+    - true
+    - false
+    - 2010-11-23 12:49:03
+    - 2011-01-14 13:45:04
+    - "4"
+    - ""
+    - false
+    - false
+    - "1"
+    - "1"
+    - false
+    - 
+  - - "4"
+    - Engineers
+    - engineers
+    - "18"
+    - "5"
+    - ""
+    - ""
+    - ""
+    - basic
+    - true
+    - true
+    - true
+    - true
+    - false
+    - 2010-11-23 12:50:26
+    - 2010-11-25 10:31:14
+    - ""
+    - ""
+    - true
+    - false
+    - "1"
+    - "1"
+    - false
+    - 
+  - - "6"
+    - Online Support
+    - online-support
+    - "12"
+    - "7"
+    - ""
+    - ""
+    - ""
+    - basic
+    - true
+    - true
+    - true
+    - true
+    - false
+    - 2010-11-23 12:52:33
+    - 2011-01-06 11:00:27
+    - ""
+    - ""
+    - true
+    - false
+    - "1"
+    - "1"
+    - false
+    - 
+  - - "7"
+    - Testimonials
+    - testimonials
+    - "12"
+    - "2"
+    - ""
+    - testimonials
+    - Testimonial
+    - basic
+    - true
+    - true
+    - true
+    - true
+    - false
+    - 2010-11-23 12:53:20
+    - 2011-01-17 13:43:30
+    - ""
+    - ""
+    - false
+    - false
+    - "1"
+    - "1"
+    - false
+    - 
+  - - "8"
+    - Case Studies
+    - case-studies
+    - "12"
+    - "4"
+    - ""
+    - case_studies
+    - CaseStudy
+    - none
+    - true
+    - true
+    - true
+    - true
+    - false
+    - 2010-11-23 12:54:08
+    - 2011-01-17 14:48:54
+    - "8"
+    - ""
+    - false
+    - false
+    - "1"
+    - "1"
+    - false
+    - 
+  - - "9"
+    - Arena Community
+    - arena-community
+    - "21"
+    - "2"
+    - ""
+    - ""
+    - ""
+    - community
+    - true
+    - true
+    - false
+    - true
+    - false
+    - 2010-11-23 12:54:41
+    - 2010-11-24 10:30:43
+    - ""
+    - ""
+    - true
+    - false
+    - "1"
+    - "1"
+    - false
+    - 
+  - - "10"
+    - Green Arena
+    - green-arena
+    - "21"
+    - "1"
+    - ""
+    - ""
+    - ""
+    - green_arena
+    - true
+    - true
+    - false
+    - true
+    - false
+    - 2010-11-23 12:55:14
+    - 2010-11-24 10:20:15
+    - ""
+    - ""
+    - true
+    - false
+    - "1"
+    - "1"
+    - false
+    - 
+  - - "11"
+    - Security
+    - security
+    - "21"
+    - "4"
+    - ""
+    - ""
+    - ""
+    - basic
+    - true
+    - true
+    - false
+    - true
+    - false
+    - 2010-11-23 12:55:40
+    - 2011-01-06 10:43:05
+    - ""
+    - ""
+    - false
+    - false
+    - "1"
+    - "1"
+    - true
+    - 2011-01-06 10:43:05
+  - - "12"
+    - Customers
+    - customers
+    - "20"
+    - "6"
+    - ""
+    - ""
+    - ""
+    - resources
+    - true
+    - true
+    - true
+    - true
+    - true
+    - 2010-11-23 12:56:38
+    - 2011-01-13 16:02:45
+    - "6"
+    - ""
+    - true
+    - false
+    - "1"
+    - "1"
+    - false
+    - 
+  - - "13"
+    - Driver Downloads
+    - driver-downloads
+    - "6"
+    - "4"
+    - ""
+    - ""
+    - ""
+    - basic
+    - true
+    - true
+    - true
+    - true
+    - true
+    - 2010-11-23 12:57:30
+    - 2011-01-17 13:43:43
+    - ""
+    - ""
+    - true
+    - false
+    - "1"
+    - "1"
+    - false
+    - 
+  - - "14"
+    - White Papers
+    - white-papers
+    - "6"
+    - "3"
+    - ""
+    - white_papers
+    - WhitePaper
+    - basic
+    - true
+    - true
+    - true
+    - true
+    - true
+    - 2010-11-23 12:58:35
+    - 2011-01-17 13:43:59
+    - ""
+    - ""
+    - true
+    - false
+    - "1"
+    - "1"
+    - false
+    - 
+  - - "15"
+    - Blog
+    - blog
+    - "12"
+    - "5"
+    - ""
+    - blog_entries
+    - BlogEntry
+    - basic
+    - true
+    - true
+    - true
+    - true
+    - true
+    - 2010-11-23 12:59:22
+    - 2010-11-23 13:02:15
+    - ""
+    - ""
+    - true
+    - false
+    - "1"
+    - "1"
+    - false
+    - 
+  - - "16"
+    - FAQs
+    - faqs
+    - "6"
+    - "2"
+    - ""
+    - faqs
+    - Faq
+    - basic
+    - true
+    - true
+    - true
+    - true
+    - true
+    - 2010-11-23 13:02:42
+    - 2011-01-06 11:02:22
+    - ""
+    - ""
+    - true
+    - false
+    - "1"
+    - "1"
+    - false
+    - 
+  - - "17"
+    - News
+    - news
+    - "21"
+    - "3"
+    - ""
+    - articles
+    - Article
+    - basic
+    - true
+    - true
+    - false
+    - false
+    - false
+    - 2010-11-23 13:03:17
+    - 2010-11-23 15:21:21
+    - ""
+    - ""
+    - false
+    - false
+    - "1"
+    - "1"
+    - false
+    - 
+  - - "18"
+    - About Us
+    - about-us
+    - "20"
+    - "1"
+    - ""
+    - ""
+    - ""
+    - basic
+    - true
+    - true
+    - false
+    - true
+    - false
+    - 2010-11-23 13:04:01
+    - 2011-01-13 16:02:36
+    - "2"
+    - ""
+    - true
+    - false
+    - "1"
+    - "1"
+    - false
+    - 
+  - - "20"
+    - Main Navigation
+    - main-navigation
+    - 
+    - "0"
+    - ""
+    - ""
+    - ""
+    - basic
+    - true
+    - false
+    - false
+    - false
+    - false
+    - 2010-11-23 14:58:19
+    - 2010-11-23 15:27:59
+    - ""
+    - ""
+    - false
+    - false
+    - "1"
+    - "1"
+    - false
+    - 
+  - - "21"
+    - Second Tier Navigation
+    - second-tier-navigation
+    - 
+    - "0"
+    - ""
+    - ""
+    - ""
+    - basic
+    - true
+    - false
+    - false
+    - false
+    - false
+    - 2010-11-23 15:13:45
+    - 2010-11-23 15:14:02
+    - ""
+    - ""
+    - true
+    - false
+    - "1"
+    - "1"
+    - false
+    - 
+  - - "27"
+    - Let the Boss Know
+    - let-the-boss-know
+    - "12"
+    - "6"
+    - let_the_boss_know
+    - web
+    - ""
+    - basic
+    - true
+    - true
+    - true
+    - true
+    - false
+    - 2010-11-23 15:40:57
+    - 2011-01-17 14:51:15
+    - ""
+    - ""
+    - false
+    - false
+    - "1"
+    - "1"
+    - false
+    - 
+  - - "29"
+    - Were Hiring
+    - were-hiring
+    - "20"
+    - "2"
+    - ""
+    - ""
+    - ""
+    - basic
+    - true
+    - true
+    - true
+    - true
+    - false
+    - 2010-11-23 15:44:00
+    - 2011-01-13 16:02:38
+    - "3"
+    - ""
+    - false
+    - false
+    - "1"
+    - "1"
+    - false
+    - 
+  - - "30"
+    - Copy and Print
+    - copy-and-print
+    - "2"
+    - "0"
+    - ""
+    - ""
+    - ""
+    - ""
+    - true
+    - true
+    - true
+    - true
+    - true
+    - 2010-11-25 15:52:21
+    - 2010-11-25 16:00:11
+    - ""
+    - ""
+    - true
+    - false
+    - "1"
+    - "1"
+    - false
+    - 
+  - - "36"
+    - Finding the right machine for you
+    - finding-the-right-machine-for-you
+    - "30"
+    - "0"
+    - ""
+    - ""
+    - ""
+    - basic
+    - true
+    - true
+    - true
+    - true
+    - true
+    - 2010-11-26 11:40:37
+    - 2010-11-26 11:42:27
+    - ""
+    - ""
+    - true
+    - false
+    - "1"
+    - "1"
+    - false
+    - 
+  - - "37"
+    - "Print \xE2\x80\x93 the hidden costs"
+    - "print-\xE2\x80\x93-the-hidden-costs"
+    - "30"
+    - "0"
+    - ""
+    - ""
+    - ""
+    - basic
+    - true
+    - true
+    - true
+    - true
+    - true
+    - 2010-11-26 11:43:24
+    - 2010-11-26 11:45:54
+    - ""
+    - ""
+    - true
+    - false
+    - "1"
+    - "1"
+    - false
+    - 
+  - - "38"
+    - Electronic Document Management EDM
+    - electronic-document-management-edm
+    - "2"
+    - "0"
+    - ""
+    - ""
+    - ""
+    - basic
+    - true
+    - true
+    - true
+    - true
+    - true
+    - 2010-11-26 11:47:01
+    - 2010-11-26 11:50:48
+    - ""
+    - ""
+    - true
+    - false
+    - "1"
+    - "1"
+    - false
+    - 
+  - - "39"
+    - EDM for the legal sector and professional services
+    - edm-for-the-legal-sector-and-professional-services
+    - "38"
+    - "0"
+    - ""
+    - ""
+    - ""
+    - basic
+    - true
+    - true
+    - true
+    - true
+    - true
+    - 2010-11-26 11:48:32
+    - 2010-11-26 11:49:26
+    - ""
+    - ""
+    - true
+    - false
+    - "1"
+    - "1"
+    - false
+    - 
+  - - "40"
+    - "EDM for education "
+    - edm-for-education-
+    - "38"
+    - "0"
+    - ""
+    - ""
+    - ""
+    - basic
+    - true
+    - true
+    - true
+    - true
+    - true
+    - 2010-11-26 11:49:38
+    - 2010-11-26 11:50:51
+    - ""
+    - ""
+    - true
+    - false
+    - "1"
+    - "1"
+    - false
+    - 
+  - - "41"
+    - IT
+    - it
+    - "2"
+    - "0"
+    - ""
+    - ""
+    - ""
+    - basic
+    - true
+    - true
+    - true
+    - true
+    - true
+    - 2010-11-26 11:51:47
+    - 2010-11-26 11:52:44
+    - ""
+    - ""
+    - true
+    - false
+    - "1"
+    - "1"
+    - false
+    - 
+  - - "42"
+    - Customer Feedback
+    - customer-feedback
+    - "12"
+    - "1"
+    - ""
+    - feedbacks
+    - Feedback
+    - basic
+    - true
+    - true
+    - true
+    - true
+    - true
+    - 2010-11-26 12:32:28
+    - 2011-01-17 13:42:41
+    - ""
+    - ""
+    - true
+    - false
+    - "1"
+    - "1"
+    - false
+    - 
+  - - "43"
+    - Customer Satisfaction
+    - customer-satisfaction
+    - "12"
+    - "3"
+    - ""
+    - surveys
+    - Survey
+    - basic
+    - true
+    - true
+    - true
+    - true
+    - true
+    - 2010-11-26 12:39:43
+    - 2011-01-17 13:42:58
+    - ""
+    - ""
+    - true
+    - false
+    - "1"
+    - "1"
+    - false
+    - 
+  - - "44"
+    - Privacy Statement
+    - privacy-statement
+    - 
+    - "0"
+    - ""
+    - ""
+    - ""
+    - basic
+    - true
+    - false
+    - true
+    - true
+    - false
+    - 2011-01-11 11:00:19
+    - 2011-01-11 11:00:54
+    - ""
+    - ""
+    - false
+    - false
+    - "1"
+    - "1"
+    - false
+    - 
+  - - "45"
+    - Terms of Use
+    - terms-of-use
+    - 
+    - "0"
+    - ""
+    - ""
+    - ""
+    - basic
+    - true
+    - false
+    - true
+    - true
+    - false
+    - 2011-01-11 11:01:24
+    - 2011-01-11 11:04:07
+    - ""
+    - ""
+    - false
+    - false
+    - "1"
+    - "1"
+    - false
+    - 
+  - - "46"
+    - EDM for storing protecting and retrieving critical documents
+    - edm-for-storing-protecting-and-retrieving-critical-documents
+    - "38"
+    - "0"
+    - ""
+    - ""
+    - ""
+    - basic
+    - false
+    - true
+    - true
+    - true
+    - true
+    - 2011-01-12 13:02:01
+    - 2011-01-12 13:05:38
+    - ""
+    - ""
+    - true
+    - false
+    - "1"
+    - "1"
+    - false
+    - 
+  - - "47"
+    - FAQs Main
+    - faqs-main
+    - "20"
+    - "8"
+    - ""
+    - faqs
+    - Faq
+    - basic
+    - true
+    - true
+    - false
+    - false
+    - false
+    - 2011-01-14 16:42:16
+    - 2011-01-14 16:42:33
+    - ""
+    - ""
+    - false
+    - false
+    - "1"
+    - "1"
+    - false
+    - 
+  - - "48"
+    - Locations
+    - locations
+    - "1"
+    - "0"
+    - ""
+    - ""
+    - ""
+    - basic
+    - true
+    - true
+    - true
+    - true
+    - true
+    - 2011-01-17 12:27:40
+    - 2011-01-17 12:27:46
+    - ""
+    - ""
+    - true
+    - false
+    - "1"
+    - "1"
+    - false
+    - 
+  - - "49"
+    - Case Studies Main
+    - case-studies-main
+    - "20"
+    - "3"
+    - ""
+    - case_studies
+    - CaseStudy
+    - resources
+    - true
+    - true
+    - true
+    - false
+    - true
+    - 2011-01-17 14:46:21
+    - 2011-01-17 14:58:48
+    - ""
+    - ""
+    - false
+    - false
+    - "1"
+    - "1"
+    - false
+    - 
+
+--- 
+products: 
+  columns: 
+  - id
+  - make_id
+  - category_id
+  - name
+  - summary
+  - description
+  - video
+  - created_at
+  - updated_at
+  - created_by
+  - updated_by
+  - recycled
+  - recycled_at
+  - display
+  - position
+  - image_file_name
+  - image_content_type
+  - image_file_size
+  - image_updated_at
+  - image_alt
+  - datasheet_file_name
+  - datasheet_content_type
+  - datasheet_file_size
+  - datasheet_updated_at
+  - datasheet_alt
+  - highlight
+  records: 
+  - - "1"
+    - "1"
+    - "1"
+    - Toshiba e-STUDIO166
+    - ""
+    - |-
+      <h3>Features</h3>
+      <ul>
+      <li>16ppm</li>
+      <li>A4 &amp; A3</li>
+      <li>Local print, copy and scan</li>
+      <li>All the basic functions you need in a compact copier</li>
+      </ul>
+    - ""
+    - 2010-11-24 10:41:38
+    - 2011-01-17 16:10:20
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - e_studio166_medium.jpg
+    - image/jpeg
+    - "7820"
+    - 2011-01-17 11:06:18
+    - Toshiba e-STUDIO166
+    - Toshiba e-STUDIO166.pdf
+    - application/pdf
+    - "307273"
+    - 2011-01-12 16:27:11
+    - Toshiba e-STUDIO166 Datasheet
+    - true
+  - - "3"
+    - "1"
+    - "1"
+    - Toshiba e-STUDIO167
+    - ""
+    - |-
+      <h3>Features</h3>
+      <ul>
+      <li>16ppm</li>
+      <li>A4 &amp; A3</li>
+      <li>Optional network print, scan and fax</li>
+      <li>Advanced printing, copying and scanning technology at 16 pages per minute</li>
+      </ul>
+    - ""
+    - 2010-11-24 10:46:06
+    - 2011-01-12 16:44:05
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - Toshiba e-STUDIO167.jpg
+    - image/jpeg
+    - "7521"
+    - 2011-01-12 16:28:13
+    - Toshiba e-STUDIO167
+    - Toshiba e-STUDIO167.pdf
+    - application/pdf
+    - "349602"
+    - 2011-01-12 16:28:13
+    - Toshiba e-STUDIO167 Datasheet
+    - false
+  - - "4"
+    - "1"
+    - "1"
+    - Toshiba e-STUDIO206
+    - ""
+    - |-
+      <h3>Features</h3>
+      <ul>
+      <li>20ppm</li>
+      <li>A4 &amp; A3</li>
+      <li>Local print, copy and scan</li>
+      <li>All the basic functions you need in a compact photocopier</li>
+      </ul>
+    - ""
+    - 2010-11-24 10:46:26
+    - 2011-01-12 16:29:29
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - Toshiba e-STUDIO206.jpg
+    - image/jpeg
+    - "7484"
+    - 2011-01-12 16:29:28
+    - Toshiba e-STUDIO206
+    - Toshiba e-STUDIO206.pdf
+    - application/pdf
+    - "307273"
+    - 2011-01-12 16:29:28
+    - Toshiba e-STUDIO206 Datasheet
+    - false
+  - - "5"
+    - "1"
+    - "1"
+    - Toshiba e-STUDIO207
+    - ""
+    - |-
+      <h3>Features</h3>
+      <ul>
+      <li>20ppm</li>
+      <li>A4 &amp; A3</li>
+      <li>Optional network print, scan and fax</li>
+      <li>Advanced printing, copying and scanning technology at 20 pages per minute</li>
+      </ul>
+    - ""
+    - 2011-01-12 16:30:20
+    - 2011-01-12 16:44:05
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - Toshiba e-STUDIO207.jpg
+    - image/jpeg
+    - "7419"
+    - 2011-01-12 16:30:19
+    - Toshiba e-STUDIO207
+    - Toshiba e-STUDIO207.pdf
+    - application/pdf
+    - "349602"
+    - 2011-01-12 16:30:19
+    - Toshiba e-STUDIO207 Datasheet
+    - false
+  - - "6"
+    - "1"
+    - "1"
+    - Toshiba e-STUDIO237
+    - ""
+    - |-
+      <h3>Features</h3>
+      <ul>
+      <li>23ppm</li>
+      <li>A4 &amp; A3</li>
+      <li>Optional network print, scan and fax</li>
+      <li>23ppm production for small offices and workgroups that require connectivity options</li>
+      </ul>
+    - ""
+    - 2011-01-12 16:33:48
+    - 2011-01-12 16:44:05
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - Toshiba e-STUDIO237.jpg
+    - image/jpeg
+    - "7081"
+    - 2011-01-12 16:33:47
+    - Toshiba e-STUDIO237
+    - Toshiba e-STUDIO237.pdf
+    - application/pdf
+    - "349602"
+    - 2011-01-12 16:33:47
+    - Toshiba e-STUDIO237 Datasheet
+    - false
+  - - "7"
+    - "2"
+    - "1"
+    - RICOH Aficio MP161
+    - ""
+    - |-
+      <h3>Features</h3>
+      <ul>
+      <li>16ppm</li>
+      <li>A4</li>
+      <li>Optional network print, colour scan and fax</li>
+      <li>Small workgroup copier with standard duplexing</li>
+      </ul>
+    - ""
+    - 2011-01-12 16:35:50
+    - 2011-01-12 16:44:05
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - RICOH Aficio MP161.gif
+    - image/gif
+    - "12547"
+    - 2011-01-12 16:35:46
+    - RICOH Aficio MP161
+    - RICOH Aficio MP161.pdf
+    - application/pdf
+    - "457104"
+    - 2011-01-12 16:35:46
+    - RICOH Aficio MP161 Datasheet
+    - false
+  - - "8"
+    - "1"
+    - "2"
+    - Toshiba e-STUDIO233
+    - ""
+    - |-
+      <h3>Features</h3>
+      <ul>
+      <li>23ppm</li>
+      <li>A4 &amp; A3</li>
+      <li>Optional network print, scan and fax</li>
+      <li>Departmental multifunctional photocopier with network capabilities and advanced finishing options</li>
+      </ul>
+    - ""
+    - 2011-01-12 16:40:45
+    - 2011-01-12 16:44:05
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - Toshiba e-STUDIO233.jpg
+    - image/jpeg
+    - "12523"
+    - 2011-01-12 16:40:44
+    - Toshiba e-STUDIO233
+    - Toshiba e-STUDIO233.pdf
+    - application/pdf
+    - "544768"
+    - 2011-01-12 16:40:44
+    - Toshiba e-STUDIO233 Datasheet
+    - false
+  - - "9"
+    - "1"
+    - "2"
+    - Toshiba e-STUDIO283
+    - ""
+    - |-
+      <h3>Features</h3>
+      <ul>
+      <li>28ppm</li>
+      <li>A4 &amp; A3</li>
+      <li>Optional network print, scan and fax</li>
+      <li>Advanced printing, copying and scanning technology at 28 pages per minute</li>
+      </ul>
+    - ""
+    - 2011-01-12 16:41:36
+    - 2011-01-12 16:44:05
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - Toshiba e-STUDIO283.jpg
+    - image/jpeg
+    - "12468"
+    - 2011-01-12 16:41:35
+    - Toshiba e-STUDIO283
+    - Toshiba e-STUDIO283.pdf
+    - application/pdf
+    - "1073735"
+    - 2011-01-12 16:41:35
+    - Toshiba e-STUDIO283 Datasheet
+    - false
+  - - "10"
+    - "1"
+    - "2"
+    - Toshiba e-STUDIO353
+    - ""
+    - |-
+      <h3>Features</h3>
+      <ul>
+      <li>35ppm</li>
+      <li>A4 &amp; A3</li>
+      <li>Print, copy and scan. Optional fax and network connectivity</li>
+      <li>Latest Toshiba e-BRIDGE technology at 35 ppm for reliable and exceptional ease-of-use in print, copy, scan, fax and network connectivity</li>
+      </ul>
+    - ""
+    - 2011-01-12 16:42:22
+    - 2011-01-12 16:44:05
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - Toshiba e-STUDIO353.jpg
+    - image/jpeg
+    - "12726"
+    - 2011-01-12 16:42:21
+    - Toshiba e-STUDIO353
+    - Toshiba e-STUDIO353.pdf
+    - application/pdf
+    - "361496"
+    - 2011-01-12 16:42:21
+    - Toshiba e-STUDIO353 Datasheet
+    - false
+  - - "11"
+    - "1"
+    - "2"
+    - Toshiba e-STUDIO453
+    - ""
+    - |-
+      <h3>Features</h3>
+      <ul>
+      <li>45ppm</li>
+      <li>A4 &amp; A3</li>
+      <li>Print, copy and scan. Optional fax and network connectivity</li>
+      <li>Latest Toshiba e-BRIDGE technology at 45 ppm for reliable and exceptional ease-of-use in print, copy, scan, fax and network connectivity</li>
+      </ul>
+    - ""
+    - 2011-01-12 16:43:05
+    - 2011-01-12 16:44:05
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - Toshiba e-STUDIO453.jpg
+    - image/jpeg
+    - "12721"
+    - 2011-01-12 16:43:04
+    - Toshiba e-STUDIO453
+    - Toshiba e-STUDIO453.pdf
+    - application/pdf
+    - "361496"
+    - 2011-01-12 16:43:04
+    - Toshiba e-STUDIO453 Datasheet
+    - false
+  - - "12"
+    - "2"
+    - "2"
+    - RICOH Aficio MP 2500
+    - ""
+    - |-
+      <h3>Features</h3>
+      <ul>
+      <li>25ppm</li>
+      <li>A4 &amp; A3</li>
+      <li>Optional network print, scan and fax</li>
+      <li>This straightforward solution serves as a main device in a small office and a workgroup device in a mid to large sized office</li>
+      </ul>
+    - ""
+    - 2011-01-12 16:43:53
+    - 2011-01-12 16:44:05
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - RICOH Aficio MP2500.jpg
+    - image/jpeg
+    - "9292"
+    - 2011-01-12 16:43:52
+    - RICOH Aficio MP 2500
+    - RICOH Aficio MP2500.pdf
+    - application/pdf
+    - "4197495"
+    - 2011-01-12 16:43:52
+    - RICOH Aficio MP 2500 Datasheet
+    - false
+  - - "13"
+    - "1"
+    - "3"
+    - Toshiba e-STUDIO523
+    - ""
+    - |-
+      <h3>Features</h3>
+      <ul>
+      <li>52ppm</li>
+      <li>A4 &amp; A3</li>
+      <li>Optional network print, scan and fax</li>
+      <li>Feature packed, robust solution for a high volume environment</li>
+      </ul>
+    - ""
+    - 2011-01-12 16:46:24
+    - 2011-01-12 16:46:24
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+    - Toshiba e-STUDIO523.jpg
+    - image/jpeg
+    - "4439"
+    - 2011-01-12 16:46:23
+    - Toshiba e-STUDIO523
+    - Toshiba e-STUDIO523.pdf
+    - application/pdf
+    - "345304"
+    - 2011-01-12 16:46:23
+    - Toshiba e-STUDIO523 Datasheet
+    - false
+  - - "14"
+    - "1"
+    - "3"
+    - Toshiba e-STUDIO603
+    - ""
+    - |-
+      <h3>Features</h3>
+      <ul>
+      <li>60ppm</li>
+      <li>A4 &amp; A3</li>
+      <li>Optional network print, scan and fax</li>
+      <li>High productivity and reliable performance for fast and efficient Black-and-White output</li>
+      </ul>
+    - ""
+    - 2011-01-12 16:47:07
+    - 2011-01-12 16:47:07
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+    - Toshiba e-STUDIO603.jpg
+    - image/jpeg
+    - "8634"
+    - 2011-01-12 16:47:06
+    - Toshiba e-STUDIO603
+    - Toshiba e-STUDIO603.pdf
+    - application/pdf
+    - "345304"
+    - 2011-01-12 16:47:06
+    - Toshiba e-STUDIO603 Datasheet
+    - false
+  - - "15"
+    - "1"
+    - "3"
+    - Toshiba e-STUDIO723
+    - ""
+    - |-
+      <h3>Features</h3>
+      <ul>
+      <li>72ppm</li>
+      <li>A4 &amp; A3</li>
+      <li>Optional network print, scan and fax</li>
+      <li>High productivity and reliable performance for fast and efficient Black-and-White output</li>
+      </ul>
+    - ""
+    - 2011-01-12 16:47:48
+    - 2011-01-12 16:47:48
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+    - Toshiba e-STUDIO723.jpg
+    - image/jpeg
+    - "8629"
+    - 2011-01-12 16:47:47
+    - Toshiba e-STUDIO723
+    - Toshiba e-STUDIO723.pdf
+    - application/pdf
+    - "345304"
+    - 2011-01-12 16:47:47
+    - Toshiba e-STUDIO723 Datasheet
+    - false
+  - - "16"
+    - "1"
+    - "3"
+    - Toshiba e-STUDIO853
+    - ""
+    - |-
+      <h3>Features</h3>
+      <ul>
+      <li>85ppm</li>
+      <li>A4 &amp; A3</li>
+      <li>Optional network print, scan and fax</li>
+      <li>High productivity and reliable performance for fast and efficient Black-and-White output</li>
+      </ul>
+    - ""
+    - 2011-01-12 16:48:31
+    - 2011-01-12 16:48:31
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+    - Toshiba e-STUDIO853.jpg
+    - image/jpeg
+    - "19964"
+    - 2011-01-12 16:48:29
+    - Toshiba e-STUDIO853
+    - Toshiba e-STUDIO853.pdf
+    - application/pdf
+    - "345304"
+    - 2011-01-12 16:48:29
+    - Toshiba e-STUDIO853 Datasheet
+    - false
+  - - "17"
+    - "2"
+    - "3"
+    - RICOH Aficio MP9000
+    - ""
+    - |-
+      <h3>Features</h3>
+      <ul>
+      <li>90ppm</li>
+      <li>A4 &amp; A3</li>
+      <li>Copy, colour scan and optional network print</li>
+      <li>Heavy duty design, built for peak volumes up to 1.2 million pages per month</li>
+      </ul>
+    - ""
+    - 2011-01-12 16:49:48
+    - 2011-01-12 16:49:48
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+    - RICOH Aficio MP9000.gif
+    - image/gif
+    - "11266"
+    - 2011-01-12 16:49:44
+    - RICOH Aficio MP9000
+    - RICOH Aficio MP9000.pdf
+    - application/pdf
+    - "465027"
+    - 2011-01-12 16:49:44
+    - RICOH Aficio MP9000 Datasheet
+    - false
+  - - "18"
+    - "2"
+    - "3"
+    - RICOH Aficio MP1100
+    - ""
+    - |-
+      <h3>Features</h3>
+      <ul>
+      <li>110ppm</li>
+      <li>A4 &amp; A3</li>
+      <li>Copy, colour scan and optional network print</li>
+      <li>Striking 110 ppm simplex and duplex productivity</li>
+      </ul>
+    - ""
+    - 2011-01-12 16:50:32
+    - 2011-01-12 16:50:32
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+    - RICOH Aficio MP1100.gif
+    - image/gif
+    - "11266"
+    - 2011-01-12 16:50:28
+    - RICOH Aficio MP1100
+    - RICOH Aficio MP1100.pdf
+    - application/pdf
+    - "3780539"
+    - 2011-01-12 16:50:28
+    - RICOH Aficio MP1100 Datasheet
+    - false
+  - - "19"
+    - "2"
+    - "3"
+    - RICOH Aficio MP1350
+    - ""
+    - |-
+      <h3>Features</h3>
+      <ul>
+      <li>135ppm</li>
+      <li>A4 &amp; A3</li>
+      <li>Copy, colour scan and optional network print</li>
+      <li>Heavy duty design, built for peak volumes up to almost 2 million pages per month</li>
+      </ul>
+    - ""
+    - 2011-01-12 16:51:31
+    - 2011-01-12 16:51:31
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+    - RICOH Aficio MP1350.gif
+    - image/gif
+    - "11266"
+    - 2011-01-12 16:51:26
+    - RICOH Aficio MP1350
+    - RICOH Aficio MP1350.pdf
+    - application/pdf
+    - "3780539"
+    - 2011-01-12 16:51:26
+    - RICOH Aficio MP1350 Datasheet
+    - false
+  - - "20"
+    - "1"
+    - "4"
+    - Toshiba e-STUDIO281c
+    - ""
+    - |-
+      <h3>Features</h3>
+      <ul>
+      <li>28ppm mono, 11ppm colour</li>
+      <li>A4 &amp; A3</li>
+      <li>Network ready copy, print, scan and optional fax</li>
+      <li>Highly functional MFP with colour when you need it</li>
+      </ul>
+    - ""
+    - 2011-01-12 16:54:48
+    - 2011-01-12 16:54:48
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+    - Toshiba e-STUDIO281c.jpg
+    - image/jpeg
+    - "5015"
+    - 2011-01-12 16:54:47
+    - Toshiba e-STUDIO281c
+    - Toshiba e-STUDIO281c.pdf
+    - application/pdf
+    - "109111"
+    - 2011-01-12 16:54:47
+    - Toshiba e-STUDIO281c Datasheet
+    - false
+  - - "21"
+    - "1"
+    - "4"
+    - Toshiba e-STUDIO351c
+    - ""
+    - |-
+      <h3>Features</h3>
+      <ul>
+      <li>35ppm mono, 11ppm colour</li>
+      <li>A4 &amp; A3</li>
+      <li>Network ready copy, print, scan and optional fax</li>
+      <li>Highly functional MFP with colour when you need it</li>
+      </ul>
+    - ""
+    - 2011-01-12 16:55:30
+    - 2011-01-12 16:55:30
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+    - Toshiba e-STUDIO351c.jpg
+    - image/jpeg
+    - "7331"
+    - 2011-01-12 16:55:28
+    - Toshiba e-STUDIO351c
+    - Toshiba e-STUDIO351c.pdf
+    - application/pdf
+    - "109111"
+    - 2011-01-12 16:55:28
+    - Toshiba e-STUDIO351c Datasheet
+    - false
+  - - "22"
+    - "1"
+    - "4"
+    - Toshiba e-STUDIO451c
+    - ""
+    - |-
+      <h3>Features</h3>
+      <ul>
+      <li>45ppm mono, 11ppm colour</li>
+      <li>A4 &amp; A3</li>
+      <li>Network ready copy, print, scan and optional fax</li>
+      <li>Highly functional MFP with colour when you need it</li>
+      </ul>
+    - ""
+    - 2011-01-12 16:56:28
+    - 2011-01-12 16:56:28
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+    - Toshiba e-STUDIO451c.jpg
+    - image/jpeg
+    - "7331"
+    - 2011-01-12 16:56:27
+    - Toshiba e-STUDIO451c
+    - Toshiba e-STUDIO451c.pdf
+    - application/pdf
+    - "109111"
+    - 2011-01-12 16:56:27
+    - Toshiba e-STUDIO451c Datasheet
+    - false
+  - - "23"
+    - "1"
+    - "4"
+    - Toshiba e-STUDIO2820c
+    - ""
+    - |-
+      <h3>Features</h3>
+      <ul>
+      <li>28ppm mono, 28ppm colour</li>
+      <li>A4 &amp; A3</li>
+      <li>Network ready copy, print, scan and optional fax</li>
+      <li>Full colour for excellent quality with 'fiery-like' colour matching capability</li>
+      </ul>
+    - ""
+    - 2011-01-12 16:57:04
+    - 2011-01-12 16:57:04
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+    - Toshiba e-STUDIO2820c.jpg
+    - image/jpeg
+    - "6158"
+    - 2011-01-12 16:57:03
+    - Toshiba e-STUDIO2820c
+    - Toshiba e-STUDIO2820c.pdf
+    - application/pdf
+    - "1683182"
+    - 2011-01-12 16:57:03
+    - Toshiba e-STUDIO2820c Datasheet
+    - false
+  - - "24"
+    - "1"
+    - "4"
+    - Toshiba e-STUDIO3520c
+    - ""
+    - |-
+      <h3>Features</h3>
+      <ul>
+      <li>35ppm mono, 35ppm colour</li>
+      <li>A4 &amp; A3</li>
+      <li>Network ready copy, print, scan and optional fax</li>
+      <li>Full colour for excellent quality with 'fiery-like' colour matching capability</li>
+      </ul>
+    - ""
+    - 2011-01-12 16:58:08
+    - 2011-01-12 16:58:08
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+    - Toshiba e-STUDIO3520c.jpg
+    - image/jpeg
+    - "6158"
+    - 2011-01-12 16:58:07
+    - Toshiba e-STUDIO3520c
+    - Toshiba e-STUDIO3520c.pdf
+    - application/pdf
+    - "1683182"
+    - 2011-01-12 16:58:06
+    - Toshiba e-STUDIO3520c Datasheet
+    - false
+  - - "25"
+    - "1"
+    - "4"
+    - Toshiba e-STUDIO4520c
+    - ""
+    - |-
+      <h3>Features</h3>
+      <ul>
+      <li>45ppm mono, 45ppm colour</li>
+      <li>A4 &amp; A3</li>
+      <li>Network ready copy, print, scan and optional fax</li>
+      <li>Full colour for excellent quality with 'fiery-like' colour matching capability</li>
+      </ul>
+    - ""
+    - 2011-01-12 16:58:55
+    - 2011-01-12 16:58:55
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+    - Toshiba e-STUDIO4520c.jpg
+    - image/jpeg
+    - "6158"
+    - 2011-01-12 16:58:54
+    - Toshiba e-STUDIO4520c
+    - Toshiba e-STUDIO4520c.pdf
+    - application/pdf
+    - "1683182"
+    - 2011-01-12 16:58:54
+    - Toshiba e-STUDIO4520c Datasheet
+    - false
+  - - "26"
+    - "2"
+    - "4"
+    - RICOH Aficio MPC1500sp
+    - ""
+    - |-
+      <h3>Features</h3>
+      <ul>
+      <li>15ppm mono, 6ppm colour</li>
+      <li>A4 &amp; A3</li>
+      <li>Copy, print, scan and fax</li>
+      <li>A4 MFP with colour</li>
+      </ul>
+    - ""
+    - 2011-01-12 16:59:48
+    - 2011-01-12 16:59:48
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+    - RICOH Aficio MPC1500sp.gif
+    - image/gif
+    - "16272"
+    - 2011-01-12 16:59:44
+    - RICOH Aficio MPC1500sp
+    - RICOH Aficio MPC1500sp.pdf
+    - application/pdf
+    - "526864"
+    - 2011-01-12 16:59:44
+    - RICOH Aficio MPC1500sp Datasheet
+    - false
+  - - "27"
+    - "2"
+    - "4"
+    - RICOH Aficio MPC6000
+    - ""
+    - |-
+      <h3>Features</h3>
+      <ul>
+      <li>60ppm mono, 60ppm colour</li>
+      <li>A4 &amp; A3</li>
+      <li>Network ready copy, print, scan and optional fax</li>
+      <li>Incredible colour speed with optional fiery</li>
+      </ul>
+    - ""
+    - 2011-01-12 17:00:35
+    - 2011-01-12 17:00:35
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+    - RICOH Aficio MPC6000.jpg
+    - image/jpeg
+    - "6947"
+    - 2011-01-12 17:00:34
+    - RICOH Aficio MPC6000
+    - RICOH Aficio MPC6000.pdf
+    - application/pdf
+    - "738541"
+    - 2011-01-12 17:00:34
+    - RICOH Aficio MPC6000 Datasheet
+    - false
+  - - "28"
+    - "2"
+    - "4"
+    - RICOH Aficio MPC7500
+    - ""
+    - |-
+      <h3>Features</h3>
+      <ul>
+      <li>75ppm mono, 75ppm colour</li>
+      <li>A4 &amp; A3</li>
+      <li>Network ready copy, print, scan and optional fax</li>
+      <li>Incredible colour speed with optional fiery</li>
+      </ul>
+    - ""
+    - 2011-01-12 17:01:24
+    - 2011-01-12 17:01:24
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+    - RICOH Aficio MPC7500.jpg
+    - image/jpeg
+    - "6947"
+    - 2011-01-12 17:01:23
+    - RICOH Aficio MPC7500
+    - RICOH Aficio MPC7500.pdf
+    - application/pdf
+    - "738541"
+    - 2011-01-12 17:01:23
+    - RICOH Aficio MPC7500 Datasheet
+    - false
+  - - "29"
+    - "2"
+    - "5"
+    - RICOH Aficio SP4100
+    - ""
+    - |-
+      <h3>Features</h3>
+      <ul>
+      <li>31ppm mono</li>
+      <li>A4</li>
+      <li>High quality mono laser printing</li>
+      </ul>
+    - ""
+    - 2011-01-12 17:03:48
+    - 2011-01-12 17:03:48
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+    - RICOH Aficio SP4100.gif
+    - image/gif
+    - "13238"
+    - 2011-01-12 17:03:44
+    - RICOH Aficio SP4100
+    - RICOH Aficio SP4100.pdf
+    - application/pdf
+    - "779726"
+    - 2011-01-12 17:03:44
+    - RICOH Aficio SP4100 Datasheet
+    - false
+  - - "30"
+    - "2"
+    - "5"
+    - RICOH Aficio AP610N
+    - ""
+    - |-
+      <h3>Features</h3>
+      <ul>
+      <li>35ppm mono</li>
+      <li>A4 &amp; A3</li>
+      <li>Speed, connectivity and affordability</li>
+      </ul>
+    - ""
+    - 2011-01-12 17:04:17
+    - 2011-01-12 17:04:17
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+    - RICOH Aficio AP610N.gif
+    - image/gif
+    - "14774"
+    - 2011-01-12 17:04:13
+    - RICOH Aficio AP610N
+    - RICOH Aficio AP610N.pdf
+    - application/pdf
+    - "374262"
+    - 2011-01-12 17:04:13
+    - RICOH Aficio AP610N Datasheet
+    - false
+  - - "31"
+    - "2"
+    - "5"
+    - RICOH Aficio SP5100N
+    - ""
+    - |-
+      <h3>Features</h3>
+      <ul>
+      <li>43ppm mono</li>
+      <li>A4</li>
+      <li>500 sheet paper tray, 100 sheet bypass</li>
+      <li>128MB memory and 500 MHz controller</li>
+      </ul>
+    - ""
+    - 2011-01-12 17:04:51
+    - 2011-01-12 17:04:51
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+    - RICOH Aficio SP5100N.gif
+    - image/gif
+    - "12856"
+    - 2011-01-12 17:04:47
+    - RICOH Aficio SP5100N
+    - RICOH Aficio SP5100N.pdf
+    - application/pdf
+    - "3921241"
+    - 2011-01-12 17:04:47
+    - RICOH Aficio SP5100N Datasheet
+    - false
+  - - "32"
+    - "2"
+    - "5"
+    - RICOH Aficio SP8200DN
+    - ""
+    - |-
+      <h3>Features</h3>
+      <ul>
+      <li>50ppm mono</li>
+      <li>A5-A3</li>
+      <li>This machine is a reliable partner that delivers uncompromised productivity</li>
+      </ul>
+    - ""
+    - 2011-01-12 17:05:30
+    - 2011-01-12 17:05:30
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+    - RICOH Aficio SP8200DN.gif
+    - image/gif
+    - "18472"
+    - 2011-01-12 17:05:24
+    - RICOH Aficio SP8200DN
+    - RICOH Aficio SP8200DN.pdf
+    - application/pdf
+    - "798627"
+    - 2011-01-12 17:05:24
+    - RICOH Aficio SP8200DN Datasheet
+    - false
+  - - "33"
+    - "2"
+    - "5"
+    - RICOH Aficio SP9100DN
+    - ""
+    - |-
+      <h3>Features</h3>
+      <ul>
+      <li>75ppm mono</li>
+      <li>A4 &amp; A3</li>
+      <li>2x1550 + 2x550 sheet paper trays and internal duplex</li>
+      <li>256 MB memory + 80 GB HDD</li>
+      </ul>
+    - ""
+    - 2011-01-12 17:06:09
+    - 2011-01-12 17:06:09
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+    - RICOH Aficio SP9100DN.gif
+    - image/gif
+    - "12123"
+    - 2011-01-12 17:06:05
+    - RICOH Aficio SP9100DN
+    - RICOH Aficio SP9100DN.pdf
+    - application/pdf
+    - "6430028"
+    - 2011-01-12 17:06:05
+    - RICOH Aficio SP9100DN Datasheet
+    - false
+  - - "34"
+    - "2"
+    - "6"
+    - RICOH Aficio SPC811DN
+    - ""
+    - |-
+      <h3>Features</h3>
+      <ul>
+      <li>40ppm mono, 40ppm colour</li>
+      <li>A4 &amp; A3</li>
+      <li>Duplex as standard and heavy stock capability</li>
+      <li>Professional finishing and booklet making</li>
+      </ul>
+    - ""
+    - 2011-01-12 17:07:40
+    - 2011-01-12 17:07:40
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+    - RICOH Aficio SPC811DN.gif
+    - image/gif
+    - "14643"
+    - 2011-01-12 17:07:36
+    - RICOH Aficio SPC811DN
+    - RICOH Aficio SPC811DN.pdf
+    - application/pdf
+    - "827470"
+    - 2011-01-12 17:07:36
+    - RICOH Aficio SPC811DN Datasheet
+    - false
+  - - "35"
+    - "2"
+    - "6"
+    - RICOH Aficio CL7200
+    - ""
+    - |-
+      <h3>Features</h3>
+      <ul>
+      <li>32ppm mono, 28ppm colour</li>
+      <li>A4 &amp; A3</li>
+      <li>Delivering up to 35 ppm A4 in full colour at up to 1,200 dpi, these units represent a cost saving alternative to outsourcing print jobs</li>
+      </ul>
+    - ""
+    - 2011-01-12 17:08:15
+    - 2011-01-12 17:08:15
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+    - RICOH Aficio CL7200.gif
+    - image/gif
+    - "14744"
+    - 2011-01-12 17:08:11
+    - RICOH Aficio CL7200
+    - RICOH Aficio CL7200.pdf
+    - application/pdf
+    - "1031562"
+    - 2011-01-12 17:08:11
+    - RICOH Aficio CL7200 Datasheet
+    - false
+  - - "36"
+    - "2"
+    - "6"
+    - RICOH Aficio SPC420DN
+    - ""
+    - |-
+      <h3>Features</h3>
+      <ul>
+      <li>30ppm mono, 30ppm colour</li>
+      <li>A4</li>
+      <li>Excellent office colour printing</li>
+      </ul>
+    - ""
+    - 2011-01-12 17:09:05
+    - 2011-01-12 17:09:05
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+    - RICOH Aficio SPC420DN.gif
+    - image/gif
+    - "12755"
+    - 2011-01-12 17:09:01
+    - RICOH Aficio SPC420DN
+    - RICOH Aficio SPC420DN.pdf
+    - application/pdf
+    - "1767187"
+    - 2011-01-12 17:09:01
+    - RICOH Aficio SPC420DN Datasheet
+    - false
+  - - "37"
+    - "2"
+    - "6"
+    - RICOH Aficio CL3500N-CL3500DN
+    - ""
+    - |-
+      <h3>Features</h3>
+      <ul>
+      <li>21ppm mono, 21ppm colour</li>
+      <li>A4</li>
+      <li>Network card as standard, optional duplex</li>
+      <li>Colour laser printing on a modest budget</li>
+      </ul>
+    - ""
+    - 2011-01-12 17:09:39
+    - 2011-01-12 17:09:39
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+    - RICOH Aficio CL3500N-CL3500DN.gif
+    - image/gif
+    - "12221"
+    - 2011-01-12 17:09:35
+    - RICOH Aficio CL3500N-CL3500DN
+    - RICOH Aficio CL3500N-CL3500DN.pdf
+    - application/pdf
+    - "3827475"
+    - 2011-01-12 17:09:35
+    - RICOH Aficio CL3500N-CL3500DN Datasheet
+    - false
+  - - "38"
+    - "3"
+    - "7"
+    - RISO RZ 970
+    - ""
+    - |-
+      <h3>Features</h3>
+      <ul>
+      <li>A4 &amp; A3</li>
+      <li>180 ppm</li>
+      <li>Time to create a master: 16s</li>
+      <li>semi-automatic ADF</li>
+      </ul>
+    - ""
+    - 2011-01-12 17:10:45
+    - 2011-01-12 17:10:45
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+    - RISO RZ 970.jpg
+    - image/jpeg
+    - "15998"
+    - 2011-01-12 17:10:44
+    - RISO RZ 970
+    - RISO RZ 970.pdf
+    - application/pdf
+    - "1076622"
+    - 2011-01-12 17:10:44
+    - RISO RZ 970 Datasheet
+    - false
+  - - "39"
+    - "3"
+    - "7"
+    - RISO MZ 770
+    - ""
+    - |-
+      <h3>Features</h3>
+      <ul>
+      <li>A3 paper format</li>
+      <li>Up 150 pages per minute</li>
+      <li>2 Colour one-pass technology</li>
+      <li>Integrated flat-bed scanner</li>
+      </ul>
+    - ""
+    - 2011-01-12 17:11:27
+    - 2011-01-12 17:11:27
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+    - RISO MZ 770.jpg
+    - image/jpeg
+    - "3430"
+    - 2011-01-12 17:11:25
+    - RISO MZ 770
+    - RISO MZ 770.pdf
+    - application/pdf
+    - "5127249"
+    - 2011-01-12 17:11:25
+    - RISO MZ 770 Datasheet
+    - false
+  - - "40"
+    - "3"
+    - "7"
+    - RISO HC 550
+    - ""
+    - |-
+      <h3>Features</h3>
+      <ul>
+      <li>Full Colour A3 printing</li>
+      <li>Up to 120 pages per minute</li>
+      <li>Incredibly low running costs</li>
+      <li>Network interface included</li>
+      </ul>
+    - ""
+    - 2011-01-12 17:12:01
+    - 2011-01-12 17:12:01
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+    - RISO HC 550.jpg
+    - image/jpeg
+    - "3940"
+    - 2011-01-12 17:12:00
+    - RISO HC 550
+    - RISO HC 550.pdf
+    - application/pdf
+    - "4789369"
+    - 2011-01-12 17:12:00
+    - RISO HC 550 Datasheet
+    - false
+  - - "41"
+    - "4"
+    - "8"
+    - UTAX XC 9020
+    - ""
+    - |-
+      <h3>Features</h3>
+      <ul>
+      <li>3.6m/min</li>
+      <li>min 210 x 297 mm (A4), max 841 x 3,000 mm</li>
+      <li>Can copy to standard paper, tracing paper or even transparencies</li>
+      </ul>
+    - ""
+    - 2011-01-12 17:13:22
+    - 2011-01-12 17:13:22
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+    - UTAX XC 9020.jpg
+    - image/jpeg
+    - "5371"
+    - 2011-01-12 17:13:21
+    - UTAX XC 9020
+    - UTAX XC 9020.pdf
+    - application/pdf
+    - "264222"
+    - 2011-01-12 17:13:21
+    - UTAX XC 9020 Datasheet
+    - false
+  - - "42"
+    - "4"
+    - "8"
+    - UTAX XC 9036
+    - ""
+    - |-
+      <h3>Features</h3>
+      <ul>
+      <li>3.6m/min</li>
+      <li>Copy/Print format: min 279 x 210 mm, max 914 x 3,600 mm</li>
+      <li>Scan format: min 275 x 210 mm, max 914.4 x 15,240 mm</li>
+      <li>Ideal for technical diagrams, structural plans, maps or floor plans</li>
+      </ul>
+    - ""
+    - 2011-01-12 17:13:48
+    - 2011-01-12 17:13:48
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+    - UTAX XC 9036.jpg
+    - image/jpeg
+    - "11972"
+    - 2011-01-12 17:13:47
+    - UTAX XC 9036
+    - UTAX XC 9036.pdf
+    - application/pdf
+    - "486529"
+    - 2011-01-12 17:13:47
+    - UTAX XC 9036 Datasheet
+    - false
+  - - "43"
+    - 
+    - "9"
+    - Print Audit Rapid Assessment Key
+    - This is a convenient and ingenious tool that allows you to audit, troubleshoot and collect meter reads via a small USB key. No software or hardware installation is required and a powerful reporting tool allows you to assign a cost per page and generate comparison reports between current and previous scans.
+    - |-
+      <p>The Rapid Assessment Key consists of four device management tools:</p>
+      <p>Auditor enables the collection of network device information such as IP address, colour/mono breakdown, toner levels and serial numbers etc</p>
+      <ul>
+      <li>Analyzer discovers which network IP addresses are used and which are available</li>
+      <li>Asset Tracker manages the fleet by writing inventory information to each device including name, department, serial number and asset number</li>
+      <li>Remote Resetter allows you to remotely re-start one or more devices by importing their IP addresses. You can clear print jobs and restore device functionality in minutes for a simple quick fix.</li>
+      </ul>
+    - ""
+    - 2011-01-12 17:15:32
+    - 2011-01-12 17:15:32
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+    - Print Audit Rapid Assessment Key.gif
+    - image/gif
+    - "5125"
+    - 2011-01-12 17:15:29
+    - Print Audit Rapid Assessment Key
+    - 
+    - 
+    - 
+    - 
+    - ""
+    - false
+  - - "44"
+    - 
+    - "9"
+    - eCopy
+    - eCopy ShareScan products set a competitive standard for simple, secure, and cost effective electronic distribution and integration of paper-based information. This award-winning software enables users of a workgroup or enterprise network to share the digital copier's ability to turn paper documents into digital files, which can then be distributed down the hall or around the world over the corporate network or Internet.
+    - |-
+      <p>With ShareScan Suite software, office workers can use their multifunction peripherals (MFPs) for secure document scanning and seamless integration into business applications that support electronic business processes. It provides a consistent, easy to use interface across any capture device, promoting user adoption and increasing the value of enterprise hardware and business software investments.</p>
+      <p>The software offers native integration to leading document management scanning, e-mail, fax, database, collaboration, and cost recovery software applications.</p>
+      <p>What&rsquo;s included in ShareScan Suite</p>
+      <ul>
+      <li>ShareScan connects your MFP to your organization&rsquo;s networked enterprise applications for easy to use, secure distribution of paper-based information.</li>
+      <li>eCopy Desktop&trade; is PC software that enables office workers to work faster and more efficiently, making it easy to capture, combine, edit, and secure scanned documents as PDFs.</li>
+      <li>eCopy Connectors and Services link eCopy-enabled devices with software applications to give users the ability to scan directly to those applications. eCopy ShareScan Suite includes Connectors and Services to applications such as:
+      <ul>
+      <li>Captaris RightFax</li>
+      <li>EMC&reg; Documentum Content Server&reg;</li>
+      <li>Interwoven WorkSite</li>
+      <li>Lotus Notes</li>
+      <li>Microsoft&reg; Exchange&trade;</li>
+      <li>Microsoft SharePoint&trade;</li>
+      <li>Open Text Livelink ECM</li>
+      <li>Open Text Livelink ECM - eDOCS DM&trade;</li>
+      <li>eCopy Quick Connect</li>
+      <li>Cost Recovery Applications</li>
+      <li>Bates Stamping</li>
+      </ul>
+      </li>
+      </ul>
+      <p>Additional Connectors to business applications are available.</p>
+    - ""
+    - 2011-01-12 17:17:12
+    - 2011-01-12 17:17:12
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+    - eCopy.gif
+    - image/gif
+    - "5936"
+    - 2011-01-12 17:17:08
+    - eCopy
+    - 
+    - 
+    - 
+    - 
+    - ""
+    - false
+  - - "45"
+    - "1"
+    - "9"
+    - Toshiba RE-RITE
+    - RE-RITE office automation software will enhance your MFD by allowing you to automatically convert scanned paper documents into fully editable formats.
+    - |-
+      <p>The Paperless Office is closer to reality with RE-RITE office automation software. It will enhance your Toshiba e-STUDIO MFD by allowing you to automatically convert scanned paper documents into fully editable formats including:</p>
+      <ul>
+      <li>DOC (Microsoft Word)</li>
+      <li>PDF (Adobe Acrobat)</li>
+      <li>XLS (Microsoft Excel)</li>
+      <li>HTML (Web page)</li>
+      <li>E-Book (MS Reader)</li>
+      </ul>
+      <p>RE-RITE delivers these fully digital files to a network drive or directly to your mailbox simply, efficiently and in full colour.</p>
+      <p>Driven by advanced OCR technology, RE-RITE is fast, accurate and simple to use since it&rsquo;s a server (host PC) based application making it available for many users on a single licence.</p>
+      <p>Now there&rsquo;s no need to re-type or re-format documents that are only available as hard copy originals. The time saved in simply scanning and converting to fully digital documents is astonishing and will make work quicker, easier and more accurate.</p>
+    - ""
+    - 2011-01-12 17:19:12
+    - 2011-01-12 17:19:12
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+    - Toshiba RE-RITE.gif
+    - image/gif
+    - "5497"
+    - 2011-01-12 17:19:07
+    - Toshiba RE-RITE
+    - 
+    - 
+    - 
+    - 
+    - ""
+    - false
+  - - "46"
+    - 
+    - "9"
+    - Planetpress Suite
+    - Does your business use costly pre-printed forms? Do you have excessive costs using legacy impact printers? If you have any of these problems then Planet Press from Objectif Lune could be the answer!
+    - |-
+      <p>The PlanetPress suite allows for the easy creation of transactional and promotional variable content documents and business forms.<br />Using existing data, print quickly and efficiently with the added benefits of electronic delivery options and integrated archiving. PlanetPress Suite is the most compelling variable data application on the market.<br />PlanetPress Suite will allow your business to:</p>
+      <ul>
+      <li>Eliminate printing on pre printed forms</li>
+      <li>Easily manage distributed printing of transactional documents</li>
+      <li>Increase response rates and customer retention</li>
+      <li>Turn invoices into advertising vehicles</li>
+      <li>Print complex documents at high-speed by using PostScript image chaching, Fiery FreeForm I &amp; II, VPS and VDX</li>
+      <li>Take in data from hosts including ODBC compliant databases and native XML</li>
+      <li>Eliminate errors due to manual interventions</li>
+      <li>Gain flexibility</li>
+      </ul>
+    - ""
+    - 2011-01-12 17:20:30
+    - 2011-01-12 17:20:30
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+    - Planetpress Suite.gif
+    - image/gif
+    - "4988"
+    - 2011-01-12 17:20:27
+    - Planetpress Suite
+    - 
+    - 
+    - 
+    - 
+    - ""
+    - false
+  - - "47"
+    - 
+    - "9"
+    - Print Audit 5
+    - On a basic level Print Audit can determine the cost of printing within your organisation and any cost savings that could be made by upgrading your printing or photocopying hardware. However, this powerful software is capable of much more than this alone.
+    - |-
+      <p><strong>Winner of the PBI outstanding print management and cost recovery solution 2006</strong></p>
+      <p>Companies large and small are constantly seeking ways to reduce overheads &ndash; premises, staffing levels etc. The one area that seems to be constantly overlooked, despite a massive impact on profitability, is precisely how much routine office copying and printing costs! Every draft, fax, memo, letter or document produced consumes paper, ink, toner and power.</p>
+      <p><strong>Do you know just how many documents you produce in a week &ndash; a month or a year?</strong><br /><strong>Do you know how many are in black &amp; white and how many in colour?</strong></p>
+      <p>Print Audit 5 provides the essential first step in proving to you how you could save money and reduce your printing costs by finding out:</p>
+      <ul>
+      <li>How much you are printing</li>
+      <li>Where it&rsquo;s being printed</li>
+      <li>How the print might be accomplished more effectively</li>
+      </ul>
+      <p>Print Audit 5 is an extremely powerful but simple to install and configure tool that comprises of three components:</p>
+      <p>1. Analysis<br />2. Reduction<br />3. Recovery</p>
+      <p>These components are available individually or as a complete package suite.</p>
+      <h4>Analysis</h4>
+      <p>Most companies underestimate their print costs by as much as 50%</p>
+      <p>Print Audit 5 analysis provides an exact picture of current print volumes and cost - learn who is printing what and where through a series of volume analysis reports.</p>
+      <ul>
+      <li>Track print usage discreetly in the background</li>
+      <li>Install silently on tens, hundreds or thousands of workstations without any user being aware of the exercise</li>
+      <li>Track printer ports, colour information, number of pages and number of copies. It will also automatically distinguish between colour and mono output</li>
+      <li>Identify equipment inefficiencies and suggest the most cost efficient print option in your organisation, or perhaps suggest replacement with more efficient and cheaper to run devices</li>
+      </ul>
+      <h4>Reduction</h4>
+      <p>Without a print management solution, most companies could find their print costs are running out of control. Typically, document production expenses can be your third highest cost after payroll and premises.</p>
+      <p>Print Audit 5 can help control those costs:</p>
+      <ul>
+      <li>Redirect current workload to the most efficient devices and<br />reduce waste and misuse</li>
+      <li>Implement print limits for any given user with customisable<br />pop-up messages or bar print by user, device type or colour</li>
+      <li>Enforce automatic duplex printing and control colour printing</li>
+      </ul>
+      <p>There&rsquo;s even a facility that allows you to notify a user of the print job cost before they print to a particular device and suggest lower cost options. That rationale may steer you towards the use of network connected Multifunctional Devices (MFDs) from Toshiba&rsquo;s e-STUDIO range, especially if colour output is required in your office.</p>
+      <h4>Recovery</h4>
+      <p>Controlling or tracking document production costs is even more vital for organisations that produce chargeable or billable documents. If you are still trying to track and bill for printing or plotting manually, you could be missing out on as much as 80% of your genuine recoverable income.</p>
+      <p>Print Audit 5 features:</p>
+      <ul>
+      <li>Optional job code validation and PIN codes with declining balances for chargeable jobs</li>
+      <li>It integrates with accounting systems and is designed to work with major CAD packages on the market. Automate every step of the recharging process and never miss or underestimate another billable document ever again</li>
+      </ul>
+    - ""
+    - 2011-01-12 17:22:02
+    - 2011-01-17 11:32:43
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - Print Audit 5.gif
+    - image/gif
+    - "4891"
+    - 2011-01-12 17:21:58
+    - Print Audit 5
+    - 
+    - 
+    - 
+    - 
+    - ""
+    - false
+
+--- 
+roles: 
+  columns: 
+  - id
+  - name
+  - all_features
+  - created_at
+  - updated_at
+  - created_by
+  - updated_by
+  - recycled
+  - recycled_at
+  - display
+  records: 
+  - - "3"
+    - Site Admin
+    - true
+    - 2010-03-18 09:43:54
+    - 2010-04-15 14:56:07
+    - 
+    - 
+    - false
+    - 
+    - true
+
+--- 
+site_settings: 
+  columns: 
+  - id
+  - name
+  - value
+  - super_admin_only
+  - created_by
+  - updated_by
+  - recycled
+  - recycled_at
+  - display
+  - input_type
+  records: 
+  - - "5"
+    - Email
+    - carl@eskimosoup.co.uk
+    - false
+    - 
+    - "1"
+    - false
+    - 
+    - true
+    - text_field
+  - - "6"
+    - Twitter
+    - http://www.twitter.com
+    - false
+    - 
+    - 
+    - false
+    - 
+    - true
+    - text_field
+  - - "7"
+    - Facebook
+    - http://www.facebook.com
+    - false
+    - 
+    - 
+    - false
+    - 
+    - true
+    - text_field
+  - - "8"
+    - Google Maps
+    - http://www.google.com
+    - false
+    - 
+    - 
+    - false
+    - 
+    - true
+    - text_area
+  - - "12"
+    - Site Name
+    - Arena Group
+    - true
+    - 
+    - "1"
+    - false
+    - 
+    - true
+    - text_field
+  - - "13"
+    - Site Down For Maintenance
+    - "false"
+    - false
+    - 
+    - 
+    - false
+    - 
+    - true
+    - true/false
+  - - "14"
+    - Stats Url
+    - ":2082/frontend/x3/stats/awstats_landing.html"
+    - true
+    - 
+    - 
+    - false
+    - 
+    - true
+    - text_field
+  - - "15"
+    - Site Domain
+    - 192.168.0.122:6238
+    - true
+    - 
+    - "1"
+    - false
+    - 
+    - true
+    - text_field
+  - - "16"
+    - Site Maintainer
+    - error@eskimosoup.co.uk
+    - true
+    - 
+    - 
+    - false
+    - 
+    - true
+    - text_field
+  - - "17"
+    - Boss Email
+    - carl@eskimosoup.co.uk
+    - false
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - text_field
+
+--- 
+surveys: 
+  columns: 
+  - id
+  - name
+  - summary
+  - result
+  - created_at
+  - updated_at
+  - created_by
+  - updated_by
+  - recycled
+  - recycled_at
+  - display
+  - position
+  records: 
+  - - "1"
+    - Equipment Satisfaction
+    - ""
+    - 94.4%
+    - 2011-01-11 10:34:43
+    - 2011-01-12 12:17:41
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "2"
+  - - "2"
+    - "Account manager\xE2\x80\x99s understanding of organisation & requirements"
+    - A survey with a summary to explain further.
+    - 92.6%
+    - 2011-01-12 09:51:27
+    - 2011-01-12 12:18:11
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "3"
+  - - "3"
+    - Courtesy/appearance and helpfulness of Account manager
+    - Another summary to go with this one.
+    - 94.1%
+    - 2011-01-12 09:52:08
+    - 2011-01-12 12:18:28
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "1"
+  - - "4"
+    - Dealing with queries
+    - ""
+    - 94.3%
+    - 2011-01-12 12:18:46
+    - 2011-01-12 12:18:46
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "5"
+    - Speed to answer the phones
+    - ""
+    - 98.4%
+    - 2011-01-12 12:19:01
+    - 2011-01-12 12:19:01
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "6"
+    - Helpfulness of call controller
+    - ""
+    - 98.1%
+    - 2011-01-12 12:19:15
+    - 2011-01-12 12:19:15
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "7"
+    - Speed of service response
+    - ""
+    - 95.8%
+    - 2011-01-12 12:19:32
+    - 2011-01-12 12:19:32
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "8"
+    - Speed of deliveries
+    - ""
+    - 94.3%
+    - 2011-01-12 12:19:47
+    - 2011-01-12 12:19:47
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "10"
+    - Courtesy and appearance of engineer
+    - ""
+    - 99.5%
+    - 2011-01-12 12:20:49
+    - 2011-01-12 12:20:49
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "11"
+    - Competency and helpfulness of engineer
+    - ""
+    - 99.2%
+    - 2011-01-12 12:21:06
+    - 2011-01-12 12:21:06
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "12"
+    - Overall customer service
+    - ""
+    - 98.1%
+    - 2011-01-12 12:21:20
+    - 2011-01-12 12:21:20
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+  - - "13"
+    - Value for money
+    - ""
+    - 95.1%
+    - 2011-01-12 12:21:34
+    - 2011-01-12 12:21:34
+    - "1"
+    - 
+    - false
+    - 
+    - true
+    - "0"
+
+--- 
+taggings: 
+  columns: 
+  - id
+  - tag_id
+  - taggable_id
+  - tagger_id
+  - tagger_type
+  - taggable_type
+  - context
+  - created_at
+  records: 
+  - - "9"
+    - "7"
+    - "2"
+    - 
+    - 
+    - CaseStudy
+    - tags
+    - 2010-11-25 11:00:49
+  - - "10"
+    - "8"
+    - "3"
+    - 
+    - 
+    - CaseStudy
+    - tags
+    - 2010-11-25 11:08:57
+  - - "11"
+    - "7"
+    - "4"
+    - 
+    - 
+    - CaseStudy
+    - tags
+    - 2010-11-25 11:21:25
+  - - "12"
+    - "8"
+    - "4"
+    - 
+    - 
+    - CaseStudy
+    - tags
+    - 2010-11-25 11:21:25
+  - - "14"
+    - "10"
+    - "5"
+    - 
+    - 
+    - CaseStudy
+    - tags
+    - 2010-11-25 11:36:22
+  - - "15"
+    - "7"
+    - "6"
+    - 
+    - 
+    - CaseStudy
+    - tags
+    - 2010-11-25 11:43:08
+  - - "16"
+    - "8"
+    - "6"
+    - 
+    - 
+    - CaseStudy
+    - tags
+    - 2010-11-25 11:43:08
+  - - "17"
+    - "7"
+    - "7"
+    - 
+    - 
+    - CaseStudy
+    - tags
+    - 2010-11-25 11:48:14
+  - - "18"
+    - "7"
+    - "8"
+    - 
+    - 
+    - CaseStudy
+    - tags
+    - 2010-11-25 11:59:11
+  - - "19"
+    - "7"
+    - "9"
+    - 
+    - 
+    - CaseStudy
+    - tags
+    - 2010-11-25 12:01:45
+  - - "21"
+    - "8"
+    - "11"
+    - 
+    - 
+    - CaseStudy
+    - tags
+    - 2010-11-25 12:12:51
+  - - "22"
+    - "11"
+    - "11"
+    - 
+    - 
+    - CaseStudy
+    - tags
+    - 2010-11-25 12:12:51
+  - - "24"
+    - "11"
+    - "12"
+    - 
+    - 
+    - CaseStudy
+    - tags
+    - 2010-11-25 12:15:46
+  - - "26"
+    - "7"
+    - "13"
+    - 
+    - 
+    - CaseStudy
+    - tags
+    - 2010-11-25 12:22:55
+  - - "27"
+    - "8"
+    - "13"
+    - 
+    - 
+    - CaseStudy
+    - tags
+    - 2010-11-25 12:22:55
+  - - "28"
+    - "7"
+    - "14"
+    - 
+    - 
+    - CaseStudy
+    - tags
+    - 2010-11-25 12:31:04
+  - - "29"
+    - "11"
+    - "8"
+    - 
+    - 
+    - CaseStudy
+    - tags
+    - 2010-11-25 13:18:27
+  - - "30"
+    - "8"
+    - "1"
+    - 
+    - 
+    - CaseStudy
+    - tags
+    - 2010-11-25 15:37:07
+  - - "31"
+    - "13"
+    - "1"
+    - 
+    - 
+    - CaseStudy
+    - tags
+    - 2010-11-25 15:37:07
+  - - "32"
+    - "14"
+    - "1"
+    - 
+    - 
+    - CaseStudy
+    - tags
+    - 2010-11-25 15:37:07
+  - - "33"
+    - "13"
+    - "10"
+    - 
+    - 
+    - CaseStudy
+    - tags
+    - 2010-11-25 15:41:03
+  - - "34"
+    - "15"
+    - "10"
+    - 
+    - 
+    - CaseStudy
+    - tags
+    - 2010-11-25 15:41:03
+  - - "35"
+    - "16"
+    - "3"
+    - 
+    - 
+    - CaseStudy
+    - tags
+    - 2010-11-25 15:44:10
+  - - "36"
+    - "17"
+    - "3"
+    - 
+    - 
+    - CaseStudy
+    - tags
+    - 2010-11-25 15:44:10
+  - - "37"
+    - "16"
+    - "11"
+    - 
+    - 
+    - CaseStudy
+    - tags
+    - 2010-11-25 15:45:29
+  - - "38"
+    - "18"
+    - "11"
+    - 
+    - 
+    - CaseStudy
+    - tags
+    - 2010-11-25 15:45:29
+  - - "39"
+    - "11"
+    - "5"
+    - 
+    - 
+    - CaseStudy
+    - tags
+    - 2010-11-25 15:46:19
+  - - "40"
+    - "16"
+    - "5"
+    - 
+    - 
+    - CaseStudy
+    - tags
+    - 2010-11-25 15:46:19
+  - - "41"
+    - "19"
+    - "12"
+    - 
+    - 
+    - CaseStudy
+    - tags
+    - 2010-11-25 15:47:01
+  - - "42"
+    - "8"
+    - "2"
+    - 
+    - 
+    - CaseStudy
+    - tags
+    - 2010-11-25 15:48:03
+  - - "43"
+    - "8"
+    - "9"
+    - 
+    - 
+    - CaseStudy
+    - tags
+    - 2010-11-25 15:48:29
+  - - "44"
+    - "15"
+    - "9"
+    - 
+    - 
+    - CaseStudy
+    - tags
+    - 2010-11-25 15:48:29
+  - - "45"
+    - "8"
+    - "14"
+    - 
+    - 
+    - CaseStudy
+    - tags
+    - 2010-11-25 15:48:55
+  - - "46"
+    - "15"
+    - "14"
+    - 
+    - 
+    - CaseStudy
+    - tags
+    - 2010-11-25 15:48:55
+  - - "47"
+    - "8"
+    - "7"
+    - 
+    - 
+    - CaseStudy
+    - tags
+    - 2010-11-25 15:49:02
+  - - "48"
+    - "15"
+    - "7"
+    - 
+    - 
+    - CaseStudy
+    - tags
+    - 2010-11-25 15:49:02
+  - - "49"
+    - "8"
+    - "31"
+    - 
+    - 
+    - PageContent
+    - tag_subscribe
+    - 2010-11-26 11:42:27
+  - - "50"
+    - "15"
+    - "32"
+    - 
+    - 
+    - PageContent
+    - tag_subscribe
+    - 2010-11-26 11:45:54
+  - - "51"
+    - "11"
+    - "33"
+    - 
+    - 
+    - PageContent
+    - tag_subscribe
+    - 2010-11-26 11:48:08
+  - - "52"
+    - "11"
+    - "34"
+    - 
+    - 
+    - PageContent
+    - tag_subscribe
+    - 2010-11-26 11:49:26
+  - - "53"
+    - "11"
+    - "35"
+    - 
+    - 
+    - PageContent
+    - tag_subscribe
+    - 2010-11-26 11:50:21
+  - - "54"
+    - "14"
+    - "36"
+    - 
+    - 
+    - PageContent
+    - tag_subscribe
+    - 2010-11-26 11:52:44
+  - - "55"
+    - "20"
+    - "1"
+    - 
+    - 
+    - BlogEntry
+    - tags
+    - 2010-11-29 11:22:33
+
+--- 
+tags: 
+  columns: 
+  - id
+  - name
+  records: 
+  - - "5"
+    - IT & Print
+  - - "6"
+    - Copy & Legal
+  - - "7"
+    - Education
+  - - "8"
+    - Copy & Print
+  - - "9"
+    - mstore
+  - - "10"
+    - Leisure
+  - - "11"
+    - Electronic Document Management (EDM)
+  - - "12"
+    - Corporate
+  - - "13"
+    - Legal
+  - - "14"
+    - IT
+  - - "15"
+    - Managed Print Services (MPS)
+  - - "16"
+    - Business
+  - - "17"
+    - Training
+  - - "18"
+    - Distribution
+  - - "19"
+    - Professional Services
+  - - "20"
+    - Print
+  - - "21"
+    - hello
+
+--- 
+testimonials: 
+  columns: 
+  - id
+  - quote
+  - author
+  - company_name
+  - created_at
+  - updated_at
+  - created_by
+  - updated_by
+  - recycled
+  - recycled_at
+  - display
+  - position
+  - highlight
+  - image_file_name
+  - image_content_type
+  - image_file_size
+  - image_updated_at
+  - image_alt
+  records: 
+  - - "1"
+    - They are very good at what they do and how they do it. To be honest, computers are just there to make life easier and you don't want to spend a lot of time thinking about them. Arena has ensured we can just get on with our business and this is all one less worry to think about.
+    - Linda Parker
+    - 37 Park Square Chambers
+    - 2010-11-24 13:29:22
+    - 2011-01-18 10:09:37
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - true
+    - testimonials_37_park.jpg
+    - image/jpeg
+    - "36240"
+    - 2011-01-18 10:09:35
+    - 37 Park Square Chambers
+  - - "2"
+    - Where possible they always send the same engineer - he understands us and he knows the pressure we are under. As a Technology College our print needs are always increasing in volume and complexity and we can't afford to have downtime.  The machines we have from Arena are efficient and reliable but if we do have any problems the engineer is out promptly and repairs the machine quickly. We have Eco School status so it's important to us that our copiers and printers are energy efficient.
+    - John Smith
+    - Settle College
+    - 2010-11-24 13:30:16
+    - 2011-01-12 09:53:52
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - false
+    - 
+    - 
+    - 
+    - 
+    - 
+  - - "3"
+    - The quality of the machines and responsiveness from Arena help ensure we can be the best at what we do.
+    - Sandra Shapiro
+    - A4e
+    - 2010-11-25 11:07:47
+    - 2011-01-18 10:11:41
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - false
+    - testimonials_a4e.jpg
+    - image/jpeg
+    - "32782"
+    - 2011-01-18 10:11:40
+    - A4e
+  - - "4"
+    - I used Arena in a previous school and recommended them when I moved here. What impresses me about them is their customer service - they have a completely different approach to other companies.
+    - Phil Deakin
+    - Bolton St. Catherine's Academy
+    - 2010-11-25 11:19:30
+    - 2011-01-18 10:12:10
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - true
+    - testimonials_bolton_st_catherine.jpg
+    - image/jpeg
+    - "40848"
+    - 2011-01-18 10:12:09
+    - Bolton St. Catherine's Academy
+  - - "5"
+    - "We are very excited by a tool with the potential to give us a plethora of information we can\xE2\x80\x99t get by other means, and immediately. Now we are looking at ways we could make the report more detailed and specific to each ship."
+    - Richard Parker
+    - Carnival UK
+    - 2010-11-25 11:38:09
+    - 2010-11-25 13:12:32
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - false
+    - 
+    - 
+    - 
+    - 
+    - 
+  - - "6"
+    - "Arena has supplied us for 10 years. They are always spot on with price, but we chose them because of their customer service. Whether it\xE2\x80\x99s their engineers, their technical support or their sales people, we have never had cause to say a bad word against them."
+    - Maria Eisner
+    - Feversham College
+    - 2010-11-25 11:41:09
+    - 2010-11-25 13:12:54
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - false
+    - 
+    - 
+    - 
+    - 
+    - 
+  - - "7"
+    - "We've actually got two more printers in the process but are spending around 40% less - that's a saving of \xC2\xA33,000 a quarter."
+    - Jonathon Finan
+    - Gateways School
+    - 2010-11-25 11:46:43
+    - 2010-11-25 13:13:51
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - false
+    - 
+    - 
+    - 
+    - 
+    - 
+  - - "8"
+    - Arena are so amenable and helpful. I give them a problem, they go away and do their research and present me with a solution.
+    - Tina McGuffie
+    - The Grange Comprehensive, Runcorn
+    - 2010-11-25 11:55:19
+    - 2011-01-18 10:12:45
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - false
+    - testimonials_the_grange_comprehensive.jpg
+    - image/jpeg
+    - "23619"
+    - 2011-01-18 10:12:44
+    - The Grange Comprehensive, Runcorn
+  - - "9"
+    - With the squeeze on higher education budgets all areas of the university college are looking to make savings. On our high volume black and white photocopier alone we produce 1.25 million copies a quarter and our colour copier averages about 30,000 copies per quarter.
+    - Julie Orange
+    - Leeds Trinity University College
+    - 2010-11-25 12:03:30
+    - 2011-01-18 10:13:21
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - false
+    - testimonials_leeds_trinity.jpg
+    - image/jpeg
+    - "30529"
+    - 2011-01-18 10:13:20
+    - Leeds Trinity University College
+  - - "10"
+    - Arena has made my job easier. Now I don't have to think about the printers. I know exactly where we are.
+    - Jaime Lockwood
+    - Morrish Solicitors LLP
+    - 2010-11-25 12:08:05
+    - 2011-01-18 10:13:50
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - false
+    - testimonials_morrish_solicitors.jpg
+    - image/jpeg
+    - "28076"
+    - 2011-01-18 10:13:48
+    - Morrish Solicitors LLP
+  - - "11"
+    - We met Arena and they showed an excellent understanding of our operational techniques and processes. They were quick on the uptake and we only had to explain things once. They sorted our methodology while we were talking.
+    - Garry Tillburn
+    - Reed Boardall
+    - 2010-11-25 12:12:23
+    - 2011-01-18 10:14:22
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - false
+    - testimonials_reed_boardall.jpg
+    - image/jpeg
+    - "28438"
+    - 2011-01-18 10:14:21
+    - Reed Boardall
+  - - "12"
+    - Arena has proved as reliable and effective as the solutions they provided. Training has been generally excellent and maintenance great. I would definitely recommend Arena.
+    - Janice Taylor
+    - Romero
+    - 2010-11-25 12:16:28
+    - 2011-01-18 10:14:49
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - false
+    - testimonials_romero.jpg
+    - image/jpeg
+    - "36024"
+    - 2011-01-18 10:14:47
+    - Romero
+  - - "13"
+    - We used to run out of cartridges all the time. Now, thanks to some clever technology installed by Arena, before we have even run out a replacement cartridge arrives with clear installation instructions - so we never have any printer downtime.
+    - Michelle Benton
+    - Rowena Nursery and Infant School, Conisbrough
+    - 2010-11-25 12:26:19
+    - 2010-11-25 13:16:11
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - false
+    - 
+    - 
+    - 
+    - 
+    - 
+  - - "14"
+    - Printers are so important for coursework. Arena keeps ours running, have given us more functionality - and saved us costs.
+    - David Hancock
+    - Wetherby High School
+    - 2010-11-25 12:31:45
+    - 2011-01-18 10:15:16
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - false
+    - testimonials_wetherby_high.jpg
+    - image/jpeg
+    - "27490"
+    - 2011-01-18 10:15:14
+    - Wetherby High School
+
+--- 
+white_papers: 
+  columns: 
+  - id
+  - name
+  - summary
+  - date
+  - created_at
+  - updated_at
+  - created_by
+  - updated_by
+  - recycled
+  - recycled_at
+  - display
+  - position
+  - document_file_name
+  - document_content_type
+  - document_file_size
+  - document_updated_at
+  - document_alt
+  records: 
+  - - "1"
+    - Sample White Paper
+    - Lorem ipsum vim volumus placerat maiestatis eu, duo graeco aliquip senserit et, pro te quando postea voluptatibus. Mentitum platonem eos ad, vim audiam tibique urbanitas an. Ea sea iusto essent maiorum, vero ocurreret ad sea. Congue euismod accumsan mel ex, vocibus minimum eum ex.
+    - "2010-11-29"
+    - 2010-11-29 11:07:02
+    - 2011-01-14 16:04:23
+    - "1"
+    - "1"
+    - false
+    - 
+    - true
+    - "0"
+    - sherwood.pdf
+    - application/pdf
+    - "1494237"
+    - 2011-01-14 16:04:23
+    - ""

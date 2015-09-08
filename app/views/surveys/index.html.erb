@@ -1,0 +1,18 @@
+<% hide_right %>
+
+<h1><%= title "Customer Satisfaction" %></h1>
+
+<% if @surveys.length > 0 %>
+  <%= @page_node.active_content.main_content %>
+  <br /> 
+  <% for survey in @surveys %>
+    <p>
+      <span class="font_med"><span class="font_blue"><strong><%= survey.result %></strong></span> <%= survey.name %></span>
+			<br />
+      <%= survey.summary %>
+    </p>
+  <% end %>
+  <%= will_paginate @surveys %>
+<% else %>
+  <p>No Surveys to display</p>
+<% end %>

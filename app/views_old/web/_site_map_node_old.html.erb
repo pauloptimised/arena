@@ -1,0 +1,16 @@
+<% unless node.layout == "invisible" %>
+	<li>
+		<%= link_to node.name, url_for(node.path) %>
+    <% if node.name.eql?("Main Navigation") %>
+      <ul><li><%= link_to "Home", root_url %></li></ul>
+    <% end %>
+	  <% for child in node.children.active.sort_by{|x| x.name} %>
+		  <ul>
+		    <%= render :partial => "site_map_node", :locals => {:node => child} %>
+		  </ul>
+	  <% end %>
+	  <% if node.name.eql?("Second Tier Navigation") %>
+      <ul><li><%= link_to "Site Map (this page)", "" %></li></ul>
+    <% end %>
+	</li>
+<% end %>

@@ -1,0 +1,5 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^arenagroup.net$
+RewriteRule ^/?$ "http\:\/\/www\.arenagroup\.net\/" [R=301,L]
+

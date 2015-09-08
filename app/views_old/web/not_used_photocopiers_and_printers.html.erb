@@ -1,0 +1,135 @@
+<% hide_flash; hide_right %>
+
+<% content_for :head do %>
+	<%= render '/web/seo_pages/head' %>
+	<script type="text/javascript">
+    swfobject.embedSWF("arena - MPS.swf", "mps-video", "600", "350", "9.0.0");
+  </script>
+<% end %>
+
+<% content_for :telephone do %>
+  <span><%= SiteSetting.find_by_name("Phone (SEO)").value %></span><br />
+<% end %>
+
+<% content_for :left do %>
+  <div class="left_nav">
+		<h2><a href="/page/managed-document-service">Managed Document Service</a></h2>
+    <ul> 
+		  <li><a href="/page/electronic-document-management">Electronic Document Management (EDM)</a></li>
+		  <li><a href="/page/copy-and-print">Copy and Print</a></li>
+		  <li><a href="/page/partners">Partners</a></li>
+		  <li><a href="/page/arena-in-business-brochure" class="document" onclick="window.open(this.href);return false;">Arena in Business Brochure</a></li>
+		  <li><a href="/page/arena-in-education-brochure" class="document" onclick="window.open(this.href);return false;">Arena in Education Brochure</a></li>
+	  </ul>    
+  </div>
+	<% if @survey %>
+   	<h2 class="underlined"><%= link_to "Customer Satisfaction Results", surveys_path %></h2> 
+   	<div class="survey">
+      <div class="survey_percentage">
+        <%= @survey.result %>
+      </div>
+      <div class="survey_name">
+        <%= @survey.name %>
+      </div>
+      <div class="clear"></div>
+    </div>
+  <% end %>
+  <%= render '/web/seo_pages/request_a_review', :form => "photocopiers_and_printers" %>
+<% end %>
+
+<!-- Main -------------------------------------------------------------------------------------- -->
+
+<div id="seo-landing-page">
+  
+  <h1><%= title("Photocopiers and Printers") %></h1>
+  
+  <%= flash[:notice] if flash[:notice] %>
+	<div class="row">
+		<div id="mps-video">
+			
+		</div>
+	</div>
+  <div class="row">
+    
+    <div class="cell guttered">
+      <p><strong>We know there is no &lsquo;one size fits all&rsquo; when it comes to your print and copy strategy.</strong></p>
+      <p>Yes we sell and rent printers and photocopiers, but we are so much more than that.</p>
+      <p>Whether you need one efficient photocopier or a bespoke managed print service (MPS), we will work with you to design the best solution for your needs, taking into consideration:</p>
+      <ul>
+        <li>any special print requirements</li>
+        <li>how much print and copy you need to produce</li>
+        <li>necessary controls, reports and/or restrictions</li>
+        <li>environmental targets</li>
+      </ul>
+    </div>
+    
+    <div class="cell">
+      <%#= image_tag("seo-photocopiers-and-printers.jpg", :width => "330", :height => "250", :alt => "Photocopiers and Printers", :title => "Photocopiers and Printers") %>
+      <h2 class="no-top">Free savings print review</h2>
+      <p>Our friendly team conduct a free savings print review looking at your current print and copy devices, volumes, costs and requirements. We then present you with our a bespoke review document on how to deliver efficiencies and a better controlled strategy.</p>
+      <h2>We are Independent</h2>
+      <p>Because we are an independent supplier we regularly review the market to source the most suitable products for our clients. We work hard to provide a solution that is the right fit for your organisation.</p>
+			Our managed print service could reduce your print and copy costs by up to 30%
+			<div id="seo-share">
+				<h2>Share...</h2>
+				<div id="fb-root"></div>
+				<div class="fb-like" data-href="http://www.arenagroup.net/photocopiers_and_printers" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+        &nbsp;
+				<a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+        &nbsp;
+				<g:plusone></g:plusone>
+      </div>
+    </div>
+    
+    <div class="clear"></div>
+    
+  </div>
+  
+  <div class="row">
+    <%= render '/web/seo_pages/map' %>
+  </div>
+  
+  <% unless @case_study.blank? %>
+		<div class="row">
+			<h2>Case Studies: See how we've helped other people</h2>
+			<%= render '/case_studies/case_study', :case_study => @case_study %>
+		</div>
+    <div class="clear"></div>
+	<% end %>
+  
+  <div class="row">
+    <h2>Are you interested in our Managed Document Service (MDS)?</h2>
+    <div class="cell guttered">
+      <%= image_tag("managed-document-service.jpg", :alt => "Managed Document Service", :title => "Managed Document Service") %>
+      <p>Read more on our dedicated <%= link_to("MDS page", "/page/managed-document-service") %>.</p>
+    </div>
+    <div class="seo-cell" style="width: 50%; float: left;">
+      <ul>
+        <li>Electronic Document Management (EDM)</li>
+        <li>Scan, print and email</li>
+        <li>Paperless back-ups</li>
+        <li>Automatic toner ordering</li>
+        <li>Service and repair response team</li>
+      </ul>
+    </div>
+    <div class="clear"></div>
+  </div>
+  
+  <div class="row">
+    <div class="cell guttered">
+      <h2>Download our free guides</h2>
+      <%= render '/web/seo_pages/free_guides' %>
+    </div>
+    <div class="cell">
+      <h2>FAQs</h2>
+      <%= render '/faqs/seo', :faqs => @faqs %>
+    </div>
+    <div class="clear"></div>
+  </div>
+  
+  <div class="row">
+		<%= flash[:alert] if flash[:alert] %>
+		<%= render '/web/seo_pages/contact_form' %>
+  </div>
+  
+</div>

@@ -1,0 +1,11 @@
+<% title "What would you like to do with this image?" %>
+
+<p>
+  <%= link_to "Crop a section of the image", edit_admin_image_path(@image) %>
+  <br /><br />
+  <%= link_to "Generate a specific sized image", pre_alter_admin_image_path(@image) %>
+</p>  
+
+<p>
+  <%= link_to "Back", admin_images_path %>
+</p>

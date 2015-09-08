@@ -1,0 +1,35 @@
+<% hide_flash %>
+<% hide_right %>
+
+<h1><%= title("Thank You") %></h1>
+
+<% if flash[:notice] %>
+	<%= flash[:notice] %>
+<% end %>
+
+<% content_for :left do %>
+  
+	<% if @survey %>
+   	<h2 class="underlined"><%= link_to "Customer Satisfaction Results", surveys_path %></h2> 
+   	<div class="survey">
+      <div class="survey_percentage">
+        <%= @survey.result %>
+      </div>
+      <div class="survey_name">
+        <%= @survey.name %>
+      </div>
+      <div class="clear"></div>
+    </div>
+  <% end %>
+  
+  <% if @testimonial %>
+    <h2 class="underlined"><%= link_to "Testimonials" %></h2>
+    <h3 class="h3_link"><%= link_to @testimonial.company_name, testimonials_path %></h3>
+    <% if @testimonial.image %>
+      <%= image_tag @testimonial.image(:index), :border => "0", :hspace => "0", :vspace => "0", :height=> "136px", :width=> "200px", :class=> "image_border" %>
+    <% end %>
+    <p>"<%= @testimonial.quote %>"</p>
+    <span class="date"><%= @testimonial.author %></span>
+  <% end %>
+  
+<% end %>

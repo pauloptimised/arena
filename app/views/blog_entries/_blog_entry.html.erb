@@ -1,0 +1,25 @@
+<% if blog_entry.image? %>
+ <%= link_to image_tag(blog_entry.image.url(:index), :class=>"image_left"), {:action => "show",
+  :id => blog_entry.id,
+  :tag => params[:tag],
+  :year => params[:year],
+  :month => params[:month]} %>
+<% end %>
+
+<h2><%= link_to h(blog_entry.headline), {:action => "show",
+  :id => blog_entry.id,
+  :tag => params[:tag],
+  :year => params[:year],
+  :month => params[:month]} %></h2>
+
+<span class="date"><%=h simple_date_format blog_entry.date %></span><br />
+
+<%=h blog_entry.summary %><br />
+
+<p align="right"><%= link_to "Read more", {:action => "show",
+  :id => blog_entry.id,
+  :tag => params[:tag],
+  :year => params[:year],
+  :month => params[:month]}, {:class=>"blue_arrow"} %></p>
+
+<hr />

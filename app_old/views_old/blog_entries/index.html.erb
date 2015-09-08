@@ -1,0 +1,19 @@
+<% hide_right %>
+
+<h1><%= title @title %></h1>
+
+<% if @blog_entries.length > 0 %>
+  <% for blog_entry in @blog_entries %>
+    <%= render "blog_entries/blog_entry", :blog_entry => blog_entry %>
+  <% end %>
+  <%= will_paginate @blog_entries %>
+<% else %>
+ <p>No Blog Entries to display.</p>
+<% end %>
+
+<% content_for :left do  %>
+  <div class="left_nav">
+      <%= render :partial => "tags" %>
+      <%= render :partial => "dates" %>
+  </div>
+<% end %>

@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+	  <%= stylesheet_link_tag "http://#{ActionMailer::Base.default_url_options[:host]}/stylesheets/tnymc.css" %>
+	  <%= stylesheet_link_tag "http://#{ActionMailer::Base.default_url_options[:host]}/stylesheets/webstyle.css" %>
+  </head>
+  <body>
+    <div class="maincontainer" id="calculator_results">
+      <div class="top">
+			  <%= link_to image_tag("http://#{ActionMailer::Base.default_url_options[:host]}/images/logo.gif", :alt => SiteSetting.find_by_name("Site Name").value, :title => SiteSetting.find_by_name("Site Name").value, :class => 'logo'), {:controller => 'web', :action => 'index'} %>
+			  <div class="top_right">
+				  <div class="contact_info">
+					  CONTACT US FOR MORE INFORMATION<br/>
+					   <span><%= SiteSetting.find_by_name("Phone").value %></span><br/>
+					  <%= SiteSetting.find_by_name("Site Domain").value %>
+				  </div>
+			  </div>
+      </div>
+			<div class="internal_banner_container">
+				<div class="internal_banner_text"></div>
+				<div class="internal_banner_image">
+					<span></span>
+					<%= image_tag "http://#{ActionMailer::Base.default_url_options[:host]}/images/banner_pic_cost_calculator.jpg", :alt => 'Cost Calculator' %>
+				</div>
+			</div>
+      <div id="content">
+        <%= @content_for_layout %>
+      </div>
+    </div>
+  </body>
+</html>

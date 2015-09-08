@@ -1,0 +1,22 @@
+<% hide_right %>
+
+<% content_for :head do %>
+  <%= javascript_include_tag :defaults %>
+<% end %>
+
+<h1><%= title @title %></h1>
+
+<% if @testimonials.length > 0 %>
+  <% for testimonial in @testimonials %>
+    <%= render "testimonials/testimonial", :testimonial => testimonial %>
+  <% end %>
+  <%= will_paginate @testimonials %>
+<% else %>
+  <p>No Testimonials to display.</p>
+<% end %>
+
+<% content_for :left do  %>
+  <div class="left_nav">
+    <%= render :partial => "services" %>
+  </div>
+<% end %>

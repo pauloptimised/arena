@@ -1,0 +1,15 @@
+<h3>Categories</h3>
+<ul>
+  <li>
+    <%= link_to "All", products_path(:make => params[:make]) %>
+  </li>
+  <% for category in Category.active %>
+    <li>
+    	<% if params[:category] && params[:category] == category.id.to_s %>
+        <%= link_to category.name, products_path(:category => category, :make => params[:make]), :class => "highlight" %>
+      <% else %>
+        <%= link_to category.name, products_path(:category => category, :make => params[:make]) %>
+      <% end %>
+    </li>
+  <% end %>
+</ul>

@@ -1,0 +1,27 @@
+<% title "Set Alteration Options" %>
+ 
+<% form_tag alter_admin_image_path(@image) do %>
+
+  <fieldset>
+    <legend>Desired Dimensions (in pixels)</legend>
+    <p>
+      Leave one text field blank in order to automatically rescale the the other dimension.
+    </p>
+    <p>
+      <%= label_tag :width %>
+      <%= text_field_tag :width, params[:width], :style => "width: 100px;" %>
+      &nbsp;&nbsp;&nbsp;&nbsp; x &nbsp;&nbsp;&nbsp;&nbsp;
+      <%= label_tag :height %>
+      <%= text_field_tag :height, params[:height], :style => "width: 100px;" %>
+    </p>
+  </fieldset>
+
+  <p>
+    <%= submit_tag "Next Step" %>
+  </p>
+    
+<% end %>
+
+<p>
+  <%= link_to "Back", index_edits_admin_image_path(@image) %>
+</p>

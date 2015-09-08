@@ -1,0 +1,37 @@
+<% hide_right %>
+
+<% title "Case Studies" %>
+
+<h1><%=h @case_study.name %></h1>
+
+<% if @case_study.testimonial %>
+  <div class="quote">
+    <p class="introduction"><em><%= @case_study.testimonial.quote %></em></p>  
+    <% if @case_study.testimonial.author? %>
+      <span class="date"><%= @case_study.testimonial.author %></span>
+    <% end %>
+  </div>
+  <div class="quote_end"></div>
+<% end %>
+
+
+<% if @case_study.image? %>
+  <%= image_tag @case_study.image.url(:show), :class=>"image_right", :width=>"300", :height=>"204" %>
+<% end %>
+
+<p><strong><%= @case_study.summary %></strong></p>
+
+<%= @case_study.main_content %>
+
+<hr class="clear" />
+
+<p align="right">
+  <%= link_to "View all case studies", case_studies_path, {:class=>"blue_arrow"} %>
+</p>
+
+<% content_for :left do  %>
+  <div class="left_nav">
+    <%= render :partial => "services" %>
+    <%= render :partial => "tags" %>
+  </div>
+<% end %>

@@ -1,0 +1,28 @@
+<% form_for [:admin, @make], :html => {:multipart => true} do |f| %>
+  
+  <%= f.error_messages %>
+  
+  <fieldset>
+    
+    <legend>Summary Information</legend>
+    
+    <p>
+      <%= f.label :name %><br />
+      <%= f.text_field :name %>
+    </p>
+    
+  </fieldset>
+  
+  <fieldset>
+    
+    <legend>Image</legend>
+    
+    <p>
+      <%= image_field_tag f, :make, :image %>
+    </p>
+    
+  </fieldset>
+  
+  <p><%= f.submit "Submit" %></p>
+  
+<% end %>

@@ -1,0 +1,12 @@
+<% title "Home Highlights" %>
+
+<p><%= link_to "New Home Highlight", new_admin_home_highlight_path %></p>
+
+<% form_for @search do |f| %>
+  <p>
+    <%= f.text_field :name_like %>
+    <%= f.submit "Search" %>
+  </p>
+<% end %>
+
+<%= eskimo_table({:columns => ["name", ["Summary", lambda{|x| (x.summary.length > 50) ? "#{x.summary[0..50]}..." : x.summary}, "summary"], "link"], :list => @home_highlights, :images => true}) %>

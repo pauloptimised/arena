@@ -1,0 +1,38 @@
+<% cache "twitter_feed", Time.now + 10.minutes do %>
+	<% require 'xmlsimple' %>
+	<% require 'net/http' %>
+	<% url = "http://api.twitter.com/1/statuses/user_timeline/ArenaGrpBolton.xml" %>
+  <% begin %>
+    <% SystemTimer.timeout(5.seconds) do %>
+      <% @xml_data = Net::HTTP.get_response(URI.parse(url)).body %>
+    <% end %>
+  <% rescue Timeout::Error %>
+    <% unless @xml_data %>
+      <% @xml_data = nil %>
+    <% end %>
+  <% end %>
+  <div id="twitter">
+    <% unless @xml_data == nil %>
+      <% updates = XmlSimple.xml_in(@xml_data, { 'KeyAttr' => 'statuses' }) %>
+      <% unless updates["error"] %>
+        <h3><%= link_to "We're Tweeting", "http://twitter.com/ArenaGrpBolton/statuses/#{updates["status"][0]["id"][0]}" %></h3>
+        <span>
+          <%= updates["status"][0]["text"][0].gsub(/http:\/\/[^ ]*/){|match| "<a href='#{match}'>#{match}</a>"} %>
+        </span>
+          <br />
+          <a style="font-size: 85%;" href="http://twitter.com/ArenaGrpBolton/statuses/<%= updates["status"][0]["id"][0] %>">
+            <%= Time.parse(updates["status"][0]["created_at"][0].to_s).strftime('%H:%M - %d/%m/%Y') %>
+          </a>
+        </li>
+      <% else %>
+        <span>     
+          <%= updates["error"] %>
+        </span>
+      <% end %>
+    <% else %>
+      <span>
+        Twitter is not responding
+      </span>
+    <% end %>
+  </div>
+<% end %>

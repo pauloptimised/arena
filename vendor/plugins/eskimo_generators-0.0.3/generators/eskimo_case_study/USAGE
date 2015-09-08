@@ -1,0 +1,6 @@
+Description:
+    Generates a eskimo_scaffold template which behaves as a standard "Case Studies" module.
+    
+Examples:
+    ./script/generate eskimo_case_study SingularObjectName
+    ./script/generate eskimo_case_study CaseStudy

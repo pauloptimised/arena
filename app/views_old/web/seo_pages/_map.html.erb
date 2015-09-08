@@ -1,0 +1,163 @@
+<div class="cell more guttered">
+  
+  <h2>Our supply and service locations</h2>
+  
+  <div id="seo-maps">
+    
+    <div id="seo-maps-navigation">
+      <div class="seo-map-nav-box" onclick="changeMap('north-yorkshire')">North<br/>Yorkshire</div>
+      <div class="seo-map-nav-box" onclick="changeMap('east-yorkshire')">East<br/>Yorkshire</div>
+      <div class="seo-map-nav-box" onclick="changeMap('south-yorkshire')">South<br/>Yorkshire</div>
+      <div class="seo-map-nav-box" onclick="changeMap('west-yorkshire')">West<br/>Yorkshire</div>
+      <div class="seo-map-nav-box" onclick="changeMap('derbyshire')">Derbyshire</div>
+      <div class="seo-map-nav-box" onclick="changeMap('nottinghamshire')">Nottinghamshire</div>
+      <div class="seo-map-nav-box" onclick="changeMap('lancashire')">Lancashire</div>
+      <div class="seo-map-nav-box" onclick="changeMap('lincolnshire')">Lincolnshire</div>
+    </div>
+    
+    <% map_options = "&size=300x300&zoom=8&sensor=false" %>
+    <div class="seo-map" id="seo-map-north-yorkshire">
+      <%= image_tag(("http://maps.googleapis.com/maps/api/staticmap?center=North+Yorkshire,England" + map_options), :alt => "North Yorkshire", :title => "North Yorkshire", :border => "0") %>
+    </div>
+    <div class="seo-map" id="seo-map-east-yorkshire" style="display: none">
+      <%= image_tag(("http://maps.googleapis.com/maps/api/staticmap?center=East+Yorkshire,England" + map_options), :alt => "East Yorkshire", :title => "East Yorkshire", :border => "0") %>
+    </div>
+    <div class="seo-map" id="seo-map-south-yorkshire" style="display: none">
+      <%= image_tag(("http://maps.googleapis.com/maps/api/staticmap?center=South+Yorkshire,England" + map_options), :alt => "South Yorkshire", :title => "South Yorkshire", :border => "0") %>
+    </div>
+    <div class="seo-map" id="seo-map-west-yorkshire" style="display: none">
+      <%= image_tag(("http://maps.googleapis.com/maps/api/staticmap?center=West+Yorkshire,England" + map_options), :alt => "West Yorkshire", :title => "West Yorkshire", :border => "0") %>
+    </div>
+    <div class="seo-map" id="seo-map-derbyshire" style="display: none">
+      <%= image_tag(("http://maps.googleapis.com/maps/api/staticmap?center=Derbyshire,England" + map_options), :alt => "Derbyshire", :title => "Derbyshire", :border => "0") %>
+    </div>
+    <div class="seo-map" id="seo-map-nottinghamshire" style="display: none">
+      <%= image_tag(("http://maps.googleapis.com/maps/api/staticmap?center=Nottinghamshire,England" + map_options), :alt => "Nottinghamshire", :title => "Nottinghamshire", :border => "0") %>
+    </div>
+    <div class="seo-map" id="seo-map-lancashire" style="display: none">
+      <%= image_tag(("http://maps.googleapis.com/maps/api/staticmap?center=Lancashire,England" + map_options), :alt => "Lancashire", :title => "Lancashire", :border => "0") %>
+    </div>
+    <div class="seo-map" id="seo-map-lincolnshire" style="display: none">
+      <%= image_tag(("http://maps.googleapis.com/maps/api/staticmap?center=Lincolnshire,England" + map_options), :alt => "Lincolnshire", :title => "Lincolnshire", :border => "0") %>
+    </div>
+    
+  </div>
+  
+</div>
+
+<div class="cell less">
+  <div class="seo-map-aside" id="seo-map-aside-north-yorkshire">
+    <h2 class="seo-map-aside-heading">Photocopiers and Printers in North Yorkshire</h2>
+    <p>We supply the following and surrounding areas:</p>
+    <ul>
+      <li>Whitby</li>
+      <li>Scarborough</li>
+      <li>Richmond</li>
+      <li>Harrogate</li>
+      <li>York</li>
+      <li>Ripon</li>
+      <li>Northallerton</li>
+      <li>Pickering</li>
+      <li>Settle</li>
+      <li>Selby</li>
+    </ul>
+  </div>
+  <div class="seo-map-aside" id="seo-map-aside-east-yorkshire" style="display: none">
+    <h2 class="seo-map-aside-heading">Photocopiers and Printers in East Yorkshire</h2>
+    <p>We supply the following and surrounding areas:</p>
+    <ul>
+      <li>Hull</li>
+      <li>Beverley</li>
+      <li>Goole</li>
+      <li>Driffield</li>
+      <li>Bridlington</li>
+      <li>Hornsea</li>
+    </ul>
+  </div>
+  <div class="seo-map-aside" id="seo-map-aside-south-yorkshire" style="display: none">
+    <h2 class="seo-map-aside-heading">Photocopiers and Printers in South Yorkshire</h2>
+    <p>We supply the following and surrounding areas:</p>
+    <ul>
+      <li>Sheffield</li>
+      <li>Barnsley</li>
+      <li>Doncaster</li>
+      <li>Rotherham</li>
+      <li>Thorne</li>
+      <li>Stocksbridge</li>
+    </ul>
+  </div>
+  <div class="seo-map-aside" id="seo-map-aside-west-yorkshire" style="display: none">
+    <h2 class="seo-map-aside-heading">Photocopiers and Printers in West Yorkshire</h2>
+    <p>We supply the following and surrounding areas:</p>
+    <ul>
+      <li>Bradford</li>
+      <li>Leeds</li>
+      <li>Huddersfield</li>
+      <li>Halifax</li>
+      <li>Castlefield</li>
+      <li>Pontefract</li>
+      <li>Wetherby</li>
+      <li>Keighley</li>
+      <li>Ilkley</li>
+      <li>Batley</li>
+    </ul>
+  </div>
+  <div class="seo-map-aside" id="seo-map-aside-derbyshire" style="display: none">
+    <h2 class="seo-map-aside-heading">Photocopiers and Printers in Derbyshire</h2>
+    <p>We supply the following and surrounding areas:</p>
+    <ul>
+      <li>Derby</li>
+      <li>Chesterfield</li>
+      <li>Bakewell</li>
+      <li>Buxton</li>
+    </ul>
+  </div>
+  <div class="seo-map-aside" id="seo-map-aside-nottinghamshire" style="display: none">
+    <h2 class="seo-map-aside-heading">Photocopiers and Printers in Nottinghamshire</h2>
+    <p>We supply the following and surrounding areas:</p>
+    <ul>
+      <li>Nottingham</li>
+      <li>Mansfield</li>
+      <li>Newark-on-Trent</li>
+      <li>Hucknall</li>
+    </ul>
+  </div>
+  <div class="seo-map-aside" id="seo-map-aside-lancashire" style="display: none">
+    <h2 class="seo-map-aside-heading">Photocopiers and Printers in Lancashire</h2>
+    <p>We supply the following and surrounding areas:</p>
+    <ul>
+      <li>Blackpool</li>
+      <li>Preston</li>
+      <li>Lancaster</li>
+      <li>Manchester</li>
+      <li>Warrington</li>
+      <li>Bolton</li>
+      <li>Wigan</li>
+      <li>Stockport</li>
+      <li>Stoke-on-Trent</li>
+      <li>Liverpool</li>
+      <li>Birkenhead</li>
+      <li>Bury</li>
+      <li>Oldham</li>
+      <li>Tameside</li>
+    </ul>
+  </div>
+  <div class="seo-map-aside" id="seo-map-aside-lincolnshire" style="display: none">
+    <h2 class="seo-map-aside-heading">Photocopiers and Printers in Lincolnshire</h2>
+    <p>We supply the following and surrounding areas:</p>
+    <ul>
+      <li>Lincoln</li>
+      <li>Horncastle</li>
+      <li>Louth</li>
+      <li>Skegness</li>
+      <li>Boston</li>
+      <li>Spalding</li>
+      <li>Grantham</li>
+      <li>Grimsby</li>
+      <li>Immingham</li>
+      <li>Scunthorpe</li>
+    </ul>
+  </div>
+</div>
+
+<div class="clear"></div>

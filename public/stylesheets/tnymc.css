@@ -1,0 +1,117 @@
+/*--Main--*/
+body {
+	font-family: Arial, Tahoma, sans-serif; 
+	font-size: 14px;
+	color: #666666; 
+}
+
+
+p {
+	margin: 0px; 
+	padding: 8px 0px 8px 0px;
+}
+
+
+hr {
+	border: 0px; 
+	border-bottom: 1px dashed #999999; 
+	height: 0px; 
+	clear: left; 
+	margin: 0px 0px 8px 0px; 
+	padding: 8px 0px 0px 0px;
+}
+
+
+/*--Links--*/
+a:link, a:visited, a:active {
+	color: #0066b3; 
+	text-decoration: none; 
+	font-weight: normal;
+}
+
+a:hover {
+	color: #333333; 
+	text-decoration: underline; 
+	font-weight: normal;
+}
+
+/*--Titles--*/
+h1 {
+	color: #0066b3; 
+	font-size: 24px; 
+	font-weight: normal; 
+	margin: 0px 0px 10px 0px; 
+	padding: 0px 0px 10px 0px;
+	line-height: normal;
+}
+
+h2 {
+	color: #333333; 
+	font-size: 15px; 
+	font-weight: bold; 
+	margin: 12px 0px 0px 0px; 
+	padding: 12px 0px 0px 0px;
+	line-height: normal;
+}
+
+h3 {
+	color: #333333; 
+	font-size: 12px; 
+	font-weight: bold; 
+	margin: 8px 0px 0px 0px; 
+	padding: 8px 0px 0px 0px;
+	line-height: normal;
+}
+
+h4 {
+	color: #333333; 
+	font-size: 12px; 
+	font-weight: bold; 
+	margin: 8px 0px 0px 0px; 
+	padding: 8px 0px 0px 0px;
+	line-height: normal;
+}
+
+
+/*--Styles--*/
+
+.image_right {
+	float: right; 
+	margin: 12px 0px 8px 20px;
+}
+
+.image_left {
+	float: left; 
+	margin: 12px 20px 8px 0px;
+}
+
+.introduction {
+	font-size: 17px;
+	line-height: 24px;
+	color: #0095da;
+}
+
+.indented {
+  margin-left: 20px;
+}
+
+.font_large {
+	font-size: 70px;
+	color: #0066b3;
+	line-height: 70px;
+}
+
+.font_med {
+	font-size: 17px;
+	color: #333333;
+}
+
+.font_small{
+	font-size: 11px;
+	color: #666666;
+	float: right;
+}
+
+.font_blue {
+	color: #0066b3;
+}

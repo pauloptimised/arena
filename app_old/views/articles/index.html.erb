@@ -1,0 +1,19 @@
+<% hide_right %>
+
+<h1><%= title @title %></h1>
+
+<% if @articles.length > 0 %>
+  <% for article in @articles %>
+    <%= render "articles/article", :article => article %>
+  <% end %>
+  <%= will_paginate @articles %>
+<% else %>
+  <p>No Articles to display.</p>
+<% end %>
+
+<% content_for :left do  %>
+  <div class="left_nav">
+    <%= render :partial => "tags" %>
+  </div>
+	<%= render '/shared/constant_contact' %>
+<% end %>

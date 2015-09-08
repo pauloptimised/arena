@@ -1,0 +1,22 @@
+<% title "Creating Link" %>
+
+<p>Please Wait...</p>
+
+<script language="Javascript">
+  
+  linkText = '<%= session[:link_text] %>';
+
+  <% if @tag_text == "" %>
+    returnString = linkText;
+  <% else %>
+    returnString = ('<a href="<%= @tag_text %>" <%= 'target="_blank"' if params[:popup] %>>' + linkText + '</a>');
+  <% end %>
+  window.parent.tinyMCE.activeEditor.selection.moveToBookmark(window.parent.bookmark);
+  window.parent.tinyMCE.activeEditor.execCommand(
+    'mceInsertContent',
+    false,
+    unescape(returnString)
+  );
+  window.parent.myLytebox.end();
+
+</script>

@@ -1,0 +1,80 @@
+<% determine_page_node %>
+<% hide_left %><% hide_right %>
+<% title("mstore Savings Calculator") %>
+<%= image_tag "cost_calculator.jpg", :alt=>"Calculator", :style=>"position: absolute; right: 10px; top: 20px;" %>
+<div style="width: 680px;">
+<h1><strong>m</strong>store Savings Calculator</h1>
+<p>
+  Find out how much you could save with <strong>m</strong>store document imaging software. Once you have completed the form below you can request a call back for a more detailed savings calculation based on your organisation, email your results to a colleague or save your savings report in PDF format.
+</p>
+</div>
+<div class="cost_calculation">
+  <% form_for @cost_calculation do |f| %>
+    <%= f.error_messages :message => nil, :header_message => nil, :id => "flash_error" %>
+    
+	<fieldset>
+    <legend>Document Distribution</legend>
+    <p>
+      <%= f.label :document_distribution_count, "<strong>How many paper documents do you print/copy and post each day?</strong><br /><em>Examples of document types could be purchase orders, client records, invoices, letters or any paper documents that you send by post.</em>" %>
+			<%= f.text_field :document_distribution_count, :class => "small" %>
+    </p>
+    <br />
+    <br />
+  </fieldset>
+
+	<fieldset>
+    <legend>Document Archiving &amp; Retrieval</legend>
+    <p>
+			<strong>Do you store documents as paper records?</strong>
+    </p>
+    <p>
+      <%= f.label :document_archive_count, "How many paper documents do you create/sort and file each day?" %>
+      <%= f.text_field :document_archive_count, :class => "small" %>
+    </p>
+    <p>
+      <%= f.label :document_retrieval_count, "How many paper documents do you retrieve from files each day?" %>
+      <%= f.text_field :document_retrieval_count, :class => "small" %>
+    </p>
+    <p>
+      <%= f.label :document_callbacks_count, "How many times per day do you call back a contact, having found a document which enables you to answer their query?" %>
+      <%= f.text_field :document_callbacks_count, :class => "small" %>
+    </p> 
+  </fieldset>   
+
+	<fieldset>
+    <legend>Document Processing</legend>
+    <p>
+      <strong>Are your paper documents approved manually?</strong> 
+      <br />
+      <em>
+        For example, do your managers manually sign off paper copies of purchase invoices prior to payment?
+      </em>
+    </p>
+    <p>
+      <%= f.label :document_process_count, "How many transactions are approved in your organisation each day?" %>
+      <%= f.text_field :document_process_count, :class => "small" %>
+    </p>
+  </fieldset>
+    
+  <fieldset>
+    <legend>Contact Details</legend>
+    <p>
+      <%= f.label :name %>
+      <%= f.text_field :name %>
+    </p>
+    <p>
+      <%= f.label :email, "Email Address" %>
+      <%= f.text_field :email %>
+    </p>
+    <p>
+      <%= f.label :phone, "Phone Number" %>
+      <%= f.text_field :phone %>
+    </p>
+	</fieldset>
+  
+     <p>
+      <%= f.submit "CALCULATE SAVING" %>
+    </p>
+    
+  <% end %>
+</div>

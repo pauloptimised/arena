@@ -1,0 +1,42 @@
+<% form_for [:admin, @cost_calculation], :html => {:multipart => true} do |f| %>
+
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :no_documents_to_file %><br />
+    <%= f.text_field :no_documents_to_file %>
+  </p>
+
+  <p>
+    <%= f.label :no_documents_looked_for %><br />
+    <%= f.text_field :no_documents_looked_for %>
+  </p>
+
+  <p>
+    <%= f.label :no_ring_backs %><br />
+    <%= f.text_field :no_ring_backs %>
+  </p>
+
+  <p>
+    <%= f.label :copies_posted %><br />
+    <%= f.text_field :copies_posted %>
+  </p>
+
+  <p>
+    <%= f.label :staff_rate_per_hour %><br />
+    <%= f.text_field :staff_rate_per_hour %>
+  </p>
+
+  <p>
+    <%= f.label :phone_call_cost %><br />
+    <%= f.text_field :phone_call_cost %>
+  </p>
+
+  <p>
+    <%= f.label :average_print_postal_cost %><br />
+    <%= f.text_field :average_print_postal_cost %>
+  </p>
+
+  <p><%= f.submit "Submit" %></p>
+
+<% end %>

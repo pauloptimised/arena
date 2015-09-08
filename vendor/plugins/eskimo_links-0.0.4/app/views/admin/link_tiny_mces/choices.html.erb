@@ -1,0 +1,25 @@
+<h1>Add a Link</h1>
+
+<p>
+  What would you like to link to?<br/>
+</p>
+
+<% if @unlink_option %>
+<!--[if !IE]>
+<p>
+  <%= link_to "Unlink", {:action => "insert", :link_type => "remove"}, :method => :post %>
+</p>
+<![endif]-->
+<% end %>
+
+<p>
+  <%= link_to "Link to Another Part of this Website", :action => "new_internal_link" %><br />
+</p>
+
+<p>
+  <%= link_to "Link to an External Website", :action => "new_external_link" %><br />
+</p>
+
+<p>
+  <%= link_to "Link to an Email Address", :action => "new_email_link" %><br />
+</p>

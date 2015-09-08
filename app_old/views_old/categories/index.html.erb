@@ -1,0 +1,19 @@
+<% hide_right %>
+
+<h1><%= title @title %></h1>
+
+<% if @categories.length > 0 %>
+  <% for category in @categories %>
+    <%= render "categories/category", :category => category %>
+  <% end %>
+  <%= will_paginate @categories %>
+<% else %>
+  <p>No Category to display.</p>
+<% end %>
+
+<% content_for :left do %>
+  <div class="left_nav">
+    <%= render :partial => "products/categories" %>
+    <%= render :partial => "products/makes" %>
+  </div>
+<% end %>
