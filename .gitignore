@@ -1,4 +1,10 @@
-.idea
-bundle
-public/assets
-log
+# Ignore bundler config.
+/.bundle
+
+# Ignore all logfiles and tempfiles.
+/log/*
+!/log/.keep
+/tmp
+
+/.idea
+/public/assets
