@@ -50,6 +50,6 @@ Rails::Initializer.run do |config|
   # config.i18n.default_locale = :de
 
   require 'pdfkit'
-  config.middleware.use PDFKit::Middleware
+  #config.middleware.use PDFKit::Middleware
 
 end
