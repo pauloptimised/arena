@@ -1,3 +1,0 @@
-module PasswordResetsHelper
-  
-end

@@ -8,18 +8,6 @@
 <% if @page_node.name.eql?("Careers") %>
   <a name="CurrentVacancies"></a>
   <h2>Current Vacancies</h2>
-  <% if !@jobs.empty? %>
-    <p>Click the job titles below to view further details about new opportunities to join the growing Arena team.</p> 
-    <ul>
-      <% @jobs.each do |job| %>
-        <li>
-          <%= link_to job.name, job %> 
-        </li>
-      <% end %>
-    </ul>
-  <% else %>
-    <p><strong>We currently have no vacancies - please check back soon.</strong></p>
-  <% end %>
   <% if !@staff_testimonials.empty? %>
     <h2>Staff testimonials</h2>
     <% @staff_testimonials.each do |testimonial| %>
