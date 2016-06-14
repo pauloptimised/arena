@@ -6,8 +6,6 @@
 <%= @page_node.active_content.main_content %>
 
 <% if @page_node.name.eql?("Careers") %>
-  <a name="CurrentVacancies"></a>
-  <h2>Current Vacancies</h2>
   <% if !@staff_testimonials.empty? %>
     <h2>Staff testimonials</h2>
     <% @staff_testimonials.each do |testimonial| %>
