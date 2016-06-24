@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 gem "rails", "2.3.18"
 gem 'mysql', '~> 2.9.1'
+gem 'rake', '~> 10.5.0'
 
 gem "acts-as-taggable-on", "2.0.6"
 gem "authlogic", "2.1.6"
@@ -10,6 +11,7 @@ gem "friendly_id", "3.1.6"
 gem "pdfkit", "0.5.0"
 gem "recaptcha", "0.3.1", :require => "recaptcha/rails"
 gem "sanitize", "1.2.1"
+gem "rmagick", "~> 2.15.4"
 
 gem "system_timer", "1.0"
 

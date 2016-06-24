@@ -26,7 +26,7 @@ class Admin::ArticlesController < Admin::AdminController
   end
 
   def new
-    @article = Article.new
+    @article = Article.new(:date => Date.today)
   end
 
   def create
