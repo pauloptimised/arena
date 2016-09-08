@@ -54,16 +54,8 @@
   </div>
   
   <div class="box" style="height: 245px; border-top: 1px dashed #999999; padding-top: 25px;">
-    <% green = PageNode.find_by_name("Green Arena") %>
-    <%= link_to(image_tag("sustainability.gif", :alt => "Arena", :border => "0", :hspace => "0", :vspace => "0", :class => "image_right"), green) %>
-    <h3><%= link_to "Sustainability", green %></h3>
-    <p>Supporting your efforts towards carbon reduction and eco-friendly practices.</p>
-    <p><%= link_to "More", green, {:class=>"more"} %></p>
-    
+    <iframe src="https://www.youtube.com/embed/QTH2xQ4yVxU" width="268" height="140" allowfullscreen="true"></iframe>
     <hr style="clear: both;" />
-    
-    <br />
-    
     <% community = PageNode.find_by_name("Arena in the Community") %>
     <%= link_to(image_tag("community.jpg", :alt => "Community", :border => "0", :hspace => "0", :vspace => "0", :class => "image_right"), community) %>
     <h3><%= link_to "<span class='black'>In the</span><br />Community", community %></h3>

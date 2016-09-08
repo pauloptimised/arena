@@ -8,7 +8,7 @@ tinyMCE.init({
   mode : "textareas",
   theme : "advanced",
   editor_selector : "advanced",
-  extended_valid_elements : "iframe[src|width|height|name|align]",
+  extended_valid_elements : "iframe[src|width|height|name|align|allowfullscreen]",
   content_css:"/stylesheets/tnymc.css",
   theme_advanced_toolbar_location : "top",
   theme_advanced_buttons1 : "bold, italic, underline, separator, sub, sup, separator, justifyleft, justifycenter, justifyright, justifyfull, separator, bullist, numlist, separator, undo, redo",
