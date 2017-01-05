@@ -82,10 +82,24 @@
       <%= render :partial => "shared/top_navigation", :locals => {:roots => PageNode.find_by_name("Main Navigation"), :home => true} %>
     </div>
     <div class="top_search">
+      <!--
       <% form_tag :controller => "web", :action => "site_search" do %>
         <%= text_field_tag :search, "Enter search here", :onclick => "this.value='';" %>
         <%= submit_tag " ", :class => "go" %>
       <% end %>
+      --->
+      <script>
+        (function() {
+          var cx = '014374903494110971556:4x11y8zobbo';
+          var gcse = document.createElement('script');
+          gcse.type = 'text/javascript';
+          gcse.async = true;
+          gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(gcse, s);
+        })();
+      </script>
+      <gcse:search></gcse:search>
     </div>
 	</div>
 

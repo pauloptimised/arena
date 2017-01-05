@@ -50,7 +50,7 @@ class WebController < ApplicationController
   end
 
   def deliver_duplicate_invoice_request
-		if params[:invoice_number].blank? || params[:email].blank?
+		if params[:invoice_number].blank? || params[:email].blank? || params[:validation] != '3'
 			flash[:error] = "Please complete both fields."
 			redirect_to :controller => "web", :action => "duplicate_invoice_request", :invoice_number => params[:invoice_number], :email => params[:email]
 		else
