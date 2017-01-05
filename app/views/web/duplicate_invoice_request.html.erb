@@ -2,7 +2,7 @@
 
 <% hide_right %>
 
-<h1><%= title @page_node.title %></h1>	
+<h1><%= title @page_node.title %></h1>
 
 <%= @page_node.active_content.main_content %>
 
@@ -15,6 +15,10 @@
     <p>
 	    <%= label_tag :email %><br />
 	    <%= text_field_tag :email, params[:email] %>
+    </p>
+    <p>
+      <%= label_tag :validation, '1 + 2 =' %><br />
+      <%= text_field_tag :validation, params[:validation], :placeholder => 'Enter the number 3' %>
     </p>
     <p>
 	    <%= submit_tag "Submit" %>

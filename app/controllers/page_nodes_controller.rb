@@ -70,10 +70,10 @@ class PageNodesController < ApplicationController
   end
 
   def document_audit_request
-    if params[:name].blank? && params[:company_name].blank?
+    if (params[:name].blank? && params[:company_name].blank?) || params[:validation] != '3'
       flash[:error] = "Please enter either your name or the name of your company so that we can get back to you."
       redirect_to :action => "show", :id => params[:id], :email => params[:email], :phone => params[:phone]
-		elsif params[:email].blank? && params[:phone].blank?
+		elsif (params[:email].blank? && params[:phone].blank?) || params[:validation] != '3'
 			flash[:error] = "Please enter either an email or telephone number so that we can get back to you."
 			redirect_to :action => "show", :id => params[:id], :name => params[:name], :company_name => params[:company_name]
 		else

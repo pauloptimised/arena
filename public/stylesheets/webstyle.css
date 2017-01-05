@@ -239,6 +239,7 @@ a.blue_arrow:hover{
 	padding: 12px 0px 0px 15px;
 	line-height: 16px;
 	width: 705px;
+	/*width: 929px;*/
 	float: left;
 	font-size: 11px;
 }
@@ -567,6 +568,7 @@ h2.underlined a:hover {
 
 
 /*--Forms--*/
+/*
 .top_search form {
 	background-image: url(../images/top_search_bg.gif);
 	background-repeat: no-repeat;
@@ -596,6 +598,7 @@ h2.underlined a:hover {
 	margin-left: 3px;
 	background-image: url(../images/top_search_go.gif);
 }
+*/
 
 .audit_form {
 	clear: both;
@@ -1935,3 +1938,38 @@ li h1, li h2, li h3, li h4, li h5, li h6 {
 	.subscribe-small-print .terms {
 		font-size: 12px;
 	}
+
+.top_search {
+  height: 32px;
+  background-image: url(../images/nav_bg.gif);
+  background-repeat: repeat-x;
+  padding: 7px 0px 0px 15px;
+  line-height: 16px;
+  width: 209px;
+  float: left;
+  font-size: 11px;
+}
+
+#___gcse_0 * {
+  box-sizing: border-box;
+}
+
+#___gcse_0 .cse .gsc-control-cse,
+#___gcse_0 .gsc-control-cse {
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+#___gcse_0 table,
+#___gcse_0 td {
+  margin: 0;
+  padding: 0;
+}
+
+#___gcse_0 .gsc-search-button.gsc-search-button-v2,
+#___gcse_0 .gsc-search-button * {
+  box-sizing: content-box;
+  margin-top: -1px;
+  margin-right: 4px;
+}
