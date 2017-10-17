@@ -1,6 +1,6 @@
 <% hide_right %>
 
-<h1><%= title @title %></h1>
+<h1><%= title strip_tags(@title) %></h1>
 
 <% if @articles.length > 0 %>
   <% for article in @articles %>

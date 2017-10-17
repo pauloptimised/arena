@@ -9,7 +9,7 @@
 
 <%= will_paginate @products %>
 
-<h1><%= title @title %></h1>
+<h1><%= title strip_tags(@title) %></h1>
 
 <% if @category %>
   <p><%= @category.summary %></p>
