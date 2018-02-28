@@ -1971,5 +1971,6 @@ li h1, li h2, li h3, li h4, li h5, li h6 {
 #___gcse_0 .gsc-search-button * {
   box-sizing: content-box;
   margin-top: -1px;
-  margin-right: 4px;
+	margin-right: 4px;
+	max-width: 10px;
 }
