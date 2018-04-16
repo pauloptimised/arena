@@ -33,7 +33,7 @@ class WebController < ApplicationController
 
 
   def deliver_let_the_board_know
-		if (params[:email].blank? && params[:tel].blank?) || !verify_recaptcha
+		if (params[:email].blank? && params[:tel].blank?) # || !verify_recaptcha
 			flash[:error] = "Please enter either an email or telephone number so that we can get back to you."
 			redirect_to :controller => "web", :action => "let_the_board_know", :name => params[:name], :tel => params[:tel], :email => params[:email], :message_to_the_board => params[:message_to_the_board]
 		else
@@ -109,7 +109,7 @@ class WebController < ApplicationController
     @case_studies = CaseStudy.all(:conditions => { :id => [10,65] })
 
     if request.post?
-      if params[:name].blank? || (params[:email].blank? || !params[:email].match(/\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\z/i)) || params[:post_code].blank? || params[:business_size].blank? || !verify_recaptcha
+      if params[:name].blank? || (params[:email].blank? || !params[:email].match(/\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\z/i)) || params[:post_code].blank? || params[:business_size].blank? # || !verify_recaptcha
         flash[:alert] = "Please complete all fields"
       else
         Mailer.deliver_demon_printers(params[:name], params[:email], params[:phone], params[:company_name], params[:business_size], params[:enquiry], params[:form], params[:post_code])
@@ -125,7 +125,7 @@ class WebController < ApplicationController
     @case_study = CaseStudy.with_service(30).first
     @faqs = Faq.seo_pap
     if request.post?
-			if params[:name].blank? || (params[:email].blank? || !params[:email].match(/\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\z/i)) || params[:enquiry].blank?  || !verify_recaptcha
+			if params[:name].blank? || (params[:email].blank? || !params[:email].match(/\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\z/i)) || params[:enquiry].blank?  # || !verify_recaptcha
 				flash[:alert] = "Please complete all fields"
 			else
 				Mailer.deliver_contact_us(params[:name], params[:email], params[:tel], params[:enquiry], params[:product], params[:form])
@@ -140,7 +140,7 @@ class WebController < ApplicationController
     @case_study = CaseStudy.with_service(38).first
     @faqs = Faq.seo_edm
     if request.post?
-			if params[:name].blank? || (params[:email].blank? || !params[:email].match(/\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\z/i)) || params[:post_code].blank? || params[:business_size].blank? || params[:enquiry].blank? || !verify_recaptcha
+			if params[:name].blank? || (params[:email].blank? || !params[:email].match(/\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\z/i)) || params[:post_code].blank? || params[:business_size].blank? || params[:enquiry].blank? # || !verify_recaptcha
 				flash[:alert] = "Please complete all fields"
 			else
 				Mailer.deliver_request_a_review(params[:name], params[:email], params[:phone], params[:company_name], params[:business_size], params[:enquiry], params[:form], params[:post_code])
@@ -155,7 +155,7 @@ class WebController < ApplicationController
     @case_study = CaseStudy.with_service(2).first
     @faqs = Faq.seo_mds
     if request.post?
-			if params[:name].blank? || (params[:email].blank? || !params[:email].match(/\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\z/i)) || params[:post_code].blank? || params[:business_size].blank? || params[:enquiry].blank? || !verify_recaptcha
+			if params[:name].blank? || (params[:email].blank? || !params[:email].match(/\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\z/i)) || params[:post_code].blank? || params[:business_size].blank? || params[:enquiry].blank? # || !verify_recaptcha
 				flash[:alert] = "Please complete all fields"
 			else
 				Mailer.deliver_request_a_review(params[:name], params[:email], params[:phone], params[:company_name], params[:business_size], params[:enquiry], params[:form], params[:post_code])

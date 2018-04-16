@@ -2,7 +2,7 @@
 
 <% hide_right %>
 
-<h1><%= title @page_node.title %></h1>	
+<h1><%= title @page_node.title %></h1>
 
 <%= @page_node.active_content.main_content %>
 
@@ -25,8 +25,8 @@
 	    <%= text_area_tag :message_to_the_board, params[:message_to_the_board] %>
     </p>
 	  <p>
-		  <%= label_tag "Verify Identity" %>
-		  <%= recaptcha_tags :display => {:theme => "clean"} %>
+		  <%#= label_tag "Verify Identity" %>
+		  <%#= recaptcha_tags :display => {:theme => "clean"} %>
 	  </p>
 	  <br />
     <p>

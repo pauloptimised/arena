@@ -41,7 +41,7 @@ class PageNodesController < ApplicationController
 			@survey = Survey.find(:first, :order => 'RAND()')
 
 			if request.post?
-        if params[:name].blank? || (params[:email].blank? || !params[:email].match(/\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\z/i)) || params[:enquiry].blank? || params[:postcode].blank? || !verify_recaptcha
+        if params[:name].blank? || (params[:email].blank? || !params[:email].match(/\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\z/i)) || params[:enquiry].blank? || params[:postcode].blank? # || !verify_recaptcha
           flash[:alert] = "Please complete all fields"
         else
           Mailer.deliver_contact_us(params[:name], params[:email], params[:tel], params[:enquiry], params[:postcode], params[:product], params[:form])
@@ -114,7 +114,7 @@ class PageNodesController < ApplicationController
   def thank_you
     @page_node = PageNode.find(params[:page_node_id])
 
-    if params[:name].blank? || (params[:email].blank? || !params[:email].match(/\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\z/i)) || params[:post_code].blank? || params[:business_size].blank? || params[:enquiry].blank? || !verify_recaptcha
+    if params[:name].blank? || (params[:email].blank? || !params[:email].match(/\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\z/i)) || params[:post_code].blank? || params[:business_size].blank? || params[:enquiry].blank? # || !verify_recaptcha
       flash[:alert] = "Please complete all fields"
       redirect_to page_node_path(@page_node), :name => params[:name], :post_code => params[:post_code], :company_name => params[:company_name], :email => params[:email], :phone => params[:phone], :enquiry => params[:enquiry]
     else
