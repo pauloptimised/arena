@@ -1974,3 +1974,79 @@ li h1, li h2, li h3, li h4, li h5, li h6 {
 	margin-right: 4px;
 	max-width: 10px;
 }
+
+@keyframes inline-modal-anim {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+
+  1% {
+    display: block;
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+body {
+  position: relative;
+}
+
+.inline-modal {
+  animation: inline-modal-anim .25s ease-in-out;
+  background: rgba(0, 0, 0, .75);
+  bottom: 0;
+  display: none;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 9999;
+}
+
+.inline-modal.visible {
+	display: block;
+}
+
+.inline-modal-content {
+  background: #fff;
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, .75);
+  -webkit-filter: blur(0);
+	height: auto;
+  padding: 20px;
+	width: 90%;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 50%;
+	position: absolute;
+	max-width: 640px;
+}
+
+.inline-modal-content h2 {
+	font-family: 'Exo', sans-serif;
+	font-size: 26px;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.inline-modal-content p {
+	font-size: 18px;
+	font-family: 'Exo', sans-serif;
+}
+
+.inline-modal-close-button {
+	display: inline-block;
+	background: #0066b3;
+	color: #fff;
+	padding: 10px;
+}
+.inline-modal-close-button:link,
+.inline-modal-close-button:active,
+.inline-modal-close-button:visited {
+	color: #fff;
+}

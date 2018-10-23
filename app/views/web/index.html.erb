@@ -16,7 +16,7 @@
 <%= render :partial => "/shared/footer_boxes" %>
 
 <div id="blue_bullets">
-   
+
   <div class="box" style="border-right: 1px dashed #999999; border-top: 1px dashed #999999; height: 245px; padding-top: 25px;">
     <h3><%= link_to "<span class='black'>Latest</span> News", articles_path %></h3>
     <div class="blue_box" id="news_summary">
@@ -30,14 +30,14 @@
       </ul>
     <p align="right"><%= link_to "More", articles_path, {:class => "more"} %></p>
   </div>
-	
+
 	<div class="box" style="border-right: 1px dashed #999999; border-top: 1px dashed #999999; height: 250px; padding-top: 25px;">
     <% #resources = PageNode.find_by_name("Customer Resources") %>
     <% resources = 'http://www.arenagroupservice.net/' %>
     <h3><%= link_to "<span class='black'>Customer</span> Resources", resources %></h3>
     <div class="blue_box" id="customer_resource">
-      <%= image_tag "van.png", :alt => "Computer Pointer", :border => "0", :hspace => "0", :vspace => "0", :style => "margin-top:5px;" %>
-      <p><%= link_to "Order consumables or request a service call.", resources, {:class=>"white"} %></p>
+      <%= image_tag "customer-resources.png", :alt => "Computer Pointer", :border => "0", :hspace => "0", :vspace => "0", :style => "margin-top:5px;" %>
+      <p><%= link_to "Order consumables or request support", resources, {:class=>"white"} %></p>
     </div>
       <ul style="float: left; width: 125px;">
         <li><%= link_to "Send Us Feedback", PageNode.find_by_name("Let the board know") %></li>
@@ -52,15 +52,15 @@
       </ul>
     <p align="right" class="clear"><%= link_to "More", resources, {:class=>"more"} %></p>
   </div>
-  
+
   <div class="box" style="height: 245px; border-top: 1px dashed #999999; padding-top: 25px;">
     <iframe src="https://www.youtube.com/embed/QTH2xQ4yVxU" width="268" height="140" allowfullscreen="true"></iframe>
     <hr style="clear: both;" />
     <% community = PageNode.find_by_name("Arena in the Community") %>
-    <%= link_to(image_tag("community.jpg", :alt => "Community", :border => "0", :hspace => "0", :vspace => "0", :class => "image_right"), community) %>
+    <%= link_to(image_tag("community.png", :alt => "Community", :border => "0", :hspace => "0", :vspace => "0", :class => "image_right"), community) %>
     <h3><%= link_to "<span class='black'>In the</span><br />Community", community %></h3>
     <p><%= link_to "More", community, {:class=>"more"} %></p>
   </div>
-  
+
 </div>
 

@@ -1,25 +1,40 @@
 <script type="text/javascript">
-  var images_to_fade = new Array(<%= @home_highlights.collect{|x| "'highlight_image#{x.id}'"}.join(",") %>);
-  var divs_to_fade = new Array(<%= @home_highlights.collect{|x| "'highlight_text#{x.id}'"}.join(",") %>);
+  var images_to_fade = new Array('banner-1', 'banner-2', 'banner-3');
   var i = 0;
-  var wait = 5000;
-  
-  function swapFade() 
+  var wait = 3000;
+
+  function swapFade()
   {
     Effect.Fade(images_to_fade[i], { duration:1, from:1.0, to:0.0 });
-    Effect.Fade(divs_to_fade[i], { duration:1, from:1.0, to:0.0 });
     i++;
-    if (i == <%= @home_highlights.length %> ) i = 0;
+    if (i == 3 ) i = 0;
     Effect.Appear(images_to_fade[i], { duration:1, from:0.0, to:1.0 });
-    Effect.Appear(divs_to_fade[i], { duration:1, from:0.0, to:1.0 });
   }
-                         
-  function startPage() 
+
+  function startPage()
   {
     setInterval('swapFade()', wait);
   }
 </script>
+<div class="top_area">
+  <div id="banner-1" style="position: absolute;">
+    <a href="/page/combined-document-service">
+      <img src="/images/banners/banner-1.png" alt="Open your eyes to new ways of working">
+    </a>
+  </div>
+  <div id="banner-2" style="display: none; position: absolute;">
+    <a href="/case_studies">
+      <img src="/images/banners/banner-3.png" alt="Arena: improve efficiencies and reduce costs">
+    </a>
+  </div>
+  <div id="banner-3" style="display: none; position: absolute;">
+    <a href="/page/about-us">
+      <img src="/images/banners/banner-2.png" alt="People with passion">
+    </a>
+  </div>
+</div>
 
+<!--
 <div class="top_area">
   <div class="top_area_left">
     <h1>Arena Group specialises in hard copy and electronic document management.</h1>
@@ -57,3 +72,4 @@
     <% end %>
   </div>
 </div>
+-->

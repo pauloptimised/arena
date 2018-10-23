@@ -27,6 +27,7 @@
 	<% end -%>
 
 	<script type="text/javascript" src="https://secure.leadforensics.com/js/3546.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Exo:400,600" rel="stylesheet">
 
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8; IE=edge" />
 
@@ -200,6 +201,78 @@
   </div>
 
 </div>
+
+  <div class="inline-modal" id="inline-modal--acorn">
+    <div class="inline-modal-content">
+      <h2>Welcome to the family!</h2>
+
+      <p>Acorn customers are now officially part of Arena Group, an award winning independent company with customer service excellence at its heart.</p>
+
+      <p>You will continue to be supported by the same dedicated team using the same telephone numbers you use now. You can also book service support online, all available from our website <%= link_to 'www.arenagroup.net/support', '/support' %></p>
+
+      <p><a href="#" class="inline-modal-close-button" data-cookie="acorn">Thank you, please close this message</a></p>
+    </div>
+  </div>
+
+  <div class="inline-modal" id="inline-modal--fovia">
+    <div class="inline-modal-content">
+      <h2>Welcome to the family!</h2>
+
+      <p>Fovia customers are now officially part of Arena Group, an award winning independent company with customer service excellence at its heart.</p>
+
+      <p>You will continue to be supported by the same dedicated team using the same telephone numbers you use now. You can also book service support online, all available from our website <%= link_to 'www.arenagroup.net/support', '/support' %></p>
+
+      <p><a href="#" class="inline-modal-close-button" data-cookie="fovia">Thank you, please close this message</a></p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+  <script>
+  // https://davidwalsh.name/query-string-javascript
+  function getUrlParameter(name) {
+    name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+    var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+    var results = regex.exec(location.search);
+    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+  };
+
+  function modalEvent(event) {
+    event.target.classList.remove('visible');
+  };
+
+  function storeCookieEvent(event) {
+    Cookies.set(event.target.dataset.cookie, true, { expires: 365 });
+    document.querySelector('#inline-modal--' + event.target.dataset.cookie).classList.remove('visible');
+  };
+
+  function checkQueryString() {
+    if(getUrlParameter('redirect') == 'acorn' && Cookies.get('acorn') === undefined) {
+      document.querySelector('#inline-modal--acorn').classList.add('visible');
+    }
+    if(getUrlParameter('redirect') == 'fovia' && Cookies.get('fovia') === undefined) {
+      document.querySelector('#inline-modal--fovia').classList.add('visible');
+    }
+  };
+
+  // IE support: https://developer.mozilla.org/en-US/docs/Web/API/Element/matches
+  if (!Element.prototype.matches) {
+    Element.prototype.matches = Element.prototype.msMatchesSelector;
+  };
+
+  document.addEventListener('DOMContentLoaded', checkQueryString, false);
+
+  document.addEventListener('click',
+    function (event) {
+      if (event.target.matches('.inline-modal')) {
+        modalEvent(event);
+      }
+      if (event.target.matches('.inline-modal-close-button')) {
+        storeCookieEvent(event);
+      }
+    },
+    false
+  );
+  </script>
 
 </body>
 </html>
