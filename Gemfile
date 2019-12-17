@@ -10,7 +10,7 @@ gem 'paperclip', '2.3.3'
 gem 'friendly_id', '3.1.6'
 gem 'pdfkit', '0.5.0'
 gem 'recaptcha', '0.3.1', :require => 'recaptcha/rails'
-gem 'sanitize', '1.2.1'
+gem 'sanitize', '4.6.3'
 
 gem 'rmagick', '~> 2.15.4'
 
