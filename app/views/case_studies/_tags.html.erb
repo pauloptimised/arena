@@ -16,7 +16,7 @@
 <% if tags.length > 1 %>
 	<h3>Categories</h3>
 	<ul>
-	<% for tag in tags  %>
+	<% for tag in tags.sort  %>
 		<li><%= tag %></li>
 	<% end %>
 	</ul>
