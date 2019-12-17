@@ -46,7 +46,8 @@ GEM
     searchlogic (2.5.14)
       activerecord (~> 2.3.12)
       activesupport (~> 2.3.12)
-    will_paginate (2.3.16)
+    system_timer (1.0)
+    will_paginate (3.0.5)
 
 PLATFORMS
   ruby
@@ -67,7 +68,8 @@ DEPENDENCIES
   rmagick (~> 2.15.4)
   sanitize (= 1.2.1)
   searchlogic (= 2.5.14)
-  will_paginate (= 2.3.16)
+  system_timer (= 1.0)
+  will_paginate (= 3.0.5)
 
 BUNDLED WITH
    1.16.1

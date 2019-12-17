@@ -17,6 +17,6 @@ gem 'rmagick', '~> 2.15.4'
 gem 'system_timer', '1.0'
 
 gem 'searchlogic', '2.5.14' # "2.4.23"
-gem 'will_paginate', '2.3.16'
+gem 'will_paginate', '3.0.5'
 gem 'calendar_date_select', '~> 1.15'
 gem 'rdoc', '2.4.2'
