@@ -1,5 +1,5 @@
 <script type="text/javascript">
-  var images_to_fade = new Array('banner-1', 'banner-2', 'banner-3');
+  var images_to_fade = new Array('banner-1', 'banner-2', 'banner-3', 'banner-4', 'banner-5');
   var i = 0;
   var wait = 3000;
 
@@ -7,7 +7,7 @@
   {
     Effect.Fade(images_to_fade[i], { duration:1, from:1.0, to:0.0 });
     i++;
-    if (i == 3 ) i = 0;
+    if (i == 5 ) i = 0;
     Effect.Appear(images_to_fade[i], { duration:1, from:0.0, to:1.0 });
   }
 
@@ -16,20 +16,31 @@
     setInterval('swapFade()', wait);
   }
 </script>
+
 <div class="top_area">
   <div id="banner-1" style="position: absolute;">
     <a href="/page/combined-document-service">
-      <img src="/images/banners/banner-1.png" alt="Open your eyes to new ways of working">
+      <img src="/images/banners/2019/banner-1.png" alt="Open your eyes to new ways of working">
     </a>
   </div>
   <div id="banner-2" style="display: none; position: absolute;">
-    <a href="/case_studies">
-      <img src="/images/banners/banner-3.png" alt="Arena: improve efficiencies and reduce costs">
+    <a href="/case_studies/soper-of-lincoln-bmw-and-mini">
+      <img src="/images/banners/2019/banner-2.png" alt="Soper of Lincoln (BMW and MINI)">
     </a>
   </div>
   <div id="banner-3" style="display: none; position: absolute;">
     <a href="/page/about-us">
-      <img src="/images/banners/banner-2.png" alt="People with passion">
+      <img src="/images/banners/2019/banner-3.png" alt="About Us">
+    </a>
+  </div>
+  <div id="banner-4" style="display: none; position: absolute;">
+    <a href="/case_studies/gordons-llp">
+      <img src="/images/banners/2019/banner-4.png" alt="Gordons LLP">
+    </a>
+  </div>
+  <div id="banner-5" style="display: none; position: absolute;">
+    <a href="/page/about-us">
+      <img src="/images/banners/2019/banner-5.png" alt="Reed Boardall">
     </a>
   </div>
 </div>
