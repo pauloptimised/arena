@@ -8,7 +8,7 @@ gem 'authlogic', '2.1.6'
 gem 'babosa', '0.2.0'
 gem 'paperclip', '2.3.3'
 gem 'friendly_id', '3.1.6'
-gem 'pdfkit', '0.5.0'
+gem 'pdfkit', '0.8.7'
 gem 'recaptcha', '0.3.1', :require => 'recaptcha/rails'
 gem 'sanitize', '1.2.1'
 
